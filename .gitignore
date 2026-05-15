@@ -22,7 +22,6 @@
 /config/zfastnoise.mixin.properties
 !data_packs/
 !mods/
-/mods/.index/**
 /mods/.connector/**
 /mods/.vscode/**
 !resourcepacks/
@@ -44,6 +43,7 @@
 !mods/omphalos-1.0.0.jar
 !mods/emigeared-1.0.0.jar
 !mods/digamma-1.0.0.jar
+!install_data/packwiz-installer-bootstrap.jar
 
 *.input
 **/*.input
