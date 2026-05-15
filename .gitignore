@@ -43,6 +43,7 @@
 !mods/omphalos-1.0.0.jar
 !mods/emigeared-1.0.0.jar
 !mods/digamma-1.0.0.jar
+!mods/installer-1.0.0.jar
 !install_data/packwiz-installer-bootstrap.jar
 
 *.input
