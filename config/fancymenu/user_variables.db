@@ -8,13 +8,13 @@ variable {
 
 variable {
   name = current_url
-  value = Failed to parse! There is no part with index 2! Only 1 parts found! Keep in mind first part index is 0!
+  value = 
   reset_on_launch = true
 }
 
 variable {
   name = index
-  value = 2
+  value = 
   reset_on_launch = true
 }
 

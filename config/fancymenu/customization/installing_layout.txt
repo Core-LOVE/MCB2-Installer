@@ -3,13 +3,13 @@ type = fancymenu_layout
 layout-meta {
   identifier = installing
   render_custom_elements_behind_vanilla = false
-  last_edited_time = 1778844553133
+  last_edited_time = 1778877825931
   is_enabled = true
   randommode = false
   randomgroup = 1
   randomonlyfirsttime = false
   layout_index = 0
-  [loading_requirement_container_meta:7c3ea8ab-9eee-4011-b9ca-67f3c1751c8d-1778844523725] = [groups:][instances:]
+  [loading_requirement_container_meta:1cffdcfc-c045-46c6-8b1b-4bd326345c51-1778877716639] = [groups:][instances:]
 }
 
 menu_background {
@@ -347,6 +347,9 @@ scroll_list_customization {
 }
 
 layout_action_executable_blocks {
+  open_screen_executable_block_identifier = fff190fe-c262-47a3-ba4e-8740cdd49df8-1778877812641
+  [executable_action_instance:8d123ead-bebe-4442-80b4-47b8a0adfd25-1778877817052][action_type:install_mods] = 
+  [executable_block:fff190fe-c262-47a3-ba4e-8740cdd49df8-1778877812641][type:generic] = [executables:8d123ead-bebe-4442-80b4-47b8a0adfd25-1778877817052;]
 }
 
 element {
@@ -412,9 +415,32 @@ element {
 }
 
 element {
-  color = #FFFFFFFF
-  element_type = drippy_vanilla_bar
-  instance_identifier = bd9f59fd-cf0d-4106-852a-55a0a030c9b9-1778844475888
+  interactable = true
+  source = ^^^%n%{"placeholder":"modpack_download_log"}%n%^^^
+  source_mode = direct
+  shadow = true
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #0771FCFF
+  click_event_color = #0771FCFF
+  hover_event_color = #0771FCFF
+  quote_color = #818181FF
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  element_type = text_v2
+  instance_identifier = db54af69-23cc-4d5e-8595-761139b5bf9c-1778877726477
   appearance_delay = no_delay
   disappearance_delay = no_delay
   fade_in_v2 = no_fading
@@ -425,13 +451,13 @@ element {
   sticky_anchor = false
   anchor_point = element
   anchor_point_element = 1f68e458-8666-47fe-ba8c-dd835d353ad0-1778844431041
-  x = -83
-  y = 74
-  width = 200
-  height = 7
+  x = -108
+  y = 83
+  width = 251
+  height = 40
   stay_on_screen = true
-  element_loading_requirement_container_identifier = e8879948-734f-4ed6-8de1-648ddfd50d57-1778844475888
-  [loading_requirement_container_meta:e8879948-734f-4ed6-8de1-648ddfd50d57-1778844475888] = [groups:][instances:]
+  element_loading_requirement_container_identifier = 8e90c27b-6044-4e6f-8fa1-a24e64a9248e-1778877726477
+  [loading_requirement_container_meta:8e90c27b-6044-4e6f-8fa1-a24e64a9248e-1778877726477] = [groups:][instances:]
   enable_parallax = false
   invert_parallax = false
   animated_offset_x = 0
@@ -462,5 +488,15 @@ element {
   advanced_vertical_tilt_degrees = 0.0
   horizontal_tilt_degrees = 0.0
   advanced_horizontal_tilt_degrees = 0.0
+  base_color = #FFFFFFFF
+  scale = 1.0
+  text_border = 2
+  line_spacing = 2
+  quote_indent = 8
+  bullet_list_indent = 8
+  bullet_list_spacing = 3
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
 }
 
