@@ -1,0 +1,13 @@
+name = "Downfall Enchantment"
+filename = "Downfall Enchantment v1.0.0 [1.21-1.21.11].zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/DATDIjwD/versions/Tt3fObOh/Downfall%20Enchantment%20v1.0.0%20%5B1.21-1.21.11%5D.zip"
+hash-format = "sha512"
+hash = "fffc8180639f926da9d14cd19dc4a6b23a11ad7981e7a79c9c5feec75ff7efe2a58f83d95d12e6fa38f8ab6c3141800f4a4dcac21692bab2ce068a0cd8be8f31"
+
+[update]
+[update.modrinth]
+mod-id = "DATDIjwD"
+version = "Tt3fObOh"

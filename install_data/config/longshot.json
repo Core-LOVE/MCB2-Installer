@@ -1,0 +1,8 @@
+{
+  "strong_duration": 1800,
+  "ingredient": "minecraft:nautilus_shell",
+  "increase": 0.5,
+  "color": "#FF664F",
+  "duration": 3600,
+  "long_duration": 9600
+}

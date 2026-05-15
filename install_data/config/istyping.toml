@@ -1,0 +1,7 @@
+[Server]
+enable_typing_indicator = true
+max_tracked_players = 50
+typing_timeout_ms = 4000
+heartbeat_interval_ms = 2000
+cooldown_between_typing_ms = 500
+

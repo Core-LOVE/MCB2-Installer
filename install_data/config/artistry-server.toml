@@ -1,0 +1,7 @@
+[tweaks]
+	#How many times a Sniffer can dig in a row after eating Sniffer Cake
+	# Default: 3
+	# Range: 1 ~ 10
+	sniffer_cake_motivation = 3
+	#Toggles some changes to how blocks can be placed, such as Lanterns being placed on the underside of leaves.
+	survivability_changes = false

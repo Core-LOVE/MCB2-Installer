@@ -1,0 +1,10 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+brightness = -0.05
+contrast = 1.15
+saturation = 0.5
+luma = [
+    0.299,
+    0.587,
+    0.114
+]

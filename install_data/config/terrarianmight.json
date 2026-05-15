@@ -1,0 +1,18 @@
+{
+  "crystalPermanentHealth": false,
+  "crystalHealthGain": 2,
+  "crystalMaxHealth": 20,
+  "crystalCooldown": 14,
+  "crystalGrowthChance": 2,
+  "fruitNeedsMaxHealth": true,
+  "fruitCooldown": 500,
+  "fruitDuration": 600,
+  "fruitAmplifier": 4,
+  "lanternRepair": true,
+  "lanternDuration": 400,
+  "lanternAmplifier": 0,
+  "passiveManaRegen": false,
+  "manaRegenRate": 60,
+  "creativeTab": true,
+  "baseHealth": 20
+}

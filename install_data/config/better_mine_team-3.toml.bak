@@ -1,0 +1,196 @@
+[general]
+	#If true, when a team member is attacked, all nearby members will target the attacker.
+	enableTeamFocusFire = false
+	#How long (in ticks) a team remembers a target. Default: 2400 (2 mins).
+	# Default: 2400
+	# Range: 100 ~ 72000
+	teamHateMemoryDuration = 2400
+	#The maximum distance (in blocks) allowed to interact with the entity inventory GUI remotely.
+	# Default: 64.0
+	# Range: 5.0 ~ 4096.0
+	remoteInventoryRange = 64.0
+	#Enable console debug logging for team logic.
+	enableDebugLogging = false
+	#Whether to show the Team/PvP buttons in the inventory screen.
+	showInventoryTeamButtons = false
+	#Enable RTS Mode and its UI buttons in the Team Management screen.
+	enableRTSMode = true
+	#Allow players to pick up (Carry On) team members, even if they are hostile mobs or blacklisted.
+	#Requires 'Carry On' mod to be installed.
+	enableTeammateCarry = true
+
+[ai]
+	#The detection range (attributes.follow_range) set for entities when they join a team.
+	# Default: 256.0
+	# Range: 16.0 ~ 1024.0
+	guardFollowRange = 256.0
+	#Range to scan for other enemies when a team member kills a target (War Mode).
+	# Default: 64.0
+	# Range: 16.0 ~ 512.0
+	warPropagationRange = 64.0
+	#Range to scan for closer enemies when engaging a distant target.
+	# Default: 16.0
+	# Range: 4.0 ~ 64.0
+	tacticalSwitchRange = 16.0
+	#Speed modifier when following the captain.
+	# Default: 1.2
+	# Range: 0.5 ~ 3.0
+	guardFollowSpeed = 1.2
+	#Distance at which the entity starts following the captain.
+	# Default: 10.0
+	# Range: 5.0 ~ 64.0
+	guardFollowStartDist = 10.0
+	#Distance at which the entity stops following the captain.
+	# Default: 2.0
+	# Range: 1.0 ~ 16.0
+	guardFollowStopDist = 2.0
+	#How many failed pathfinding attempts before using direct movement.
+	#Lower values make mobs 'stuck' less often but might cause clipping through walls.
+	# Default: 5
+	# Range: 1 ~ 20
+	followPathFailThreshold = 5
+	#Whether entities should have 'Follow' enabled by default when joining a team.
+	defaultFollowEnabled = false
+	#Whether team entities following the captain should automatically teleport to them when too far.
+	enableAutoTeleport = true
+	#The distance at which a following entity will teleport to the captain.
+	# Default: 24.0
+	# Range: 5.0 ~ 128.0
+	autoTeleportDistance = 24.0
+	#Duration (in ticks) of the HARD commitment phase after a mob locks onto a target.
+	#During this window the mob will absolutely refuse to switch targets, even to a closer one.
+	#Set to 0 to disable hard locking entirely.
+	#Default: 20 ticks (1 second)
+	# Default: 20
+	# Range: 0 ~ 200
+	attackCommitmentHardTicks = 20
+	#Total duration (in ticks) of the full commitment window (hard phase + soft phase combined).
+	#After the hard phase ends the mob enters a soft phase: it will only switch if the new target
+	#is significantly closer (see attackCommitmentSwitchRatio).
+	#Must be >= attackCommitmentHardTicks. Set to 0 to disable commitment entirely.
+	#Default: 60 ticks (3 seconds)
+	# Default: 60
+	# Range: 0 ~ 400
+	attackCommitmentSoftTicks = 60
+	#During the soft commitment phase, a new target must be within this fraction of the current
+	#target's distance (squared) before the mob will switch.
+	#Example: 0.5 means the new target must be at most 50% as far away as the current target.
+	#Lower values make mobs harder to divert. Range: 0.1 (very sticky) to 1.0 (easy to divert).
+	#Default: 0.5
+	# Default: 0.5
+	# Range: 0.1 ~ 1.0
+	attackCommitmentSwitchRatio = 0.5
+	#Movement speed multiplier for RTS-controlled units.
+	#This affects both move and attack commands to ensure consistency.
+	# Default: 1.0
+	# Range: 0.5 ~ 2.0
+	rtsMovementSpeed = 1.0
+	#Automatically add summoned entities (e.g., Vexes, Wolves) to the owner's team.
+	enableSummonAutoJoin = true
+	#Default Aggressive level assigned to mobs when they join a team.
+	#0 = Passive (current behavior, no proactive attacks)
+	#1 = Guard  (attacks entities that are currently targeting a team member)
+	#2 = Aggressive (attacks all non-team PathfinderMobs in range)
+	# Default: 0
+	# Range: 0 ~ 2
+	defaultAggressiveLevel = 0
+	#How often (in ticks) each individual mob runs its aggressive scan.
+	#Lower = more responsive but higher CPU. Default: 20 ticks (1 second).
+	# Default: 20
+	# Range: 5 ~ 200
+	aggressiveScanEntityInterval = 20
+	#Minimum ticks between full AABB scans for the same team.
+	#When multiple mobs of the same team would scan simultaneously,
+	#only the first one executes the query; others skip until cooldown expires.
+	#Default: 10 ticks (0.5 seconds).
+	# Default: 10
+	# Range: 1 ~ 100
+	aggressiveScanTeamCooldown = 10
+	#Radius (in blocks) of the AABB search used for Level 1 and Level 2 aggressive scans.
+	#Default: 16.0 blocks.
+	# Default: 16.0
+	# Range: 4.0 ~ 64.0
+	aggressiveScanRadius = 16.0
+	#Entity type resource locations to exclude from Level 2 aggressive targeting.
+	#These entities will never be attacked by Level 2 mobs, regardless of team.
+	#Example: ["minecraft:villager", "minecraft:snow_golem"]
+	aggressiveEntityBlacklist = ["minecraft:pig"]
+
+[dragon]
+	#Enable taming the Ender Dragon.
+	enableDragonTaming = false
+	#Enable riding the Ender Dragon after taming.
+	enableDragonRiding = false
+	#Base flight speed of the dragon.
+	# Default: 1.5
+	# Range: 0.1 ~ 5.0
+	dragonBaseSpeed = 1.5
+	#Acceleration rate per tick.
+	# Default: 0.005
+	# Range: 0.001 ~ 0.1
+	dragonAcceleration = 0.005
+	#Deceleration rate per tick.
+	# Default: 0.01
+	# Range: 0.001 ~ 0.1
+	dragonDeceleration = 0.01
+	#Turning speed.
+	# Default: 2.5
+	# Range: 0.5 ~ 10.0
+	dragonRotationSpeed = 2.5
+	#Pitch (up/down) speed.
+	# Default: 2.0
+	# Range: 0.5 ~ 10.0
+	dragonPitchSpeed = 2.0
+	#The maximum pitch (up/down angle) in degrees for the dragon.
+	#Set lower to prevent player clipping visually during steep dives.
+	# Default: 35.0
+	# Range: 10.0 ~ 90.0
+	dragonMaxPitch = 35.0
+
+[taming]
+	#Whether to allow players to tame mobs using items.
+	#Set to false to disable taming functionality entirely (existing pets remain).
+	enableMobTaming = false
+	#Default item/tag used to tame mobs if not specified in the list below.
+	#Example: 'minecraft:golden_apple' or '#minecraft:flowers'
+	defaultTamingMaterial = "minecraft:golden_apple"
+	#Specific item/tag used to tame the Ender Dragon.
+	dragonTamingMaterial = "minecraft:golden_apple"
+	#List of entity IDs that cannot be tamed.
+	#Example: ["minecraft:zombie", "minecraft:skeleton"]
+	blacklistedEntities = [""]
+	#List of specific materials for specific entities.
+	#Format: 'entity_id-ingredient_json'
+	#Example 1: ["minecraft:cow-{\"item\": \"minecraft:wheat\"}"]
+	#Example 2: ["minecraft:sheep-{\"tag\": \"minecraft:wool\"}"]
+	tamingMaterials = []
+
+[gui]
+	#List of entity IDs that will be completely hidden from the Team Management GUI list.
+	#Hidden entities can still be selected and commanded via RTS mode.
+	#Example:["minecraft:wolf", "minecraft:iron_golem"]
+	teamMemberListBlacklist = []
+	#List of entity IDs whose inventory/details screen cannot be opened by normal players.
+	#TeamsLord admins can bypass this restriction.
+	#Example:["minecraft:zombie", "minecraft:skeleton"]
+	entityDetailsScreenBlacklist = []
+
+[team_logic]
+	#Automatically assign captain permission when a player joins a team that has no other players.
+	#This ignores non-player entities (mobs) in the team.
+	autoAssignCaptain = true
+	#When enabled, aggressive AI Goals (target selection and melee/ranged attack goals)
+	#will be removed from a mob's goalSelector and targetSelector when it joins a team.
+	#Basic locomotion goals (wandering, floating, door-opening, etc.) are always preserved.
+	#Goals listed in 'protectedGoalClasses' are also never removed regardless of this setting.
+	#Default: true
+	aggressiveGoalRemovalEnabled = true
+	#Fully-qualified class names of Goal subclasses that must NEVER be removed during
+	#aggressive-goal sanitization, even if they would otherwise be considered aggressive.
+	#Example: ["com.example.mymod.ai.MySpecialGoal"]
+	protectedGoalClasses = []
+	#Fully-qualified class names of Goal subclasses that must ALWAYS be removed during
+	#sanitization, regardless of whether they are TargetGoals or in the whitelist.
+	blacklistedGoalClasses = []
+	#If true, blocks attacks from team members that are initiated by vanilla AI instead of TeamGoals.
+	blockUnauthorizedAttacks = true

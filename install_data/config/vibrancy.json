@@ -1,0 +1,17 @@
+{
+  "useMultithreading": true,
+  "blockLights": {
+    "raytraced": {
+      "enabled": true,
+      "maxRendered": 200,
+      "brightness": 1.25,
+      "lightRadius": 12,
+      "shadowRadius": 8
+    },
+    "subtle": {
+      "enabled": true,
+      "renderDistance": 32,
+      "brightness": 1.0
+    }
+  }
+}

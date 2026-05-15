@@ -1,0 +1,160 @@
+type = fancymenu_layout
+
+layout-meta {
+  identifier = credits
+  render_custom_elements_behind_vanilla = false
+  last_edited_time = 1774879435743
+  is_enabled = true
+  randommode = false
+  randomgroup = 1
+  randomonlyfirsttime = false
+  layout_index = 0
+  [loading_requirement_container_meta:4bb56f5c-5aee-4474-85db-59331bd40fb0-1774879392361] = [groups:][instances:]
+}
+
+customization {
+  action = backgroundoptions
+  keepaspectratio = false
+}
+
+scroll_list_customization {
+  preserve_scroll_list_header_footer_aspect_ratio = true
+  render_scroll_list_header_shadow = true
+  render_scroll_list_footer_shadow = true
+  show_scroll_list_header_footer_preview_in_editor = false
+  repeat_scroll_list_header_texture = false
+  repeat_scroll_list_footer_texture = false
+  show_screen_background_overlay_on_custom_background = false
+  apply_vanilla_background_blur = false
+}
+
+layout_action_executable_blocks {
+}
+
+element {
+  source = [source:location]minecraft:textures/gui/new/dirt2.png
+  repeat_texture = false
+  nine_slice_texture = true
+  nine_slice_texture_border_x = 4
+  nine_slice_texture_border_y = 4
+  image_tint = #FFFFFF
+  restart_animated_on_menu_load = false
+  element_type = image
+  instance_identifier = a2db3835-11a3-4680-850a-5a8d1e076db7-1774869148819
+  custom_element_layer_name = dirt
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1011
+  sticky_anchor = false
+  anchor_point = mid-centered
+  advanced_posx = {"placeholder":"calc","values":{"expression":"%!n!%(%!n!%{"placeholder":"guiwidth"}%!n!%-%!n!%{"placeholder":"elementwidth","values":{"id":"a2db3835-11a3-4680-850a-5a8d1e076db7-1774869148819"}}%!n!%) / 2%!n!%","decimal":"true"}}
+  advanced_posy = {"placeholder":"calc","values":{"expression":"%!n!%(%!n!%{"placeholder":"guiheight"} -%!n!%{"placeholder":"elementheight","values":{"id":"a2db3835-11a3-4680-850a-5a8d1e076db7-1774869148819"}}%!n!%) / 2%!n!%","decimal":"true"}}
+  advanced_width = {"placeholder":"maxnum","values":{"first":"%!n!%%!n!%{"placeholder":"calc","values":{"expression":"%!n!%{"placeholder":"guiwidth"}%!n!%-%!n!%512%!n!%","decimal":"true"}}%!n!%%!n!%","second":"256"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"%!n!%{"placeholder":"guiheight"} - 48%!n!%","decimal":"true"}}
+  x = -24
+  y = -178
+  width = 50
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = 5fccde81-780e-4917-a9e6-d8441c739b52-1773673683955
+  [loading_requirement_container_meta:5fccde81-780e-4917-a9e6-d8441c739b52-1773673683955] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+
+element {
+  interactable = true
+  source = {"placeholder":"file_text","values":{"path_or_url":"/config/fancymenu/assets/credits.txt","mode":"all","separator":"\n","last_lines":"1"}}
+  source_mode = direct
+  shadow = true
+  scale = 1.0
+  base_color = #FFFFFFFF
+  text_border = 4
+  line_spacing = 4
+  enable_scrolling = true
+  auto_line_wrapping = true
+  remove_html_breaks = true
+  code_block_single_color = #737373FF
+  code_block_multi_color = #565656FF
+  headline_line_color = #A9A9A9FF
+  separation_line_color = #A9A9A9FF
+  hyperlink_color = #ffffff
+  quote_color = #818181FF
+  quote_indent = 8.0
+  quote_italic = false
+  bullet_list_dot_color = #A9A9A9FF
+  bullet_list_indent = 8.0
+  bullet_list_spacing = 3.0
+  parse_markdown = true
+  table_show_header = true
+  table_alternate_row_colors = true
+  table_line_color = #787878FF
+  table_header_background_color = #323232FF
+  table_row_background_color = #282828FF
+  table_alternate_row_color = #3C3C3CFF
+  table_line_thickness = 1.0
+  table_cell_padding = 8.0
+  table_margin = 4.0
+  element_type = text_v2
+  instance_identifier = 7aaf266d-b95c-4407-9509-4de1220c025f-1774869622076
+  appearance_delay = no_delay
+  appearance_delay_seconds = 1.0
+  fade_in_v2 = no_fading
+  fade_in_speed = 1.0
+  fade_out = no_fading
+  fade_out_speed = 1.0
+  base_opacity = 1.0
+  auto_sizing = false
+  auto_sizing_base_screen_width = 1920
+  auto_sizing_base_screen_height = 1011
+  sticky_anchor = false
+  anchor_point = element
+  anchor_point_element = a2db3835-11a3-4680-850a-5a8d1e076db7-1774869148819
+  advanced_width = {"placeholder":"calc","values":{"expression":"%!n!%{"placeholder":"elementwidth","values":{"id":"a2db3835-11a3-4680-850a-5a8d1e076db7-1774869148819"}}%!n!%-%!n!%21%!n!%","decimal":"true"}}
+  advanced_height = {"placeholder":"calc","values":{"expression":"%!n!%{"placeholder":"elementheight","values":{"id":"a2db3835-11a3-4680-850a-5a8d1e076db7-1774869148819"}}%!n!%- 24%!n!%","decimal":"true"}}
+  x = 4
+  y = 12
+  width = 50
+  height = 50
+  stretch_x = false
+  stretch_y = false
+  stay_on_screen = true
+  element_loading_requirement_container_identifier = aa829e81-c219-4f36-b0b1-c41a4b3a4be5-1774869622076
+  [loading_requirement_container_meta:aa829e81-c219-4f36-b0b1-c41a4b3a4be5-1774869622076] = [groups:][instances:]
+  enable_parallax = false
+  parallax_intensity_v2 = 0.5
+  invert_parallax = false
+  animated_offset_x = 0
+  animated_offset_y = 0
+  load_once_per_session = false
+  in_editor_color = #FFC800FF
+  layer_hidden_in_editor = false
+  rotation_degrees = 0.0
+  advanced_rotation_mode = false
+  vertical_tilt_degrees = 0.0
+  advanced_vertical_tilt_mode = false
+  horizontal_tilt_degrees = 0.0
+  advanced_horizontal_tilt_mode = false
+}
+

@@ -1,0 +1,17 @@
+filename = 'attributesfix-1.0.0.jar'
+name = 'AttributesFix'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = 'c2f2052cba8efe63bdec92ccc02c654ae89df9944c550bf1e1dabde92aeb9089d206526388a7b7ca981f3a97d81c4244ee9deeddb6a37baa34c1a25226781b79'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/QjIkrQ2K/versions/BIS8G1s9/attributesfix-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'QjIkrQ2K'
+version = 'BIS8G1s9'

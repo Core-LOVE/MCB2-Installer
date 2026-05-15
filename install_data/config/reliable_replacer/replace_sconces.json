@@ -1,0 +1,26 @@
+[
+    {
+        "inputs": ["nomansland:sconce_soul_wall_torch"],
+        "output": "abyssal_decor:iron_sconce",
+        "additional_blocks": [
+            {
+                "output": "minecraft:torch",
+                "x_offset": 0,
+                "y_offset": 1,
+                "z_offset": 0
+            }
+        ]
+    },
+    {
+        "inputs": ["nomansland:sconce_wall_torch"],
+        "output": "abyssal_decor:iron_sconce",
+        "additional_blocks": [
+            {
+                "output": "minecraft:soul_torch",
+                "x_offset": 0,
+                "y_offset": 1,
+                "z_offset": 0
+            }
+        ]
+    }
+]

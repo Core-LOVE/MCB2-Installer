@@ -1,0 +1,34 @@
+["Bounce Physics"]
+	#Horizontal velocity conservation (0.0 - 1.0)
+	#1.0 = no loss, 0.0 = full stop
+	# Default: 0.98
+	# Range: 0.0 ~ 1.0
+	horizontalConservation = 0.8
+	#Vertical bounce factor (0.0 - 3.0)
+	#Higher value = higher bounce. Values > 1.0 = super bounce!
+	# Default: 0.85
+	# Range: 0.0 ~ 3.0
+	bounceFactor = 0.9
+	#Minimum velocity to trigger a bounce
+	#Below this value, the item stops
+	# Default: 0.08
+	# Range: 0.01 ~ 0.5
+	minBounceVelocity = 0.08
+	#Impact velocity threshold to trigger bounce
+	# Default: 0.08
+	# Range: 0.01 ~ 1.0
+	impactThreshold = 0.08
+
+[Effects]
+	#Enable bounce sound
+	enableSound = false
+	#Number of particles per bounce
+	# Default: 8
+	# Range: 1 ~ 50
+	particleCount = 4
+	#Bounce sound volume (0.0 - 1.0)
+	# Default: 0.5
+	# Range: 0.0 ~ 1.0
+	soundVolume = 0.5
+	#Enable bounce particles
+	enableParticles = true

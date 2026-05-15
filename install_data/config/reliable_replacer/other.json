@@ -1,0 +1,70 @@
+[
+  {
+    "inputs": ["minecraft:anvil", "minecraft:chipped_anvil", "minecraft:damaged_anvil"],
+    "output": "repairstation:repair_station"
+  },
+  {
+    "inputs": [
+      "minecraft:decorated_pot"
+    ],
+    "output": "minecraft:decorated_pot",
+    "output_nbt": "{sherds:[\"minecraft:brick\",\"minecraft:brick\",\"minecraft:brick\",\"minecraft:brick\"]}",
+    "keep_nbt": true,
+    "keep_states": true,
+    "retrogen": true,
+    "player_blocks": true
+  },
+  {
+    "inputs": ["abundant_atmosphere:cave_sprouts"],
+    "outputs": ["nomansland:dried_grass", "minecraft:short_dry_grass", "minecraft:tall_dry_grass"]
+  },
+  {
+    "inputs": ["minecraft:chiseled_tuff_bricks"],
+    "output": "blockus:tuff_pillar",
+    "output_state_properties": {
+      "axis": "x"
+    }
+  },
+  {
+    "inputs": ["abundant_atmosphere:mossy_basalt"],
+    "output": "minecraft:basalt",
+    "additional_blocks": [
+      {
+        "output": "minecraft:glow_lichen",
+        "x_offset": 0,
+        "y_offset": 0,
+        "z_offset": 1,
+        "output_state_properties": {
+          "north": true
+        }
+      },
+      {
+        "output": "minecraft:glow_lichen",
+        "x_offset": 0,
+        "y_offset": 0,
+        "z_offset": -1,
+        "output_state_properties": {
+          "south": true
+        }
+      },
+      {
+        "output": "minecraft:glow_lichen",
+        "x_offset": -1,
+        "y_offset": 0,
+        "z_offset": 0,
+        "output_state_properties": {
+          "east": true
+        }
+      },
+      {
+        "output": "minecraft:glow_lichen",
+        "x_offset": 1,
+        "y_offset": 0,
+        "z_offset": 0,
+        "output_state_properties": {
+          "west": true
+        }
+      }
+    ]
+  }
+]

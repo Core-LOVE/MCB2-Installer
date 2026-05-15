@@ -1,0 +1,18 @@
+filename = 'totalyield-1.21_1.21.5-1.0.0.jar'
+name = 'Total Yield'
+side = 'client'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '89babb6855cfe3f540b6d0fe3028f5383ea05317bdd32e9a0dd7fefcfbf2fde7c94f95e8c31d309acd84ca45fb6d8262925ccb6bfebfa715cb7b04f5aedb5e2e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xn0MpTgt/versions/86U7u4FP/totalyield-1.21_1.21.5-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'xn0MpTgt'
+version = '86U7u4FP'

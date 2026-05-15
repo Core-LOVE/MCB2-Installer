@@ -1,0 +1,8 @@
+type = slideshow
+
+slideshow-meta {
+   name = menu
+   duration = 7
+   fadespeed = 7.0
+   randomize = true
+}

@@ -1,0 +1,71 @@
+[general]
+	#If true, zombies always have motivation to hunt animals, even when not hungry or injured.
+	#This does NOT bypass hunt cooldown or hunt caps.
+	alwaysHunting = false
+	#If true, zombies enter berserker hunting mode.
+	#This bypasses normal hunt motivation checks, hunt cooldown, and hunt caps.
+	berserkerHunting = false
+
+[hunting]
+	#If true, a horse killed by a zombie may turn into a zombie horse.
+	huntAndZombifyHorse = false
+	#If true, tamed horses may also be zombified when killed by zombies.
+	#Only used when huntAndZombifyHorse is true.
+	huntAndZombifyTamedHorse = false
+	#If true, zombies may search for a nearby zombie horse and ride it.
+	findNearbyZombieHorseAndRide = false
+	#If true, zombies may hunt baby animals too.
+	huntBabies = false
+	#The in-game day number when zombies start hunting animals.
+	#0 = hunting allowed from the beginning.
+	#1 = starts on day 1, 2 = starts on day 2, and so on.
+	# Default: 0
+	# Range: > 0
+	huntStartOn = 0
+	#Cooldown between successful animal hunts for each zombie, in ticks.
+	#20 ticks = 1 second.
+	#Only used when berserkerHunting is false.
+	# Default: 1200
+	# Range: 0 ~ 72000
+	huntCooldownTicks = 1200
+	#Maximum number of animals one zombie may successfully hunt within one Minecraft day (24000 ticks).
+	#Only used when berserkerHunting is false.
+	# Default: 10
+	# Range: 0 ~ 100000
+	huntCapForADay = 10
+	#Maximum total number of successful hunts by all zombies within the same level during one Minecraft day (24000 ticks).
+	#Only used when berserkerHunting is false.
+	# Default: 20
+	# Range: 0 ~ 100000
+	huntCapForADayTotal = 20
+	#Multiplier applied to the zombie's base follow range when searching for animals to hunt.
+	#Example: 1.0 = same as normal follow range.
+	#2.0 = twice the normal follow range.
+	# Default: 1.0
+	# Range: 0.0 ~ 1024.0
+	huntFollowDistanceFactor = 1.0
+
+[eating]
+	#If true, zombies can eat dropped food items (ItemEntity) as well.
+	enableEatFoodItems = true
+	#Maximum bonus health zombies can gain from eating, in half-hearts.
+	#Example: 20 = +10 hearts.
+	# Default: 20
+	# Range: 0 ~ 1024
+	maxHealthBoostCap = 20
+	#Extra maxHealthBoostCap added in HARD difficulty, in half-hearts.
+	# Default: 20
+	# Range: 0 ~ 1024
+	maxHealthBoostCapHardModeAddition = 20
+	#Cooldown after a successful eating action, in ticks.
+	#20 ticks = 1 second.
+	# Default: 40
+	# Range: 0 ~ 72000
+	eatCooldownTicks = 40
+	#How much HP to recover per 1 nutrition point when eating food items.
+	#1 = 0.5 heart.
+	# Default: 1
+	# Range: 0 ~ 1024
+	recoveryPerNutrition = 1
+	#If true, eating rotten flesh grants a short Resistance effect.
+	rottenFleshGiveResistance = true

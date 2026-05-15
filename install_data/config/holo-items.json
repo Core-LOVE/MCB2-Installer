@@ -1,0 +1,15 @@
+{
+  "enableIndicator": true,
+  "renderDistance": 2,
+  "displayMode": "HOVER",
+  "directionAngle": 45.0,
+  "indicatorFormat": "{name} x{amount}",
+  "bobbing": false,
+  "shadow": true,
+  "indicatorScale": 0.5,
+  "offset": 0.2,
+  "showTooltips": false,
+  "tooltipRenderDistance": 5.0,
+  "tooltipScale": 0.4,
+  "tooltipAboveName": true
+}

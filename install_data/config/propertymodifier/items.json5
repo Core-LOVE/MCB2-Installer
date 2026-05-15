@@ -1,0 +1,46 @@
+{
+	/* Specify the components of items here, using the item name (or a regex for item names) as the key. For example:
+	   ".*": {"minecraft:max_stack_size": 64}
+	   This example will make all (non-max_damageable) items stackable to 64. Be aware that this will be merged with existing components, overwriting the values where applicable.
+	   When modifying this map, the game must be restarted for the changes to take effect.
+	*/
+	"default_components": {
+		"gladius:flamewalkers": {"minecraft:max_stack_size": 1},
+		
+		"minecraft:iron_shovel": {"max_damage": 1750},
+		"minecraft:iron_pickaxe": {"max_damage": 1750},
+		"minecraft:iron_axe": {"max_damage": 1750},
+		"minecraft:iron_hoe": {"max_damage": 1750},
+		"minecraft:iron_sword": {"max_damage": 1750},
+
+		"modpack:chisel": {"max_damage": 800},
+
+		"minecraft:iron_helmet": {"max_damage": 750},
+		"minecraft:iron_chestplate": {"max_damage": 750},
+		"minecraft:iron_leggings": {"max_damage": 750},
+		"minecraft:iron_boots": {"max_damage": 750},
+
+		"minecraft:golden_shovel": {"max_damage": 250},
+		"minecraft:golden_pickaxe": {"max_damage": 250},
+		"minecraft:golden_axe": {"max_damage": 250},
+		"minecraft:golden_hoe": {"max_damage": 250},
+		"minecraft:golden_sword": {"max_damage": 250},
+
+		"minecraft:golden_helmet": {"max_damage": 240},
+		"minecraft:golden_chestplate": {"max_damage": 240},
+		"minecraft:golden_leggings": {"max_damage": 240},
+		"minecraft:golden_boots": {"max_damage": 240},
+
+		"yo_hooks:gold_grappling_hook": {"max_damage": 150},
+		"oreganized:scribe": {"max_damage": 1000},
+
+		"minecraft:leather_leggings": {"minecraft:bundle_contents": []},
+		"minecraft:leather_chestplate": {"minecraft:bundle_contents": []}
+	},
+	/* Specify crafting remainder items for other items here, using the item name (or a regex for item names) as the key. For example:
+	   "minecraft:.*_(soup|stew)": "minecraft:bowl"
+	   This example will make all of Minecraft"s soup and stew items return a bowl if used in a crafting table.
+	   When modifying this map, the game must be restarted for the changes to take effect.
+	*/
+	"crafting_remainders": { }
+}

@@ -1,0 +1,13 @@
+name = "Better Than Programmer Art"
+filename = "btpa.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JR2IGZfX/versions/LBvz4VRz/btpa.zip"
+hash-format = "sha512"
+hash = "2ffff43ef3a21747e7c763a2f3c3cb18c69cef121c533e9addf9065c2e20628a6932b9d351d6a9a36fef9fdd4c851f664ac2667c80cf4aa2dc4fb3d8bae54550"
+
+[update]
+[update.modrinth]
+mod-id = "JR2IGZfX"
+version = "LBvz4VRz"

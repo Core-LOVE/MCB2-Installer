@@ -1,0 +1,7 @@
+[overrides]
+	#The radius around a player where you can see their name
+	# Default: 7
+	# Range: 1 ~ 1000
+	nameRadius = 7
+	#Does a name tag only render when there is an unobstructed view to it?
+	requireUnobstructedView = true

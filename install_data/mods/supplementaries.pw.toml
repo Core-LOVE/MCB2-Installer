@@ -1,0 +1,17 @@
+filename = 'supplementaries-1.21-3.5.30-neoforge.jar'
+name = 'Supplementaries'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21-3.5.30-neoforge'
+
+[download]
+hash = '18cda475f5cd017b3bf6701b11b9a9dd1ddcefd61caf2016eb3d728b14501c793b77892997720d2d1e6bab8da31ee221031ff352808cf8d62905b1b5dc1e0959'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fFEIiSDQ/versions/yvqgPkmW/supplementaries-1.21-3.5.30-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'fFEIiSDQ'
+version = 'yvqgPkmW'

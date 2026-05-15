@@ -1,0 +1,37 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:quests/copper_age",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:raw_iron",
+      "required_amount": 1,
+      "name": "modpack.obj.iron_age_1"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "overgeared:nether_alloy_furnace",
+      "required_amount": 1,
+      "name": "modpack.obj.iron_age_2"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:iron_pickaxe",
+      "required_amount": 1,
+      "name": "modpack.obj.iron_age_3"
+    }
+  ],
+  "rewards": [],
+  "title": "modpack.name.iron_age",
+  "description": "modpack.desc.iron_age",
+  "icon": {
+    "item": "minecraft:iron_pickaxe"
+  },
+  "triggered_sound": "subtle_effects:entity.cow.eat",
+  "completed_sound": "subtle_effects:entity.bee.eat"
+}

@@ -1,0 +1,11 @@
+[main]
+	#Radius in blocks where the aggro doll taunts hostile mobs
+	aggro_distance = 50.0
+	#Cooldown duration in seconds
+	cooldown_time = 10.0
+	#Enables glowing effect on the player when the item is used
+	glowing_effecton_player = true
+	#Enables glowing effect on mobs affected by the aggro doll
+	glowing_effecton_mobs = true
+	#Plays the totem sound when the aggro doll is activated
+	totem_sound = true

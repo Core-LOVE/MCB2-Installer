@@ -1,0 +1,20 @@
+#wip, will change
+breaking_sounds = false
+#How many particles to spawn
+# Default: 5
+# Range: > 0
+particle_count = 5
+#How dense are particles
+# Default: 35
+# Range: > 0
+particle_density = 35
+#How big are particles
+# Default: 0.1
+# Range: 0.0 ~ 2.147483647E9
+particle_size = 0.1
+#How red can bore head become
+# Default: 95
+# Range: 0 ~ 255
+max_bore_heating = 95
+#With this bore will also mine if you hold use key
+break_with_use_key = false

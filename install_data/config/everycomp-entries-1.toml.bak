@@ -1,0 +1,121 @@
+#Disables certain types. Note that all these configs, like in any other mod, only hide stuff from tabs and disable their recipes
+[types]
+
+		[types.cake.nomansland]
+			fruit_cake = true
+
+		[types.wood_type.abundant_atmosphere]
+			red_bamboo = false
+			ashroot = false
+			gourdrot = false
+
+		[types.wood_type.darkerdepths]
+			petrified = false
+
+		[types.wood_type.blockus]
+			white_oak = false
+			legacy = false
+
+		[types.wood_type.nomansland]
+			pine = false
+			maple = false
+			walnut = false
+			willow = false
+
+		[types.wood_type.abyssal_decor]
+			white_wood = false
+			blackwood = false
+			cinnamon = false
+
+		[types.wood_type.spawn]
+			rotten = true
+			date = true
+
+		[types.wood_type.quark]
+			azalea = true
+			ancient = true
+			blossom = true
+
+		[types.wood_type.caverns_and_chasms]
+			azalea = true
+
+		[types.leaves_type.blockus]
+			white_oak = false
+			legacy = false
+
+		[types.leaves_type.abundant_atmosphere]
+			ashroot = false
+			gourdrot = false
+
+		[types.leaves_type.nomansland]
+			yellow_birch = false
+			autumnal_oak = false
+			pale_cherry = false
+			frosted = false
+			pine = false
+			maple = false
+			red_maple = false
+			walnut = false
+			willow = false
+			apple_fruit = false
+			pear_fruit = false
+
+		[types.leaves_type.abyssal_decor]
+			cinnamon = false
+			flowering_cinnamon = false
+
+		[types.leaves_type.spawn]
+			date = true
+
+		[types.leaves_type.quark]
+			ancient = true
+			blue_blossom = true
+			lavender_blossom = true
+			orange_blossom = true
+			yellow_blossom = true
+			red_blossom = true
+
+#Disables specific entries
+[entries]
+
+		[entries.wood_type.nomansland]
+			bookshelf = false
+			trimmed_planks = false
+
+		[entries.wood_type.blockus]
+			mossy_stairs = false
+			post = false
+			cross_timber_frame = false
+			grate = false
+			small_logs = false
+			mosaic_stairs = false
+			mossy_slab = false
+			stripped_post = false
+			mosaic_slab = false
+			lattice = false
+			diagonal_timber_frame = false
+			timber_frame = false
+			mossy_planks = false
+			mosaic = false
+			herringbone_planks = false
+
+		[entries.wood_type.farmersdelight]
+			cabinet = false
+
+		[entries.wood_type.quark]
+			hollow_log = false
+			vertical_planks = false
+			post = false
+			trapped_chest = false
+			bookshelf = false
+			chest = false
+			stripped_post = false
+			ladder = false
+			vertical_slab = false
+
+		[entries.leaves_type.quark]
+			hedge = false
+			leaf_carpet = false
+
+		[entries.leaves_type.blockus]
+			hedge = false

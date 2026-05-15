@@ -1,0 +1,6 @@
+#SlotLib Configuration
+[general]
+	#Number of extra inventory slots (1-9)
+	# Default: 3
+	# Range: 1 ~ 9
+	slotCount = 9

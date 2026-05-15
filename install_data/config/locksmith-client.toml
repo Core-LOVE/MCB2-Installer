@@ -1,0 +1,25 @@
+# Locksmith client QoL config
+# Controls automatic closing of LOCKED doors.
+# autoCloseLockedDoors = true/false
+# autoCloseTicks       = ticks before auto-close (20 = 1 second)
+
+# Double door sync for LOCKED doors only.
+# If true, opening/closing a LOCKED door will also open/close its paired door
+# (only checks ONE neighbor and only syncs up to 2 doors total).
+# doubleDoorSyncEnabled = true/false
+
+# HUD feedback when locking / denied due to missing key.
+# hudMessagesEnabled   = true/false
+# hudMessageTicks      = how long to show HUD message (GUI frames, ~20 = 1 second)
+# hudScale             = text scale (1.0 = normal)
+# hudOffsetY           = vertical offset from screen center (negative = up)
+
+[qol]
+autoCloseLockedDoors = true
+autoCloseTicks = 20
+doubleDoorSyncEnabled = true
+
+hudMessagesEnabled = true
+hudMessageTicks = 40
+hudScale = 1.0
+hudOffsetY = -35

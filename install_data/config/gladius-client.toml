@@ -1,0 +1,32 @@
+[effects]
+	#The resolution of the trails from the Stun effect. Set to 0 to disable.
+	# Default: 8
+	# Range: 0 ~ 64
+	stun_trail_resolution = 8
+	#Whether or not to show blood. Blood particles will not appear on the client if this is disabled.
+	show_blood = false
+	#If true, makes entities with the Flammable effect drip more oil.
+	extra_oil = false
+	#Controls how oil splats will fade.
+	#FADE: Oil splats will lower in opacity. Can cause artifacts due to translucent rendering.
+	#SCALE: Oil splats will become smaller when disappearing.
+	#Allowed Values: SCALE, FADE
+	oil_splat_disappear_style = "FADE"
+
+	[effects.flash_powder]
+		#How much Flash Powder particles flash. Flashes once every nth tick, or not at all when set to 0
+		# Default: 2
+		# Range: 0 ~ 20
+		flash_powder_flashing = 1
+		#The chance of a Flash Powder particle making a burst of light. Higher value means lower chance.
+		#On average once every nth tick.
+		#Set to 0 to disable.
+		# Default: 20
+		# Range: 0 ~ 100
+		flash_powder_light_chance = 45
+		#Makes the screen turn black (like Blindness) instead of white with the Flashed effect
+		dark_flash = false
+
+[aspects]
+	#Toggles the Aspect tooltip, which shows what aspect a weapon uses.
+	show_aspect_tooltips = true

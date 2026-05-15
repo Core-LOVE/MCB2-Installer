@@ -1,0 +1,13 @@
+name = "Gentle Touches"
+filename = "Gentle Touches-1.0.0.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/JQy68Iq2/versions/covL22uO/Gentle%20Touches-1.0.0.zip"
+hash-format = "sha512"
+hash = "f5a254f57c3405e4b20953b30fb9a79389d4b0b932130d761c9aa88b0e69bc238880d14dc1a95a7b855eec7ae52c7cf68f0c92e78077e7fb98dc51c7e578db64"
+
+[update]
+[update.modrinth]
+mod-id = "JQy68Iq2"
+version = "covL22uO"

@@ -1,0 +1,6 @@
+{
+	"chunkload": true,
+	"contract_capacity": 3,
+	"max_signs": 64,
+	"max_criteria": 256
+}

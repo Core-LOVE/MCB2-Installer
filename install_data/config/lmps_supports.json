@@ -1,0 +1,6 @@
+{
+  "supports": [
+    "minecraft:dirt_path",
+    "#minecraft:slabs"
+  ]
+}

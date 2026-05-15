@@ -1,0 +1,25 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:quests/iron_age",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:diamond",
+      "required_amount": 1,
+      "name": "modpack.obj.diamonds"
+    }
+  ],
+  "rewards": [],
+  "title": "modpack.name.diamonds",
+  "description": "modpack.desc.diamonds",
+  "icon": {
+    "item": "minecraft:diamond"
+  },
+  "triggered_sound": "subtle_effects:entity.cow.eat",
+  "completed_sound": "subtle_effects:entity.bee.eat"
+}

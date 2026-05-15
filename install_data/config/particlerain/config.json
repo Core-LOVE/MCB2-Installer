@@ -1,0 +1,58 @@
+{
+  "configVersion": 5,
+  "perf": {
+    "maxParticleAmount": 1500,
+    "particleDensity": 100,
+    "particleStormDensity": 200,
+    "particleDistance": 16,
+    "surfaceRange": 100
+  },
+  "sound": {
+    "rainVolume": 0.2,
+    "snowVolume": 0.1,
+    "windVolume": 0.1
+  },
+  "wind": {
+    "strength": 0.4,
+    "strengthVariance": 0.3,
+    "gustFrequency": 0.2,
+    "modulationSpeed": 0.04,
+    "yLevelAdjustment": true
+  },
+  "compat": {
+    "renderDefaultWeather": true,
+    "doDefaultSplashing": false,
+    "waterTint": true,
+    "tintMix": 0.5,
+    "shaderpackTint": true,
+    "syncRegistries": true,
+    "crossBiomeBorder": false,
+    "useHeightmapTemp": true,
+    "doSpawnHeightLimit": true,
+    "spawnHeightLimit": 162
+  },
+  "shrub": {
+    "gravity": 0.2,
+    "windStrength": 0.2,
+    "stormWindStrength": 0.3,
+    "size": 0.5,
+    "rotationAmount": 0.6,
+    "bounciness": 0.2
+  },
+  "ripple": {
+    "opacity": 0.32,
+    "size": 0.19,
+    "resolution": 16,
+    "useResourcepackResolution": true
+  },
+  "streak": {
+    "opacity": 0.31,
+    "size": 0.4
+  },
+  "mist": {
+    "lifetime": 250,
+    "opacity": 1.0,
+    "size": 3.0,
+    "renderStyle": "BLENDED"
+  }
+}

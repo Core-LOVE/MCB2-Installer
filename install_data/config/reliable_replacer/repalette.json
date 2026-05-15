@@ -1,0 +1,93 @@
+[
+  {
+    "inputs": ["minecraft:tuff_bricks"], "output": "quark:dripstone_bricks",
+    "structures": ["waste_disposal:sewage_system"]
+  },
+  {
+    "inputs": ["minecraft:tuff_brick_stairs"], "output": "quark:dripstone_bricks_stairs",
+    "structures": ["waste_disposal:sewage_system"]
+  },
+  {
+    "inputs": ["minecraft:tuff_brick_slab"], "output": "quark:dripstone_bricks_slab",
+    "structures": ["waste_disposal:sewage_system"]
+  },
+  {
+    "inputs": ["minecraft:moss_block"], "output": "blockus:mossy_dripstone_bricks",
+    "structures": ["waste_disposal:sewage_system"]
+  },
+  {
+    "inputs": ["minecraft:mud"], "output": "blockus:mossy_dripstone_bricks",
+    "structures": ["waste_disposal:sewage_system"]
+  },
+  {
+    "inputs": ["#modpack:copper_bulbs"], "output": "minecraft:verdant_froglight",
+    "structures": ["waste_disposal:sewage_system"]
+  },
+
+  
+  {
+    "inputs": ["minecraft:cobblestone"], "output": "minecraft:dark_prismarine",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["minecraft:cobblestone_stairs"], "output": "minecraft:dark_prismarine_stairs",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["minecraft:mossy_cobblestone"], "output": "minecraft:dark_prismarine",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["minecraft:mossy_cobblestone_stairs"], "output": "minecraft:dark_prismarine_stairs",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:mundane_tiles"], "output": "minecraft:dark_prismarine",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:polished_stone"], "output": "blockus:polished_dripstone",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["minecraft:chiseled_stone_bricks"], "output": "blockus:chiseled_dripstone",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:cobblestone_bricks"], "output": "blockus:dripstone_bricks",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:cobblestone_brick_stairs"], "output": "blockus:dripstone_brick_stairs",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:cobblestone_brick_slab"], "output": "blockus:dripstone_brick_slab",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:cobblestone_brick_wall"], "output": "blockus:dripstone_pillar",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:mossy_cobblestone_bricks"], "output": "blockus:mossy_dripstone_bricks",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:mossy_cobblestone_brick_stairs"], "output": "blockus:mossy_dripstone_brick_stairs",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:mossy_cobblestone_brick_slab"], "output": "blockus:mossy_dripstone_brick_slab",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["nomansland:mossy_cobblestone_brick_wall"], "output": "blockus:dripstone_pillar",
+    "structures": ["nomansland:deep_well"]
+  },
+  {
+    "inputs": ["minecraft:obsidian"], "output": "frame_changer:obsidian",
+    "probability": 0.75,
+    "structures": ["minecraft:ruined_portal", "minecraft:ruined_portal_desert", "minecraft:ruined_portal_jungle", "minecraft:ruined_portal_mountain", "minecraft:ruined_portal_nether", "minecraft:ruined_portal_ocean", "minecraft:ruined_portal_swamp"]
+  }
+]

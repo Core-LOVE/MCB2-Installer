@@ -1,0 +1,37 @@
+[
+  {
+    "action": "remove",
+    "nbt": [".*abyssal_decor.*"],
+    "items": ["minecraft:painting"]
+  },
+  {
+    "action": "remove",
+    "nbt": [".*minecraft:humble.*"],
+    "items": ["minecraft:painting"]
+  },
+  {
+    "action": "remove",
+    "nbt": [".*vindicating_bad.*"],
+    "items": ["minecraft:painting"]
+  },
+  {
+    "action": "remove",
+    "nbt": [".*journeys_end.*"],
+    "items": ["minecraft:painting"]
+  },
+  {
+    "action": "remove",
+    "nbt": [".*underworld.*"],
+    "items": ["minecraft:painting"]
+  },
+  {
+    "action": "remove",
+    "nbt": [".*slimes_gallery:ending.*"],
+    "items": ["minecraft:painting"]
+  },
+  {
+    "action": "remove",
+    "nbt": [".*portfolio:the_far_lands_alt.*"],
+    "items": ["minecraft:painting"]
+  }
+]

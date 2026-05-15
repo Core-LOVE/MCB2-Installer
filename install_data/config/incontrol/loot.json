@@ -1,0 +1,27 @@
+[
+    {
+        "mob": "incision:seer",
+        "remove": "incision:vilefang",
+        "item": "incision:eyeballyolk",
+        "itemcount": "1"
+    },
+    {
+        "mob": "minecraft:sheep",
+        "remove": "minecraft:mutton"
+    },
+    {
+        "mob": "incision:purger",
+        "item": "oreganized:raw_asbestos",
+        "itemcount": "1"
+    },
+    {
+        "mob": ["minecraft:axolotl", "minecraft:bat", "minecraft:pig", "minecraft:sheep", "minecraft:cow"],
+        "item": "minecraft:rabbit_hide",
+        "itemcount": "1-2/2-3/3-4"
+    },
+    {
+        "mob": ["minecraft:cow", "minecraft:zombie"],
+        "item": "minecraft:leather",
+        "itemcount": "2-3/3-4/4-6"
+    }
+]

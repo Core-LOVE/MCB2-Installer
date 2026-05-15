@@ -1,0 +1,71 @@
+{
+	"combat": {
+		// Base damage dealt by Shield Bash. Default 4.0 (2 hearts).
+		"bashDamage": 4.0,
+		// Knockback strength of Shield Bash.
+		"bashKnockback": 1.0,
+		// Base damage dealt by Thrown Shield. Default 2.0 (1 heart).
+		"shieldThrowDamage": 2.0,
+		// Maximum range (blocks) the shield flies before returning. Default 8.0.
+		"shieldThrowRange": 8.0,
+		// The radius (in blocks) of the Slam impact damage area. Default 5.0.
+		"slamRadius": 5.0,
+		// The window of time to perform a parry (in ticks). Default 6 (0.3s).
+		"parryWindow": 6,
+		// Multiplier for arrow reflection speed. Higher = faster return.
+		"arrowReflectSpeed": 2.0,
+		// Minimum height (blocks) required to perform a Slam.
+		"slamMinimumHeight": 3.0
+	},
+	"stunMechanics": {
+		// How long the stun lasts (in ticks). 20 ticks = 1 second.
+		"stunDuration": 70,
+		// If true, Shield Bash applies Stun.
+		"bashStunEnabled": false,
+		// If true, Shield Slam applies Stun.
+		"slamStunEnabled": false,
+		// If true, a successful Melee Parry applies Stun to the attacker.
+		"parryStunEnabled": false,
+		// If true, deflecting a projectile applies Stun to the shooter instantly.
+		"deflectStunEnabled": false,
+		// If true, the Thrown Shield applies Stun to enemies it hits.
+		"throwStunEnabled": false
+	},
+	"funCombos": {
+		// If true, Shield Bash follows your crosshair (launching you UP if looking up). If false, it only dashes horizontally.
+		"allowVerticalBash": true
+	},
+	"cooldowns": {
+		// Cooldown for Melee Parry (in ticks). Default 70 (3.5s).
+		"parryMeleeCooldown": 70,
+		// Cooldown for Arrow Deflect (in ticks). Default 18 (0.9s).
+		"parryProjectileCooldown": 18,
+		// Cooldown for Shield Bash (in ticks). Default 50 (2.5s).
+		"bashCooldown": 50,
+		// Cooldown for Shield Slam (in ticks). Default 130 (6.5s).
+		"slamCooldown": 130,
+		// Cooldown for Shield Throw (in ticks). Default 90 (4.5s).
+		"throwCooldown": 90
+	},
+	"compatibility": {
+		/* List of Item IDs or Mod IDs that DISABLE offhand shield abilities when held in Main Hand.
+		   Useful for Gun mods (tacz, pointblank) where Right Click + Left Click is used for aiming/shooting.
+		*/
+		"mainHandBlacklist": [
+			"tacz",
+			"pointblank",
+			"vic",
+			"gmstation"
+		]
+	},
+	"hud": {
+		// Controls when the HUD appears on screen.
+		"hudMode": "ONLY_COOLDOWN",
+		// Horizontal offset from the CROSSHAIR. Positive = Right, Negative = Left.
+		"xOffset": 10,
+		// Vertical offset from the CROSSHAIR. Positive = Down, Negative = Up.
+		"yOffset": 0,
+		// Scale of the icons (0.5 = half size, 2.0 = double size).
+		"scale": 1.0
+	}
+}

@@ -1,0 +1,147 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+redstoneBlockDust = true
+redstoneBlockDustDensity = "MINIMAL"
+redstoneDustEmittingBlocks = [
+    "minecraft:redstone_block",
+    "minecraft:air",
+    "omphalos:redstone_fire"
+]
+glowstoneBlockDust = false
+glowstoneBlockDustDensity = "DEFAULT"
+glowstoneDustEmittingBlocks = [
+    "minecraft:glowstone",
+    "glow:glowstone_prism"
+]
+netherOnlyGlowstoneBlockDust = true
+beehivesHaveSleepingZs = false
+torchflowerSmoke = "DEFAULT"
+torchflowerFlames = true
+dragonEggParticles = true
+replaceEndPortalSmoke = true
+pumpkinCarvedParticles = true
+anvilBreakParticles = true
+anvilUseParticles = true
+grindstoneUseParticles = true
+smithingTableUseParticles = true
+stonecutterUseParticles = true
+cauldronUseParticles = true
+cauldronCleanItemSounds = true
+compostingCompostParticles = true
+compostingItemParticles = true
+commandBlockParticles = "ON"
+commandBlockParticlesDensity = 0.13088235294117648
+slimeBlockBounceSounds = true
+beaconParticlesDisplayType = "ON"
+beaconParticlesDensity = 10
+beaconParticlesSpeed = 1.0
+respawnAnchorParticles = true
+beehiveShearParticles = true
+endPortalParticles = true
+leavesDecayEffects = true
+farmlandDestroyEffects = true
+amethystSparkleDisplayType = "ON"
+amethystSparkleEmittingBlocks = [  ]
+amethystSparkleSounds = false
+floweringAzaleaPetals = false
+sculkBlockSculkDust = true
+sculkVeinSculkDust = true
+sculkShriekerDestroySouls = true
+sculkCatalystDestroySouls = true
+calibratedSculkSensorAmethystSparkle = false
+campfireSizzlingSoundVolume = 0.5
+replacePowderSnowFlakes = false
+lavaCauldronEffects = true
+enderEyePlacedRings = true
+enderEyePlacedRingsDuration = 10
+enderEyePlacedParticlesDisplayType = "BOTH"
+eyeColors = [
+    [ "minecraft:ender_eye", { r = 122, g = 186, b = 171 } ]
+]
+endPortalFrameParticlesDisplayType = "SMOKE"
+endPortalFrameParticlesDensity = 1.0
+replaceOminousVaultConnection = true
+cobwebMovementSounds = true
+cakeEatParticles = true
+cakeEatSounds = true
+rainWaterRipples = true
+rainWaterRipplesDensity = 0.15196079
+underwaterBlockBreakBubbles = true
+decoratedPotsSpawnBubbles = true
+openingBarrelsSpawnsBubbles = true
+openingChestsSpawnsBubbles = true
+chestsOpenRandomlyUnderwaterFrequency = 0
+randomChestOpeningNeedsSoulSand = false
+dispenseItemBubbles = true
+rainIncreasesLeavesSpawningParticles = false
+purpleMonsterSpawnerParticles = false
+monsterSpawnerSpawnMobSoundVolume = 1.0
+monsterSpawnerAmbientSoundVolume = 1.0
+
+[sparks]
+removeVanillaCampfireSparks = false
+candleSparks = false
+furnaceSparks = false
+fireSparks = false
+campfireSparks = false
+torchSparks = false
+lanternSparksDensity = 0
+lavaSparksDisplayType = "OFF"
+lavaSparksDensity = 0.1
+brewingStandSparks = false
+monsterSpawnerSparks = false
+
+[updatedSmoke]
+candleSmoke = false
+furnaceSmoke = false
+fireSmoke = false
+torchSmoke = false
+campfireDowseSmoke = false
+
+[steam]
+lavaFizzSteam = false
+replaceCampfireFoodSmoke = true
+spongeDryingOutSteam = false
+replaceRainEvaporationSteam = false
+lavaCauldronsEvaporateRain = false
+spawnLogic = "BRIGHTNESS"
+steamingWater = false
+boilingWater = false
+steamingWaterCauldron = false
+boilingWaterCauldron = false
+steamingThreshold = 1
+boilingThreshold = 1
+
+[fallingBlocks]
+dustyBlocks = [
+    "minecraft:sand",
+    "minecraft:suspicious_sand",
+    "minecraft:red_sand",
+    "minecraft:gravel",
+    "minecraft:suspicious_gravel",
+    "minecraft:white_concrete_powder",
+    "minecraft:orange_concrete_powder",
+    "minecraft:magenta_concrete_powder",
+    "minecraft:light_blue_concrete_powder",
+    "minecraft:yellow_concrete_powder",
+    "minecraft:lime_concrete_powder",
+    "minecraft:pink_concrete_powder",
+    "minecraft:gray_concrete_powder",
+    "minecraft:light_gray_concrete_powder",
+    "minecraft:cyan_concrete_powder",
+    "minecraft:purple_concrete_powder",
+    "minecraft:blue_concrete_powder",
+    "minecraft:brown_concrete_powder",
+    "minecraft:green_concrete_powder",
+    "minecraft:red_concrete_powder",
+    "minecraft:black_concrete_powder",
+    "minecraft:snow",
+    "minecraft:snow_block"
+]
+whileFallingDust = true
+whileFallingDustStartDistance = 3
+onLandDust = true
+onLandSound = true
+weakSupportDust = true
+weakSupportDustDensity = 1
+replaceDustWithBubblesUnderwater = true

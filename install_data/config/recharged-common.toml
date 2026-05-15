@@ -1,0 +1,16 @@
+# Whether or not Quasi Connectivity should be disabled
+disable_quasi_connectivity = true
+# Whether or not methods to break indestructible blocks (like portals) should be patched
+fix_portal_break = true
+# Whether redstone wire update order should be independant of position
+non_positional_redstone = true
+# Whether chains should be sticky in the axis that they're facing
+chainstone = true
+# Whether or not pistons should be able to break carpets
+pistons_break_carpets = true
+# Whether you should be able to bonemeal small coral into large coral
+bonemeal_small_coral = true
+# Whether dead coral should erode into sand when in flowing water
+erode_dead_coral = true
+# Whether villagers need to sleep in order to trade
+villagers_require_sleep = true

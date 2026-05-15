@@ -1,0 +1,40 @@
+// -----------------------------------------------------------
+//        Mob Eradicator by noelledotjpg
+// -----------------------------------------------------------
+//  
+// How to remove mobs?
+//   - They are json strings, so you need to separate each
+//     entry with a comma, except the last
+//   - If you start an entry with !, it will be treated as a regular expression
+//     Example: "!minecraft:.*_horse" to disable horse variants
+// If you used Item Obliterator you know how this works, lol  
+// -----------------------------------------------------------
+{
+  blocked_mobs: [
+    "minecraft:phantom",
+    "darkerdepths:body_snatcher",
+    "darkerdepths:void_soul",
+    "quark:shiba",
+    "quark:shiba",
+    "quark:stoneling",
+    "quark:toretoise",
+    "quark:foxhound",
+    "yungscavebiomes:sand_snapper",
+    "darkerdepths:glowshroom_monster",
+    "minecraft:shulker",
+    "minecraft:endermite",
+    "minecraft:camel",
+    "minecraft:sniffer",
+    "minecraft:breeze",
+    "minecraft:pillager",
+    "minecraft:villager",
+    "minecraft:zombie_villager",
+    "minecraft:happy_ghast",
+    "minecraft:glow_squid",
+    "devyrs_zombies:zombie_boomer",
+    "devyrs_zombies:zombie_hunter",
+    "caligo:coppice",
+    "caligo:deep_strow",
+    "caligo:strow"
+  ]
+}

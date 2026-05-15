@@ -1,0 +1,37 @@
+[
+  {
+    "action": "remove_tab",
+    "tabs": [
+      "yungscavebiomes:general",
+      "fiberopticcables:fiber_optic_cable_tab",
+      "blockus:blockus_building_blocks",
+      "blockus:blockus_functional",
+      "spawn:spawn_eggs",
+      "exposure:exposure",
+      "horseshoes:chickensaurs_items",
+      "nomansland:nomansland",
+      "farmersdelight:farmersdelight",
+      "sub_expansion:sub_expansion_ct",
+      "abundant_atmosphere:abundant_atmosphere",
+      "accents:general",
+      "vanillabackport:vanilla_backport",
+      "launchers_and_arrows:launchers_and_arrows_tab",
+      "blockus:blockus_colored",
+      "overgeared:lingering_arrows_tab",
+      "kubejs:tab",
+      "blockus:blockus_colored_tiles",
+      "incision:twisted",
+      "spawn:item_group",
+      "overgeared:overgeared_tab",
+      "monstereggs:tab",
+      "concoction:concoction",
+      "spartanshieldsunofficial:tab",
+      "blockus:blockus_natural",
+      "yo_hooks:grappling_hooks",
+      "overgeared:blueprint_tab",
+      "blockus:blockus_legacy",
+      "darkerdepths:darkerdepths",
+      "abyssal_decor:abyssal_decor"
+    ]
+  }
+]

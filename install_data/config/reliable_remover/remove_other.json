@@ -1,0 +1,14 @@
+[
+  {
+    "action": "remove",
+    "patterns": ["/immersive_weathering:.*leaf_pile.*/"]
+  },
+  {
+    "action": "remove",
+    "patterns": ["/immersive_weathering:.*bark.*/"]
+  },
+  {
+    "action": "remove",
+    "patterns": ["/immersive_weathering:.*scales.*/"]
+  }
+]

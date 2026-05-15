@@ -1,0 +1,17 @@
+filename = 'recharged-0.3.0-1.21.1.jar'
+name = 'Redstone: Recharged'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '0.3.0-1.21.1'
+
+[download]
+hash = '53577cc93efc15c090df3016c4948fe8702dbfdc1f8605ea77a71652004368bb880d00fb2b4eacacf3f16d11d3380fecd7978a98371bae3edcc5ff6edaae4082'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HN8aDuoL/versions/t07trxtc/recharged-0.3.0-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'HN8aDuoL'
+version = 't07trxtc'

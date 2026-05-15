@@ -1,0 +1,50 @@
+[General]
+	# Override default keybinds. When Reset is pressed, keys reset to these values instead of vanilla defaults.
+	# Format: key;input
+	# Example: key.jump;key.keyboard.space
+	# Use key.keyboard.unknown to set no default.
+	# Use Print Keys to discover key names.
+	key_overrides = []
+	# Trigger multiple keys with a single button press.
+	# Format: trigger_key;linked_key,another_linked_key
+	# Example: key.jump;key.sneak,key.sprint
+	# Linked keys are automatically hidden.
+	# Use Print Keys to discover key names.
+	key_combinations = []
+	# Move specific keys into custom or existing categories.
+	# Format: key;category
+	# Example: key.jump;key.categories.inventory
+	# Custom categories should be translated via a resource pack.
+	# Use Print Categories to discover category names.
+	key_categories = ["key.fieldguide.open;key.categories.misc", "armorhud.keybind.toggle;key.categories.misc", "key.travelertoolbelt.open_toolbelt;key.categories.inventory", "key.yo_hooks.climb;key.categories.movement", "key.yo_hooks.climb_down;key.categories.movement", "key.yo_hooks.jump;key.categories.movement", "key.clientsort.op.sort;key.categories.inventory", "key.spyglass-improvements.use;key.categories.misc", "key.buildbetter.toggle_preview;key.categories.misc"]
+	# Define the display order of categories in the Key Binds screen.
+	# Format: category;index
+	# Example: key.categories.inventory;1
+	# Lower indices appear higher in the list.
+	# Use Print Categories to discover category names.
+	category_order = []
+	# Keys to remove from the Key Binds screen.
+	# Format: key
+	# Example: key.jump
+	# Use Print Keys to discover key names.
+	hidden_keys = ["key.better_mine_team.dragon_accelerate", "key.better_mine_team.dragon_decelerate", "key.better_mine_team.dragon_dismount", "key.better_mine_team.open_team_menu", "key.better_mine_team.rts_camera_rotate", "key.additionalplacements.placement_toggle", "key.compactf3plus.toggleHud", "key.yeetusnarratus.toggle_narrator", "key.scholar.export_book", "key.scholar.import_book", "key.scholar.toggle_book_tools", "keybinding.tooltips_reforged.show_item_tag", "keybinding.tooltips_reforged.show_nbt_spawn_egg", "keybinding.tooltips_reforged.show_specific_info", "key.fieldguide.scan", "key.blink.star", "key.raised.options", "key.configured.open_mod_list", "key.modernfix.config", "key.nostalgic_tweaks.open_config", "key.nostalgic_tweaks.toggle_weather", "key.nostalgic_tweaks.toggle_fog", "key.nostalgic_tweaks.stop_song", "key.nostalgic_tweaks.next_song", "key.entityculling.toggle", "key.entityculling.toggleBoxes", "key.unionlib.open_union_inventory", "key.yo_hooks.prevent_use", "key.dynamic_fps.toggle_disabled", "key.dynamic_fps.toggle_forced", "key.exposure.camera_controls", "key.spartanshieldsunofficial.alt_shield_bash", "quark.emote.cheer", "quark.emote.clap", "quark.emote.facepalm", "quark.emote.headbang", "quark.emote.no", "quark.emote.point", "quark.emote.salute", "quark.emote.shrug", "quark.emote.think", "quark.emote.wave", "quark.emote.weep", "quark.emote.yes", "quark.keybind.autorun", "quark.keybind.back", "quark.keybind.camera_mode", "quark.keybind.change_hotbar", "quark.keybind.lock_rotation", "quark.keybind.narrator_full_readout", "quark.keybind.narrator_readout", "quark.keybind.patreon_emote.dab", "quark.keybind.patreon_emote.dance", "quark.keybind.patreon_emote.exorcist", "quark.keybind.patreon_emote.jet", "quark.keybind.patreon_emote.tpose", "quark.keybind.patreon_emote.zombie", "quark.keybind.shift_lock", "quark.keybind.sort_container", "quark.keybind.sort_player", "quark.keybind.transfer_extract", "quark.keybind.transfer_insert", "quark.keybind.variant_selector", "supplementaries.keybind.quiver", "key.scoreboard-overhaul.expand", "key.clientsort.edit", "key.clientsort.cancelAuto", "key.clientsort.op.stackFill", "key.clientsort.op.matchTransfer", "key.clientsort.op.transfer", "key.kubejs.kubedex", "key.toggleVisualItemContents", "key.toggleSelectedItemTooltips", "key.toggleCarriedItemTooltips", "key.buildbetter.toggle_build_plane", "key.buildbetter.random_blocks", "key.buildbetter.hold_placement", "placebo.toggleTrails", "placebo.toggleWings"]
+	# Disable hidden keys by setting them to key.keyboard.unknown.
+	# This prevents hidden keys from conflicting with visible bindings.
+	unbind_hidden_keys = true
+	# Disable the red highlighting on keybinds that share the same key.
+	# Useful when you intentionally want multiple actions bound to one key.
+	disable_conflicts = true
+	# Additional spacing (in pixels) between entries in the Key Binds screen.
+	# Default: 0
+	# Range: 0 ~ 20
+	entry_spacing = 1
+
+[Debug]
+	# Log Tidy Binds actions (e.g., Moving key X to category Y) to the console.
+	log_actions = false
+	# Display hidden keys in a special Hidden Keys category instead of removing them.
+	display_hidden_keys = true
+	# Print all available key names (e.g., key.attack) to the console.
+	print_keys = false
+	# Print all available category names (e.g., key.categories.inventory) to the console.
+	print_categories = false

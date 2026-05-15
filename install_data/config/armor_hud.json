@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "anchor": "HOTBAR",
+  "side": "LEFT",
+  "offsetX": 0,
+  "offsetY": 0,
+  "vertical": false,
+  "style": "HOTBAR",
+  "durabilityDisplay": "BAR",
+  "widgetShown": "NOT_EMPTY",
+  "offhandSlotBehavior": "ADHERE",
+  "pushBossbars": true,
+  "pushStatusEffectIcons": true,
+  "pushSubtitles": true,
+  "reversed": true,
+  "iconsShown": false,
+  "warningShown": false,
+  "minDurabilityValue": 5,
+  "minDurabilityPercentage": 5,
+  "warningBobIntensity": 3
+}

@@ -1,0 +1,6 @@
+#Common
+[common]
+	#Time in ticks the sepulcher takes to turn meat into bones
+	# Default: 600
+	# Range: > 0
+	sepulcherDuration = 600

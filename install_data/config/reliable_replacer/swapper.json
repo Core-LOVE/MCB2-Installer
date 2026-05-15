@@ -1,0 +1,282 @@
+{
+  "swapper": {
+    "minecraft:brain_coral_block": "minecraft:tube_coral_block",
+    "minecraft:bubble_coral_block": "minecraft:tube_coral_block",
+    "minecraft:fire_coral_block": "minecraft:tube_coral_block",
+    "minecraft:horn_coral_block": "minecraft:tube_coral_block",
+
+    "minecraft:dead_brain_coral_block": "minecraft:dead_tube_coral_block",
+    "minecraft:dead_bubble_coral_block": "minecraft:dead_tube_coral_block",
+    "minecraft:dead_fire_coral_block": "minecraft:dead_tube_coral_block",
+    "minecraft:dead_horn_coral_block": "minecraft:dead_tube_coral_block",
+
+    "minecraft:brain_coral_fan": "minecraft:tube_coral_fan",
+    "minecraft:bubble_coral_fan": "minecraft:tube_coral_fan",
+    "minecraft:fire_coral_fan": "minecraft:tube_coral_fan",
+    "minecraft:horn_coral_fan": "minecraft:tube_coral_fan",
+
+    "minecraft:dead_brain_coral_fan": "minecraft:dead_tube_coral_fan",
+    "minecraft:dead_bubble_coral_fan": "minecraft:dead_tube_coral_fan",
+    "minecraft:dead_fire_coral_fan": "minecraft:dead_tube_coral_fan",
+    "minecraft:dead_horn_coral_fan": "minecraft:dead_tube_coral_fan",
+
+    "minecraft:brain_coral_wall_fan": "minecraft:tube_coral_wall_fan",
+    "minecraft:bubble_coral_wall_fan": "minecraft:tube_coral_wall_fan",
+    "minecraft:fire_coral_wall_fan": "minecraft:tube_coral_wall_fan",
+    "minecraft:horn_coral_wall_fan": "minecraft:tube_coral_wall_fan",
+
+    "minecraft:dead_brain_coral_wall_fan": "minecraft:dead_tube_coral_wall_fan",
+    "minecraft:dead_bubble_coral_wall_fan": "minecraft:dead_tube_coral_wall_fan",
+    "minecraft:dead_fire_coral_wall_fan": "minecraft:dead_tube_coral_wall_fan",
+    "minecraft:dead_horn_coral_wall_fan": "minecraft:dead_tube_coral_wall_fan",
+
+    "minecraft:deepslate_coal_ore": "minecraft:coal_ore",
+    "minecraft:deepslate_lapis_ore": "minecraft:lapis_ore", 
+    "minecraft:deepslate_diamond_ore": "minecraft:diamond_ore",
+    "minecraft:deepslate_emerald_ore": "minecraft:emerald_ore",
+    "minecraft:deepslate_redstone_ore": "minecraft:redstone_ore",
+    "minecraft:deepslate_gold_ore": "minecraft:gold_ore",
+    "minecraft:deepslate_iron_ore": "minecraft:iron_ore",
+    "minecraft:deepslate_copper_ore": "minecraft:copper_ore",
+
+    "minecraft:anvil": "repairstation:repair_station",
+    "minecraft:chipped_anvil": "repairstation:repair_station",
+    "minecraft:damaged_anvil": "repairstation:repair_station",
+
+    "minecraft:brewing_stand": "minecraft:air",
+
+    "minecraft:furnace": "overgeared:alloy_furnace",
+    "minecraft:blast_furnace": "minecraft:air",
+    "minecraft:smoker": "minecraft:air",
+
+    "nomansland:extinguished_sconce_soul_torch": "minecraft:air",
+    "nomansland:extinguished_sconce_soul_wall_torch": "minecraft:air",
+    "nomansland:extinguished_sconce_torch": "minecraft:air",
+    "nomansland:extinguished_sconce_wall_torch": "minecraft:air",
+
+    "nomansland:extinguished_torch": "minecraft:air",
+    "nomansland:extinguished_wall_torch": "minecraft:air",
+    "nomansland:extinguished_soul_torch": "minecraft:air",
+    "nomansland:extinguished_soul_wall_torch": "minecraft:air",
+
+    "minecraft:diorite": "minecraft:stone",
+    "minecraft:diorite_slab": "minecraft:stone_slab",
+    "minecraft:diorite_stairs": "minecraft:stone_stairs",
+    "minecraft:diorite_wall": "minecraft:stone",
+
+    "minecraft:nether_gold_ore": "minecraft:gold_ore",
+    "minecraft:ancient_debris": "minecraft:netherrack",
+    "minecraft:nether_quartz_ore": "nomansland:quartzite",
+
+
+
+
+		"minecraft:exposed_copper_bulb": "minecraft:oxidized_copper_bulb",
+		"minecraft:weathered_copper_bulb": "minecraft:copper_bulb",
+
+    "clutternomore:exposed_cut_copper_step": "clutternomore:oxidized_cut_copper_step",
+    "clutternomore:weathered_cut_copper_step": "clutternomore:cut_copper_step",
+    
+		"minecraft:exposed_copper_door": "minecraft:oxidized_copper_door",
+		"minecraft:weathered_copper_door": "minecraft:copper_door",
+		"minecraft:exposed_copper_trapdoor": "minecraft:oxidized_copper_trapdoor",
+		"minecraft:weathered_copper_trapdoor": "minecraft:copper_trapdoor",
+
+		"minecraft:exposed_copper": "minecraft:oxidized_copper",
+		"minecraft:weathered_copper": "minecraft:copper_block",
+
+		"minecraft:exposed_chiseled_copper": "minecraft:oxidized_chiseled_copper",
+		"minecraft:weathered_chiseled_copper": "minecraft:chiseled_copper",
+
+		"minecraft:exposed_cut_copper": "minecraft:oxidized_cut_copper",
+		"minecraft:weathered_cut_copper": "minecraft:cut_copper",
+		"minecraft:exposed_cut_copper_stairs": "minecraft:oxidized_cut_copper_stairs",
+		"minecraft:weathered_cut_copper_stairs": "minecraft:cut_copper_stairs",
+		"minecraft:exposed_cut_copper_slab": "minecraft:oxidized_cut_copper_slab",
+		"minecraft:weathered_cut_copper_slab": "minecraft:cut_copper_slab",
+
+    "caverns_and_chasms:exposed_floodlight": "caverns_and_chasms:oxidized_floodlight",
+    "caverns_and_chasms:weathered_floodlight": "caverns_and_chasms:floodlight",
+    
+    "caverns_and_chasms:exposed_toolbox": "caverns_and_chasms:oxidized_toolbox",
+    "caverns_and_chasms:weathered_toolbox": "caverns_and_chasms:toolbox",
+
+    "caverns_and_chasms:exposed_copper_bars": "caverns_and_chasms:oxidized_copper_bars",
+    "caverns_and_chasms:weathered_copper_bars": "caverns_and_chasms:copper_bars",
+
+    "caverns_and_chasms:exposed_copper_chain": "caverns_and_chasms:oxidized_copper_chain",
+    "caverns_and_chasms:weathered_copper_chain": "caverns_and_chasms:copper_chain",
+
+    "caverns_and_chasms:exposed_lift_pressure_plate": "caverns_and_chasms:oxidized_lift_pressure_plate",
+    "caverns_and_chasms:weathered_lift_pressure_plate": "caverns_and_chasms:lift_pressure_plate",
+
+    "caverns_and_chasms:exposed_lift_button": "caverns_and_chasms:oxidized_lift_button",
+    "caverns_and_chasms:weathered_lift_button": "caverns_and_chasms:lift_button",
+
+    
+    "caverns_and_chasms:waxed_exposed_lift_button": "caverns_and_chasms:waxed_oxidized_lift_button",
+    "caverns_and_chasms:waxed_weathered_lift_button": "caverns_and_chasms:waxed_lift_button",
+
+    "caverns_and_chasms:waxed_exposed_lift_pressure_plate": "caverns_and_chasms:waxed_oxidized_lift_pressure_plate",
+    "caverns_and_chasms:waxed_weathered_lift_pressure_plate": "caverns_and_chasms:waxed_lift_pressure_plate",
+    
+    "caverns_and_chasms:waxed_exposed_copper_chain": "caverns_and_chasms:waxed_oxidized_copper_chain",
+    "caverns_and_chasms:waxed_weathered_copper_chain": "caverns_and_chasms:waxed_copper_chain",
+
+    "caverns_and_chasms:waxed_exposed_copper_bars": "caverns_and_chasms:waxed_oxidized_copper_bars",
+    "caverns_and_chasms:waxed_weathered_copper_bars": "caverns_and_chasms:waxed_copper_bars",
+
+    "caverns_and_chasms:waxed_exposed_toolbox": "caverns_and_chasms:waxed_oxidized_toolbox",
+    "caverns_and_chasms:waxed_weathered_toolbox": "caverns_and_chasms:waxed_toolbox",
+
+    "caverns_and_chasms:waxed_exposed_floodlight": "caverns_and_chasms:waxed_oxidized_floodlight",
+    "caverns_and_chasms:waxed_weathered_floodlight": "caverns_and_chasms:waxed_floodlight",
+
+
+		"minecraft:waxed_exposed_copper": "minecraft:waxed_oxidized_copper",
+		"minecraft:waxed_weathered_copper": "minecraft:waxed_copper_block",
+
+
+		"minecraft:waxed_exposed_copper_bulb": "minecraft:waxed_oxidized_copper_bulb",
+		"minecraft:waxed_weathered_copper_bulb": "minecraft:waxed_copper_bulb",
+
+    "clutternomore:waxed_exposed_cut_copper_step": "clutternomore:waxed_oxidized_cut_copper_step",
+    "clutternomore:waxed_weathered_cut_copper_step": "clutternomore:waxed_cut_copper_step",
+
+		"minecraft:waxed_exposed_copper_door": "minecraft:waxed_oxidized_copper_door",
+		"minecraft:waxed_weathered_copper_door": "minecraft:waxed_copper_door",
+		"minecraft:waxed_exposed_copper_trapdoor": "minecraft:waxed_oxidized_copper_trapdoor",
+		"minecraft:waxed_weathered_copper_trapdoor": "minecraft:waxed_copper_trapdoor",
+
+		"minecraft:waxed_exposed_cut_copper": "minecraft:waxed_oxidized_cut_copper",
+		"minecraft:waxed_weathered_cut_copper": "minecraft:waxed_cut_copper",
+		"minecraft:waxed_exposed_cut_copper_stairs": "minecraft:waxed_oxidized_cut_copper_stairs",
+		"minecraft:waxed_weathered_cut_copper_stairs": "minecraft:waxed_cut_copper_stairs",
+		"minecraft:waxed_exposed_cut_copper_slab": "minecraft:waxed_oxidized_cut_copper_slab",
+		"minecraft:waxed_weathered_cut_copper_slab": "minecraft:waxed_cut_copper_slab",
+
+
+
+    "yungscavebiomes:rare_ice": "minecraft:blue_ice",
+
+    "minecraft:end_portal_frame": "minecraft:cocytus",
+
+    "minecraft:stonecutter": "blockus:legacy_stonecutter",
+
+    "minecraft:hanging_roots": "darkerdepths:petrified_roots",
+    "darkerdepths:dry_sprouts": "nomansland:cave_weeds",
+
+    "oreganized:deepslate_asbestos_ore": "oreganized:asbestos_ore",
+
+    "minecraft:nether_bricks": "blockus:netherrack_bricks",
+    "minecraft:nether_brick_stairs": "blockus:netherrack_brick_stairs",
+    "minecraft:nether_brick_slab": "blockus:netherrack_brick_slab",
+    "minecraft:nether_brick_wall": "blockus:netherrack_brick_wall",
+    "minecraft:cracked_nether_bricks": "blockus:netherrack_bricks",
+    
+    "minecraft:red_nether_bricks": "blockus:nether_tiles",
+    "minecraft:red_nether_brick_stairs": "blockus:nether_tile_stairs",
+    "minecraft:red_nether_brick_slab": "blockus:nether_tile_slab",
+    "minecraft:red_nether_brick_wall": "blockus:nether_tile_wall",
+
+    "minecraft:calcite": "blockus:marble",
+    "minecraft:polished_andesite": "minecraft:polished_diorite",
+
+    "minecraft:muddy_mangrove_roots": "minecraft:rooted_dirt",
+
+    "minecraft:suspicious_sand": "minecraft:sand",
+    "minecraft:suspicious_gravel": "minecraft:gravel",
+    "supplementaries:suspicious_gravel_bricks": "supplementaries:gravel_bricks",
+
+    "#nomansland:pots": "supplementaries:urn",
+
+    "darkerdepths:glowshroom_heart": "darkerdepths:glowshroom_stem",
+
+    "minecraft:polished_andesite_slab": "minecraft:polished_diorite_slab",
+    "minecraft:polished_andesite_stairs": "minecraft:polished_diorite_stairs",
+    "minecraft:fletching_table": "repairstation:repair_station",
+    
+    "darkerdepths:amber_cluster": "minecraft:air",
+    "quark:glow_lichen_growth": "minecraft:air",
+
+    "darkerdepths:mossy_grimestone": "minecraft:tuff",
+    "darkerdepths:grimestone": "minecraft:tuff",
+    "darkerdepths:mossy_sprouts": "nomansland:cave_weeds",
+    "darkerdepths:glowspurs": "nomansland:pebbles",
+    "darkerdepths:darkslate": "minecraft:tuff",
+
+    "darkerdepths:petrified_planks": "spawn:rotten_planks",
+    "darkerdepths:petrified_fence": "spawn:stripped_rotten_log",
+    "darkerdepths:petrified_log": "spawn:stripped_rotten_log",
+    "darkerdepths:arid_deepslate": "minecraft:deepslate",
+
+    "blockus:path": "minecraft:dirt",
+    "incision:weatherrack": "incision:goreshed",
+    "incision:nerve": "minecraft:air",
+
+    "incision:eyeball": "minecraft:air",
+    "incision:carrioneye": "incision:carrion",
+    "abundant_atmosphere:moss_clump": "minecraft:glow_lichen",
+
+    "minecraft:grindstone": "minecraft:air",
+
+    "minecraft:amethyst_block": "minecraft:spinel_ore",
+    "minecraft:amethyst_cluster": "heart_crystals:heart_crystal",
+
+    "caverns_and_chasms:lurid_cave_growths": "caverns_and_chasms:cave_growths",
+    "caverns_and_chasms:wispy_cave_growths": "caverns_and_chasms:cave_growths",
+    "caverns_and_chasms:weird_cave_growths": "caverns_and_chasms:cave_growths",
+    "caverns_and_chasms:grainy_cave_growths": "caverns_and_chasms:cave_growths",
+    "caverns_and_chasms:zesty_cave_growths": "caverns_and_chasms:cave_growths",
+
+    "supplementaries:crank": "caverns_and_chasms:winch",
+
+    "minecraft:sulfur": "oreganized:asbestos_ore",
+
+    "immersive_weathering:icicle": "yungscavebiomes:icicle",
+    "immersive_weathering:ivy": "minecraft:glow_lichen",
+    "immersive_weathering:silt": "nomansland:silt",
+
+    "immersive_weathering:frosty_grass": "minecraft:short_grass",
+    "immersive_weathering:frosty_fern": "minecraft:fern",
+
+    "immersive_weathering:sand_layer_block": "minecraft:air",
+    "immersive_weathering:red_sand_layer_block": "minecraft:air",
+
+    "caverns_and_chasms:charcoal_block": "immersive_weathering:charred_log",
+
+    "#immersive_weathering:leaf_piles": "minecraft:air",
+    "immersive_weathering:azalea_flower_pile": "minecraft:air",
+
+    "immersive_weathering:moss": "minecraft:glow_lichen",
+    "immersive_weathering:rooted_grass_block": "immersive_weathering:rooted_grass_block",
+    "immersive_weathering:grassy_silt": "nomansland:silt_path",
+    "immersive_weathering:sandy_dirt": "minecraft:dirt",
+    "immersive_weathering:grassy_sandy_dirt": "nomansland:dirt_path",
+    "immersive_weathering:loamy_farmland": "minecraft:farmland",
+    "immersive_weathering:earthen_clay": "minecraft:packed_mud",
+    "immersive_weathering:grassy_earthen_clay": "minecraft:packed_mud",
+    "immersive_weathering:grassy_permafrost": "minecraft:coarse_dirt",
+    "immersive_weathering:permafrost": "minecraft:coarse_dirt",
+    "immersive_weathering:dune_grass": "minecraft:short_dry_grass",
+
+    "nomansland:pear": "minecraft:air",
+
+    "immersive_weathering:snowy_chiseled_stone_bricks": "minecraft:chiseled_stone_bricks",
+    "immersive_weathering:snowy_cobblestone": "minecraft:cobblestone",
+    "immersive_weathering:snowy_cobblestone_slab": "minecraft:cobblestone_slab",
+    "immersive_weathering:snowy_cobblestone_stairs": "minecraft:cobblestone_stairs",
+    "immersive_weathering:snowy_cobblestone_wall": "minecraft:cobblestone_wall",
+    "immersive_weathering:snowy_stone": "minecraft:stone",
+    "immersive_weathering:snowy_bricks": "minecraft:stone_bricks",
+    "immersive_weathering:snowy_brick_slab": "minecraft:stone_brick_slab",
+    "immersive_weathering:snowy_brick_stairs": "minecraft:stone_brick_stairs",
+    "immersive_weathering:snowy_brick_wall": "minecraft:stone_brick_wall",
+    "immersive_weathering:snowy_stone_slab": "minecraft:stone_slab",
+    "immersive_weathering:snowy_stone_stairs": "minecraft:stone_stairs",
+    "immersive_weathering:snowy_stone_wall": "immersive_weathering:stone_wall",
+
+    "caverns_and_chasms:magmatic_rhyolite": "minecraft:magma_block",
+    "caverns_and_chasms:rhyolite": "darkerdepths:duskrock"
+  }
+}

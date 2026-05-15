@@ -1,0 +1,17 @@
+filename = 'goldenhopper-neoforge-1.21.1-1.5.6.jar'
+name = 'Golden Hopper'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'Golden Hopper 1.5.6'
+
+[download]
+hash = '098cbe508e250373c5f4af157d52842f93a4a353'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5919859
+project-id = 374736

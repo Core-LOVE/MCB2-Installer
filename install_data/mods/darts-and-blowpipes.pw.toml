@@ -1,0 +1,17 @@
+filename = 'darts-and-blowpipes-neoforge-1.0.0.jar'
+name = 'Darts and Blowpipes'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '0568aff5a3fa5d84e52a73cfdea5b748594dbdc3a775184bafc053e567765db4a7ede51a923cfa0ac56e49b0e5dc69c534313a7d94cab06db32fc16e4aa49b70'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qiJXPCCi/versions/T01tvtEL/darts-and-blowpipes-neoforge-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'qiJXPCCi'
+version = 'T01tvtEL'

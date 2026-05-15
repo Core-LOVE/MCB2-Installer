@@ -1,0 +1,20 @@
+{
+  "requirements": [],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "#minecraft:logs",
+      "required_amount": 1,
+      "name": "modpack.obj.wood"
+    }
+  ],
+  "rewards": [],
+  "title": "modpack.name.wood",
+  "description": "modpack.desc.wood",
+  "icon": {
+    "item": "minecraft:oak_log"
+  },
+  "toast_on_unlock": false,
+  "triggered_sound": "subtle_effects:entity.cow.eat",
+  "completed_sound": "subtle_effects:entity.bee.eat"
+}

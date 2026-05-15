@@ -1,0 +1,4 @@
+#This is the maximum distance the fiber opric cables will register updates.
+max_update_travel_distance = 64.0
+#This will display a debug particle on a fiber optic cable and transformer block when it updates. Used for debugging reasons.
+display_block_updates = false

@@ -1,0 +1,9 @@
+[
+  {
+    "inputs": [
+      "amendments:liquid_cauldron"
+    ],
+    "input_nbt": "{fluid:{id:\"nomansland:resin_oil\"}}",
+    "output": "nomansland:resin_cauldron"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "profiles": [
+    {
+      "id": "vanilla_doors",
+      "type": "door",
+      "blocks": [
+        "minecraft:oak_door",
+        "minecraft:spruce_door",
+        "minecraft:birch_door",
+        "minecraft:jungle_door",
+        "minecraft:acacia_door",
+        "minecraft:dark_oak_door",
+        "minecraft:mangrove_door",
+        "minecraft:cherry_door",
+        "minecraft:bamboo_door",
+        "minecraft:crimson_door",
+        "minecraft:warped_door"
+      ],
+      "render": {
+        "offsetX": -0.05,
+        "offsetY": 0.5,
+        "offsetZ": -0.5,
+        "rotX": 0.0,
+        "rotY": 0.0,
+        "rotZ": 0.0,
+        "scale": 0.75,
+        "hingeNudgeLeft": 0.18,
+        "hingeNudgeRight": 0.325
+      }
+    },
+    {
+      "id": "vanilla_chests",
+      "type": "chest",
+      "blocks": [
+        "minecraft:chest",
+        "minecraft:trapped_chest"
+      ],
+      "render": {
+        "offsetX": -0.025,
+        "offsetY": 0.05,
+        "offsetZ": 0.45,
+        "rotX": 0.0,
+        "rotY": 180.0,
+        "rotZ": 0.0,
+        "scale": 0.75,
+        "doubleNudgeX": -0.5
+      }
+    }
+  ],
+  "_comment": "Locksmith: server-authoritative lock placement profiles.\nYou can add more entries (e.g., chests or modded blocks) by following the same structure."
+}

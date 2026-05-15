@@ -1,0 +1,17 @@
+filename = 'worldplaytime-1.2.2-1.21-FABRIC.jar'
+name = 'World Play Time'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.2.2'
+
+[download]
+hash = '57d7aacb7c6fce78fb58ea8f648ab4e125b1adc76a74ccc3b2e8174c770be2c025d5a1a465ae7c8d5c5f6d04682e32cf9aa473d212dc5e4acb0d8fbb7fc214a0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YkKeggdl/versions/xmEoikZA/worldplaytime-1.2.2-1.21-FABRIC.jar'
+
+[update.modrinth]
+mod-id = 'YkKeggdl'
+version = 'xmEoikZA'

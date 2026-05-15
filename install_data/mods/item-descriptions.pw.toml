@@ -1,0 +1,17 @@
+filename = 'item_descriptions-2.7.2+1.21.1-neoforge.jar'
+name = 'Item Descriptions'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.7.2+1.21.1-neoforge'
+
+[download]
+hash = '9e2159f4bd0fc5c1b93fd306595f1c84e5bcfa39984d84e21c127804718d1e81fe85d7d5747dc40323e65453447038dccf753900a851793140863ca3630e79d9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UaizcMKP/versions/3MvmAqB5/item_descriptions-2.7.2%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'UaizcMKP'
+version = '3MvmAqB5'

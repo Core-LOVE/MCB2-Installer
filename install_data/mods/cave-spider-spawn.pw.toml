@@ -1,0 +1,17 @@
+filename = 'cavespiderspawn-1.21.1-1.2.jar'
+name = 'Cave Spider Spawn'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.2-fabric+forge+neo'
+
+[download]
+hash = '05a4a08188c020070fc4569da1a039421f8d502bb0db2a4bec265d4efdd61a314962f54cf9f69433388968de92a965c28bf81ada68cc574ca1507fbbfb346d59'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9IUlkb2K/versions/VRwAOcqG/cavespiderspawn-1.21.1-1.2.jar'
+
+[update.modrinth]
+mod-id = '9IUlkb2K'
+version = 'VRwAOcqG'

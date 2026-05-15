@@ -1,0 +1,12 @@
+[entities]
+	#Toggles whether or not wolves can fetch arrows
+	wolves_retrieve_arrows = true
+	#How far a Crystal Butterfly will track a player for.
+	#If the player is further than the defined distance, it will simply sit down.
+	# Default: 64
+	# Range: 16 ~ 1028
+	crystal_butterfly_search_range = 256
+
+	[entities.projectiles]
+		#If true, firebrands will place fire when hitting a flammable block
+		firebrand_makes_fire = true

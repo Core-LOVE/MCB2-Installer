@@ -1,0 +1,2 @@
+#if enabled you can now enchant bore heads
+enchantable_bore_head = false

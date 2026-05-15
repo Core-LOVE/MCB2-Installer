@@ -1,0 +1,7 @@
+{
+    "minecraft:golden_sword": [{"attribute": "oreganized:kinetic_damage", "value": 2, "operation": "ADDITION"}],
+    "minecraft:golden_axe": [{"attribute": "oreganized:kinetic_damage", "value": 2, "operation": "ADDITION"}],
+    "minecraft:golden_pickaxe": [{"attribute": "oreganized:kinetic_damage", "value": 2, "operation": "ADDITION"}],
+    "minecraft:golden_shovel": [{"attribute": "oreganized:kinetic_damage", "value": 2, "operation": "ADDITION"}],
+    "minecraft:golden_hoe": [{"attribute": "oreganized:kinetic_damage", "value": 2, "operation": "ADDITION"}]
+}

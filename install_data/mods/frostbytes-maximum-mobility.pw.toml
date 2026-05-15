@@ -1,0 +1,17 @@
+filename = 'mobility-1.8.0.jar'
+name = "Frostbyte's Maximum Mobility"
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.8.0'
+
+[download]
+hash = 'ce7cc49477d5c2d4ac2dd1e155c4f1a8372d838d705885c7d93f23875b690d59546e59522f6b79576c8f1f91b4ede169aa989892d19084862532a4d7597edcf0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gkX0YuZr/versions/6wrS9AIv/mobility-1.8.0.jar'
+
+[update.modrinth]
+mod-id = 'gkX0YuZr'
+version = '6wrS9AIv'

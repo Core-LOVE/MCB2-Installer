@@ -1,0 +1,20 @@
+{
+  "addons": {},
+  "fluid_permeability_enabled": true,
+  "fluidloggable_blocks": {
+    "blacklist": false,
+    "blocks": []
+  },
+  "fluid_permeable_blocks": {
+    "blacklist": false,
+    "blocks": []
+  },
+  "shape_independent_fluid_permeable_blocks": {
+    "blacklist": false,
+    "blocks": [
+      "vault",
+      "trial_spawner",
+      "minecraft:tube_coral_block"
+    ]
+  }
+}

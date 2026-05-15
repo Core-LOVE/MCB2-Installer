@@ -1,0 +1,21 @@
+filename = 'reliable_recount-neoforge-1.21.1-2.0.1.jar'
+name = 'Reliable Recount'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '2.0.1-1.21.1-neoforge'
+
+[download]
+hash = '70276133ec5938ced5f36b4dda1fa4ee9008f38393a9503366658bf28830f5ae2e0d9ef64349d480dc87801fe7d5dfe5922ac259c622cd18c6b94d88f9b4d089'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KZ2nVYZL/versions/4IGtwU2k/reliable_recount-neoforge-1.21.1-2.0.1.jar'
+
+[update.modrinth]
+mod-id = 'KZ2nVYZL'
+version = '4IGtwU2k'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'OPTIONAL'

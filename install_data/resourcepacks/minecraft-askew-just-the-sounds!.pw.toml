@@ -1,0 +1,13 @@
+name = "Minecraft: Askew | Just The Sounds!"
+filename = "As-Cue 2.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/WwPpDSAo/versions/zftrtWlD/As-Cue%202.1.zip"
+hash-format = "sha512"
+hash = "f46d4f98aa89e5a0f802b4547ded6cb5a58567af68481b82053066acf0dad2828ec2997fc8886b661f361234582da3d6d2e2d2bd3fc835789c39bb66549f5dd5"
+
+[update]
+[update.modrinth]
+mod-id = "WwPpDSAo"
+version = "zftrtWlD"

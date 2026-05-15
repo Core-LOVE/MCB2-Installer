@@ -1,0 +1,43 @@
+[bedrock_features]
+	pillagerdrops_arrow = true
+	player_campfire_burning = true
+	fire_aspecton_campfire = true
+	fire_aspecton_candle = true
+	"bedrock(like)_elytra" = false
+	bone_mealon_sugar_cane = true
+	#With the (default) Arrow Keys can you place a block like the Bedrock Edition
+	bedrock_block_placeing = true
+	#A port for the OP Gap from the Legacy Edtion (Regeneration 4 instead of 2)
+	legacy_enchanted_golden_apple = true
+	enchanterdropwithhand = true
+	snow_features = true
+	#Toggle the use of the Reactor Core
+	reactor_core = true
+	#Toggle the use of the Reactor Core (below version 17.1)
+	"reactor_core(_bs_lagacy)" = false
+	#The Player generates particles when burning (in original with all entitys)
+	particleswhenburning = false
+
+[bedrock_stuff_education]
+	#Toggle the Underwater TNT
+	underwater_tnt = true
+	#Toggle the function of the Agent (not 100% of functions ported)
+	agent = true
+	#Toggle the function of the Material Reducer
+	material_reducer = true
+	#Toggle the function of the Element Constructor
+	element_constructor = true
+
+["bedrock_stuff(_debug/_commands)"]
+	#Animals (like Cows) has more speed that Java has (can be laggy when enabled)
+	animals_bedrock_speed = false
+	#The Pig in the Bedrock makes sounds when rightklicked with a Carrot on a Stick
+	pig_soundswith_carrotona_stick = false
+	#A Bedrock Edition command ported to java
+	mayfly = false
+	#A Bedrock Edition command ported to java
+	armorarms = true
+	#A Bedrock Edition command ported to java
+	"(_be)_dragon_kill_command" = false
+	#A Bedrock Edition command ported to java
+	daylock = true

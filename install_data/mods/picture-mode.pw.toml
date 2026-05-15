@@ -1,0 +1,21 @@
+filename = 'picturemode-neoforge-1.1.3+1.21.1.jar'
+name = 'Picture Mode'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.1.3+1.21.1-neoforge'
+
+[download]
+hash = '6161b9e98565f938d5ae132a94855d58d619da06a71a8e971fe7445ddaa9382a97f1496c0506f938940d0975bdd5df1145348448693d9fc8297713ec35e8876e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kFU5UCQz/versions/DDrs65Hj/picturemode-neoforge-1.1.3%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'kFU5UCQz'
+version = 'DDrs65Hj'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'OPTIONAL'

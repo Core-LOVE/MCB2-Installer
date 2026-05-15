@@ -1,0 +1,18 @@
+name = "MinecraftB2"
+author = "KateBulka"
+version = "1.0-dev"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0f23b47b787bcb5b7cc698feb57200a72279bff56d3c27a1c11d7b94b1d1c7f0"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.228"
+unsup = "1.1.6"
+
+[options]
+acceptable-versions = ["1.20.5", "1.20.6", "1.21", "1.21.1"]
+datapack-folder = "data_packs"

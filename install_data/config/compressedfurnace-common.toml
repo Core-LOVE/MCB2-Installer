@@ -1,0 +1,179 @@
+#Energy Capacity and TransferRate Configuration
+[energy]
+
+	#Compressed Tier Settings
+	[energy.compressed]
+		#Energy capacity for compressed tiers.
+		# Default: 5000
+		# Range: > 1
+		compressedEnergyCapacity = 5000
+		#Max energy transfer rate (FE/t) for compressed tiers.
+		# Default: 500
+		# Range: > 1
+		compressedMaxTransferRate = 500
+
+	#Double Compressed
+	[energy.doubleCompressed]
+		#Energy capacity for double compressed tier generators.
+		# Default: 20000
+		# Range: > 1
+		doubleCompressedEnergyCapacity = 20000
+		#Max energy transfer rate (FE/t) for double compressed tier generators.
+		# Default: 1000
+		# Range: > 1
+		doubleCompressedMaxTransferRate = 1000
+
+	#Triple Compressed
+	[energy.tripleCompressed]
+		#Energy capacity for triple compressed tier generators.
+		# Default: 200000
+		# Range: > 1
+		tripleCompressedEnergyCapacity = 200000
+		#Max energy transfer rate (FE/t) for triple compressed tier generators.
+		# Default: 2000
+		# Range: > 1
+		tripleCompressedMaxTransferRate = 2000
+
+#Generator Configuration
+[generator]
+
+	#Compressed Tier Settings
+	[generator.compressed]
+		#Energy produced per tick by compressed tier generators.
+		# Default: 10
+		# Range: > 1
+		compressedEnergyPerTick = 10
+		#Lava tank capacity for compressed tier generators.
+		# Default: 5000
+		# Range: > 100
+		compressedLavaTankCapacity = 5000
+
+	#Double Compressed Tier Settings
+	[generator.doubleCompressed]
+		#Energy produced per tick by double compressed tier generators.
+		# Default: 40
+		# Range: > 1
+		doubleCompressedEnergyPerTick = 40
+		#Lava tank capacity for double compressed tier generators.
+		# Default: 10000
+		# Range: > 100
+		doubleCompressedLavaTankCapacity = 10000
+
+	#Triple Compressed Tier Settings
+	[generator.tripleCompressed]
+		#Energy produced per tick by triple compressed tier generators.
+		# Default: 80
+		# Range: > 1
+		tripleCompressedEnergyPerTick = 80
+		#Lava tank capacity for triple compressed tier generators.
+		# Default: 200000
+		# Range: > 100
+		tripleCompressedLavaTankCapacity = 200000
+
+#Cooking Time Modifiers
+[cooking]
+	#Cooking time modifier for compressed tier (e.g., 0.9 for 10% faster cooking).
+	# Default: 0.9
+	# Range: 0.01 ~ 10.0
+	compressedCookTimeModifier = 0.9
+	#Cooking time modifier for double compressed tier (e.g., 0.8 for 20% faster cooking).
+	# Default: 0.8
+	# Range: 0.01 ~ 10.0
+	doubleCompressedCookTimeModifier = 0.8
+	#Cooking time modifier for triple compressed tier (e.g., 0.6 for 40% faster cooking).
+	# Default: 0.6
+	# Range: 0.01 ~ 10.0
+	tripleCompressedCookTimeModifier = 0.6
+
+#Fuel Efficiency Multipliers
+[fuel]
+	#Fuel efficiency multiplier for compressed tier furnaces (e.g., 1.5 means burn time is 1.5x more efficient).
+	# Default: 1.5
+	# Range: 0.1 ~ 10.0
+	compressedFuelMultiplier = 1.5
+	#Fuel efficiency multiplier for double compressed tier furnaces (e.g., 2.0 means burn time is 2x more efficient).
+	# Default: 2.0
+	# Range: 0.1 ~ 10.0
+	doubleCompressedFuelMultiplier = 2.0
+	#Fuel efficiency multiplier for triple compressed tier furnaces (e.g., 2.5 means burn time is 2.5x more efficient).
+	# Default: 2.5
+	# Range: 0.1 ~ 10.0
+	tripleCompressedFuelMultiplier = 2.5
+
+#Auto Export Configuration
+[auto_export]
+
+	#Compressed Tier Settings
+	[auto_export.compressed]
+		#Item transfer rate for compressed tier furnaces.
+		# Default: 1
+		# Range: > 1
+		compressedItemTransferRate = 1
+		#Item transfer rate for compressed tier powered furnaces.
+		# Default: 2
+		# Range: > 1
+		compressedItemPoweredTransferRate = 2
+		#Auto export delay (ticks) for compressed tier furnaces (20 ticks = 1 second).
+		# Default: 60
+		# Range: > 1
+		compressedAutoItemDelay = 60
+		#Auto export delay (ticks) for compressed tier powered furnaces (20 ticks = 1 second).
+		# Default: 40
+		# Range: > 1
+		compressedPoweredAutoItemDelay = 40
+
+	#Double Compressed Tier Settings
+	[auto_export.doubleCompressed]
+		#Item transfer rate for compressed tier furnaces.
+		# Default: 2
+		# Range: > 1
+		compressedItemTransferRate = 2
+		#Item transfer rate for compressed tier powered furnaces.
+		# Default: 4
+		# Range: > 1
+		compressedItemPoweredTransferRate = 4
+		#Auto export delay (ticks) for compressed tier furnaces (20 ticks = 1 second).
+		# Default: 40
+		# Range: > 1
+		compressedAutoItemDelay = 40
+		#Auto export delay (ticks) for compressed tier powered furnaces (20 ticks = 1 second).
+		# Default: 20
+		# Range: > 1
+		compressedPoweredAutoItemDelay = 20
+
+	#Triple Compressed Tier Settings
+	[auto_export.tripleCompressed]
+		#Item transfer rate for compressed tier furnaces.
+		# Default: 4
+		# Range: > 1
+		compressedItemTransferRate = 4
+		#Item transfer rate for compressed tier powered furnaces.
+		# Default: 8
+		# Range: > 1
+		compressedItemPoweredTransferRate = 8
+		#Auto export delay (ticks) for compressed tier furnaces (20 ticks = 1 second).
+		# Default: 20
+		# Range: > 1
+		compressedAutoItemDelay = 20
+		#Auto export delay (ticks) for compressed tier powered furnaces (20 ticks = 1 second).
+		# Default: 10
+		# Range: > 1
+		compressedPoweredAutoItemDelay = 10
+
+#Extra Items List
+[extra_items]
+
+	#Compressed Tier Settings
+	[extra_items.compressed]
+		#Chance list for extra items in compressed tier.
+		compressedChances = [0.125]
+
+	#Double Compressed Tier Settings
+	[extra_items.doubleCompressed]
+		#Chance list for extra items in double compressed tier.
+		doubleCompressedChances = [0.125, 0.25]
+
+	#Triple Compressed Tier Settings
+	[extra_items.tripleCompressed]
+		#Chance list for extra items in triple compressed tier.
+		tripleCompressedChances = [0.125, 0.25, 0.5]

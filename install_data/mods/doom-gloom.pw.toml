@@ -1,0 +1,25 @@
+filename = 'doom_and_gloom-forge-3.0.0.jar'
+name = 'Doom & Gloom'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '3.0.0'
+
+[download]
+hash = 'dac7950ae9d2ac4bf2d99afc9eba3d4cdbe80e558c0eee78d76fa6cc68894a0af9f36c244af264c2d836d1ebb08f5de58e6dbd6cc652335dd981d05458637df8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NdwUq6vV/versions/H9n5nZWN/doom_and_gloom-forge-3.0.0.jar'
+
+[update.modrinth]
+mod-id = 'NdwUq6vV'
+version = 'H9n5nZWN'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'twkfQtEc'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '2FJutzEL'
+type = 'OPTIONAL'

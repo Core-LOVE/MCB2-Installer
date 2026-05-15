@@ -1,0 +1,134 @@
+{
+  "_WARNING": "USE AT YOUR OWN RISK. Incorrect use can cause crashes, broken mods, and world corruption. Back up your worlds. Do NOT report bugs to mod authors if you have modified their mixins with this tool.",
+  "enabled": true,
+  "blacklist": {
+    "mixins": [
+      "com.feliscape.gladius.content.mixin.client.LevelRendererMixin",
+      "com.feliscape.gladius.content.mixin.client.PlayerRendererMixin",  
+      "com.feliscape.gladius.content.mixin.client.EntityRenderDispatcherMixin",      
+      "com.feliscape.gladius.content.mixin.client.ClientPacketListenerMixin",
+
+      "snownee.snow.mixin.diagonalblocks.DiagonalModelHandlerMixin",
+      "io.github.mortuusars.exposure.mixin.compat.easy_anvils.compat.easy_anvils.ModAnvilScreenMixin",
+
+      "fr.madu59.fwa.mixin.sodium.BlockRendererMixin",
+
+      "einstein.subtle_effects.mixin.client.EntityInsideFireHandlerMixin",
+      "einstein.subtle_effects.mixin.client.ItemBordersConfigAccessor",
+      "einstein.subtle_effects.mixin.client.BetterModListModSearchMixin",
+
+      "com.brand.blockus.mixin.NetherPortalMixin",
+      "com.brand.blockus.mixin.RedstoneWireBlockMixin",
+      "net.stln.launchersandarrows.mixin.ItemTooltipMixin",
+      "com.feliscape.gladius.content.mixin.LivingEntityMixin",
+      "com.feliscape.gladius.content.mixin.BrainMixin",
+      "com.feliscape.gladius.content.mixin.ItemStackMixin",  
+      "com.feliscape.gladius.content.mixin.MobMixin",
+      "net.sheddmer.abundant_atmosphere.common.mixin.AAPumpkinBlockMixin",
+      "net.mehvahdjukaar.amendments.mixins.BlocksMixin",
+      "net.mcreator.concoction.mixins.ItemMixin",
+      "net.mcreator.concoction.mixins.ItemsMixin",
+      "net.mcreator.concoction.mixins.LevelMixin", 
+      "net.mcreator.concoction.mixins.SnowballMixin",
+      "net.mcreator.concoction.mixins.LightningBoltMixin",
+      "net.mcreator.concoction.mixins.PlayerMixin",
+      "com.ninni.spawn.mixin.OverworldBiomeBuilderMixin",
+      "com.ninni.spawn.mixin.MinecraftServerMixin",
+      "com.ninni.spawn.mixin.LeavesBlockMixin",
+      "com.ninni.spawn.mixin.ItemMixin",
+      "com.ninni.spawn.mixin.ChunkGeneratorMixin",
+      "com.ninni.spawn.mixin.LocateCommandMixin",
+      "com.ninni.spawn.mixin.VanillaRegistriesMixin",
+      "vectorwing.farmersdelight.common.mixin.PlacePumpkinPieMixin",
+      "uwu.juni.recharged.mixins.waterlog.WaterlogButtons",
+      "uwu.juni.recharged.mixins.waterlog.WaterlogComparators",
+      "uwu.juni.recharged.mixins.waterlog.WaterlogLevers",
+      "uwu.juni.recharged.mixins.waterlog.WaterlogRepeaters",
+
+      "snownee.snow.mixin.diagonalblocks.VoxelCollectionAccess",
+      "sereneseasons.RandomUpdateHandlerMixin",
+
+      "io.github.mortuusars.exposure.neoforge.mixin.create.FillingBySpoutMixin",
+      "io.github.mortuusars.exposure.mixin.compat.easy_anvils.ModAnvilMenuMixin",
+
+      "io.github.mortuusars.scholar.mixin.jei.JeiKeyConflictContextMixin",
+
+      "dev.uncandango.alltheleaks.mixin.core.main.OctoRenderManagerMixin",
+
+      "pepjebs.mapatlases.mixin.CompatTFMapCoordinatesMagic1PacketMixin",
+      "pepjebs.mapatlases.mixin.CompatTFMapCoordinatesMagic2PacketMixin",
+      "pepjebs.mapatlases.mixin.CompatTFMapCoordinatesMaze1PacketMixin",
+      "pepjebs.mapatlases.mixin.CompatTFMapCoordinatesMaze2PacketMixin",
+
+      "com.davigj.frame_changer.core.mixin.HammerAndChiselItemMixin",
+
+      "galena.oreganized.mixin.compat.AirCurrentMixin",
+      "galena.oreganized.mixin.compat.LogStrippingFakeRecipesMixin",
+      
+      "org.violetmoon.quark.integration.mixin.lootr.LootrServiceRegistryMixin",
+
+      "dev.su5ed.sinytra.connectorextras.jeibridge.mixin.ForgePluginFinderMixin",
+
+      "com.ordana.immersive_weathering.mixins.SnowballMixin",
+
+      "com.ordana.immersive_weathering.mixins.BlocksMixin"
+    ],
+    "mixinConfigs": [],
+    "targetClasses": [
+      "twilightforest.network.MagicMapPacket",
+      "twilightforest.network.MazeMapPacket",
+      "gg.moonflower.etched.common.block.RadioBlock",
+      "com.anahkenonje.mixedstacks.item.ModItems",
+      "it.hurts.octostudios.octolib.modules.particles.OctoRenderManager",
+      "mezz.jei.gui.input.handlers.GlobalInputHandler",
+      "fuzs.diagonalblocks.world.phys.shapes.VoxelCollection",
+      "sereneseasons.season.RandomUpdateHandler",
+      "fuzs.easyanvils.world.inventory.ModAnvilMenu",
+      "com.simibubi.create.content.fluids.spout.FillingBySpout",
+      "com.simibubi.create.content.contraptions.StructureTransform",
+
+      "mezz.jei.library.load.PluginCaller",
+      "com.simibubi.create.content.contraptions.StructureTransform",
+      "vazkii.quark.addons.oddities.inventory.BackpackMenu",
+      "fuzs.dyedflames.handler.EntityInsideFireHandler",
+      "com.anthonyhilyard.itemborders.config.ItemBordersConfig",
+      "com.terraformersmc.mod_menu.util.mod.ModSearch",
+      "net.vulkanmod.config.option.Options",
+      "org.confluence.terraentity.entity.monster.Decayeder",
+      "org.confluence.terraentity.entity.monster.demoneye.DemonEyeSurroundTargetGoal",
+
+      "org.confluence.terraentity.entity.boss.EyeOfCthulhu",
+      "org.confluence.terraentity.entity.boss.Skeletron",
+      "com.ordana.spelunkery.items.HammerAndChiselItem",
+      "com.simibubi.create.content.kinetics.fan.AirCurrent",
+      "com.simibubi.create.foundation.data.recipe.LogStrippingFakeRecipes",
+      "com.simibubi.create.content.trains.display.FlapDisplaySection",
+      "com.simibubi.create.content.trains.display.FlapDisplayRenderer",
+      "noobanidus.mods.lootr.common.impl.LootrServiceRegistry"
+    ]
+  },
+  "priorities": {
+    "mixinConfigPriorities": {},
+    "mixinPriorities": {}
+  },
+  "methodRemovals": {
+    "rules": [
+    ]
+  },
+  "audit": {
+    "enabled": true,
+    "outputFile": "config/mixinhelper-report.json",
+    "includeAnnotations": true
+  },
+  "debug": {
+    "verbose": false,
+    "logBlacklistActions": true,
+    "logMethodRemovals": true
+  },
+  "guardrails": {
+    "enabled": true,
+    "bypassProtectedClasses": true,
+    "additionalProtectedPatterns": [],
+    "excludeFromProtection": []
+  }
+}

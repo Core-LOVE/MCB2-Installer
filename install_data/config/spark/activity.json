@@ -1,0 +1,28 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "KateBulka",
+      "uniqueId": "0740de8f-1657-43fb-ad47-777a5f69d379"
+    },
+    "time": 1773771814463,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/77HWEhspuE"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "KateBulka",
+      "uniqueId": "0740de8f-1657-43fb-ad47-777a5f69d379"
+    },
+    "time": 1773771403351,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/OFEyv6zrJa"
+    }
+  }
+]

@@ -1,0 +1,25 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:quests/the_nether",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:entity_kill",
+      "entity": "minecraft:wither",
+      "required_amount": 1,
+      "name": "modpack.obj.wither"
+    }
+  ],
+  "rewards": [],
+  "title": "modpack.name.wither",
+  "description": "modpack.desc.wither",
+  "icon": {
+    "item": "minecraft:nether_star"
+  },
+  "triggered_sound": "subtle_effects:entity.cow.eat",
+  "completed_sound": "subtle_effects:entity.bee.eat"
+}

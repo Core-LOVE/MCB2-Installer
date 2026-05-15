@@ -1,0 +1,47 @@
+{
+  "common": {
+    "itemDisplayTooltip": "NONE",
+    "rarityTooltip": true,
+    "itemGroupTooltip": false,
+    "hungerTooltip": true,
+    "saturationTooltip": false,
+    "effectsTooltip": "NONE",
+    "enchantmentTooltip": "NONE",
+    "armorTooltip": "ARMOR_STAND",
+    "bucketTooltip": true,
+    "spawnEggTooltip": true,
+    "durabilityTooltip": "VANILLA",
+    "equipmentCompareTooltip": true,
+    "containerTooltip": "VANILLA",
+    "paintingTooltip": false,
+    "bannerTooltip": false,
+    "mapTooltip": false,
+    "debugInfoTooltip": true
+  },
+  "misc": {
+    "blacklist": [],
+    "ignoredComponents": [
+      "minecraft:max_stack_size",
+      "minecraft:rarity"
+    ],
+    "overwriteRarityColor": false,
+    "commonRarityColor": 1347420415,
+    "uncommonRarityColor": -171,
+    "rareRarityColor": -11141121,
+    "epicRarityColor": -65281,
+    "endColor": 1347420415,
+    "useNameColor": false,
+    "useOriginalTitle": true,
+    "useImageBackground": true,
+    "useImageBorder": true,
+    "backgroundColor": -267386864,
+    "itemBorderColor": -5592406,
+    "mouseScrollTooltip": true,
+    "itemZoomSize": 100,
+    "itemZoomXOffset": 0,
+    "itemZoomYOffset": 0,
+    "removeEmptyLines": true,
+    "enchantmentSort": "DEFAULT",
+    "advancedEnchantmentColor": false
+  }
+}

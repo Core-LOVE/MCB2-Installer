@@ -1,0 +1,17 @@
+{
+  "FadeSun": true,
+  "FadeMoon": true,
+  "SunFadeData": {
+    "FadeInStart": 22000,
+    "FadeInEnd": 23000,
+    "FadeOutStart": 13000,
+    "FadeOutEnd": 14000
+  },
+  "MoonFadeData": {
+    "FadeInStart": 12000,
+    "FadeInEnd": 13000,
+    "FadeOutStart": 23000,
+    "FadeOutEnd": 24000
+  },
+  "DayLength": 24000
+}

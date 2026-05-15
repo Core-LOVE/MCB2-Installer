@@ -1,0 +1,17 @@
+filename = 'CombatNouveau-v21.1.1-1.21.1-NeoForge.jar'
+name = 'Combat Nouveau'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = 'v21.1.1-1.21.1-NeoForge'
+
+[download]
+hash = '479135a0e3c000a50987e70ac6bf4d660c70733d8a5ec0c828d6a8b45dfd1a130ce23fa6955f7bda647760450028a2634adab40a16d5b720ab06ed0aac3e3e15'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Iv3kcKZn/versions/O72HWWUK/CombatNouveau-v21.1.1-1.21.1-NeoForge.jar'
+
+[update.modrinth]
+mod-id = 'Iv3kcKZn'
+version = 'O72HWWUK'

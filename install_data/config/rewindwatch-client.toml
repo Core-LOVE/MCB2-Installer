@@ -1,0 +1,3 @@
+[accessibility]
+	#Allowed Values: ON, SIMPLE, OFF
+	post_effects = "ON"

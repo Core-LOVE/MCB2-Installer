@@ -1,0 +1,15 @@
+type = listener_instances
+
+listener_instance {
+  listener_instance_identifier = d9a3cdfd-c7d6-4db2-abe9-4785186a6a24-1772360273725
+  listener_provider_identifier = screen_open
+  listener_instance_action_script_identifier = d6901799-2e6c-4d58-946d-270c42a5c331-1772360273725
+  [executable_action_instance:18525c06-3fd6-45f1-ac01-3c8a29f5e584-1772360449458][action_type:set_variable] = world_creation_mode:Survival
+  [executable_block:d519eb77-2a17-4228-ab8e-5c1d1c994f43-1772360392452][type:if] = [executables:18525c06-3fd6-45f1-ac01-3c8a29f5e584-1772360449458;]
+  [if_executable_block_body:d519eb77-2a17-4228-ab8e-5c1d1c994f43-1772360392452] = 9e11b0d5-509d-4b53-ab8d-1c20c35cd01e-1772360283493
+  [loading_requirement_container_meta:9e11b0d5-509d-4b53-ab8d-1c20c35cd01e-1772360283493] = [groups:][instances:336eb47f-d70b-4538-94e6-47c46f53f30c-1772360368971;]
+  [loading_requirement:fancymenu_visibility_requirement_is_text][requirement_mode:if][req_id:336eb47f-d70b-4538-94e6-47c46f53f30c-1772360368971] = ["mode":"equals","text":"$$screen_identifier","compare_with":"create_world_screen"]$
+  [if_executable_block_collapsed:d519eb77-2a17-4228-ab8e-5c1d1c994f43-1772360392452] = false
+  [executable_block:d6901799-2e6c-4d58-946d-270c42a5c331-1772360273725][type:generic] = [executables:d519eb77-2a17-4228-ab8e-5c1d1c994f43-1772360392452;]
+}
+

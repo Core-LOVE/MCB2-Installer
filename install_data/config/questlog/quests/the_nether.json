@@ -1,0 +1,37 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:quests/diamonds",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "frame_changer:obsidian",
+      "required_amount": 1,
+      "name": "modpack.obj.nether_1"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:flint_and_steel",
+      "required_amount": 1,
+      "name": "modpack.obj.nether_2"
+    },
+    {
+      "type": "questlog:visit_dimension",
+      "dimension": "minecraft:the_nether",
+      "required_amount": 1,
+      "name": "modpack.obj.nether_3"
+    }
+  ],
+  "rewards": [],
+  "title": "modpack.name.nether",
+  "description": "modpack.desc.nether",
+  "icon": {
+    "item": "frame_changer:obsidian"
+  },
+  "triggered_sound": "subtle_effects:entity.cow.eat",
+  "completed_sound": "subtle_effects:entity.bee.eat"
+}

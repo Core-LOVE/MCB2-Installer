@@ -1,0 +1,13 @@
+name = "Flint instead of wood"
+filename = "FlintTools.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/54Ljx9zN/versions/fjlli0v7/FlintTools.zip"
+hash-format = "sha512"
+hash = "985b44f4955480c77b947441454de752c2c21dd5877a057a604937bfc044801e97fabbe37ee0a60f895b5eab2ff24cc8602a9d6d21d3686d69300acb6a4075cf"
+
+[update]
+[update.modrinth]
+mod-id = "54Ljx9zN"
+version = "fjlli0v7"

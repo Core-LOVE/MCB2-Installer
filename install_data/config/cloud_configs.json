@@ -1,0 +1,232 @@
+{
+  "CLOUDS_RENDERED": true,
+  "CLOUD_COLOR": [
+    {
+      "time": 0,
+      "color": 16767144
+    },
+    {
+      "time": 3000,
+      "color": 16777215
+    },
+    {
+      "time": 6000,
+      "color": 16777215
+    },
+    {
+      "time": 9000,
+      "color": 16054008
+    },
+    {
+      "time": 12000,
+      "color": 16752222
+    },
+    {
+      "time": 13000,
+      "color": 16757626
+    },
+    {
+      "time": 14000,
+      "color": 8029864
+    },
+    {
+      "time": 18000,
+      "color": 2764613
+    },
+    {
+      "time": 22000,
+      "color": 4871802
+    },
+    {
+      "time": 23999,
+      "color": 16767144
+    }
+  ],
+  "COLOR_MODE": "VANILLA",
+  "LIGHTING": {
+    "AMBIENT_LIGHTING_STRENGTH": 0.7,
+    "MAX_LIGHTING_SHADING": 0.8,
+    "lights": [
+      {
+        "direction": {
+          "x": 0.5,
+          "y": 0.8,
+          "z": 1.0
+        },
+        "intensity": 0.6
+      },
+      {
+        "direction": {
+          "x": -0.3,
+          "y": 0.3,
+          "z": 0.6
+        },
+        "intensity": 0.5
+      }
+    ]
+  },
+  "LAYERS": {
+    "layers": [
+      {
+        "BEVEL": {
+          "BEVEL_SIZE": 0.1,
+          "BEVEL_EDGE_SEGMENTS": 8,
+          "BEVEL_CORNER_SEGMENTS": 8
+        },
+        "PERFORMANCE": {
+          "MESH_REBUILD_BUDGET_MS": 2
+        },
+        "APPEARANCE": {
+          "SHADING_ENABLED": false,
+          "USES_CUSTOM_ALPHA": true,
+          "CUSTOM_BRIGHTNESS": false,
+          "USES_CUSTOM_COLOR": false,
+          "BASE_ALPHA": 150,
+          "BRIGHTNESS": 1.0,
+          "LAYER_COLOR": 16777215,
+          "CLOUD_Y_SCALE": 1.5,
+          "LAYER_OFFSET_X": 0,
+          "LAYER_OFFSET_Z": 0,
+          "LAYER_SPEED_X": 0.4,
+          "LAYER_SPEED_Z": 0.4
+        },
+        "FADE": {
+          "FADE_ENABLED": true,
+          "FADE_ALPHA": 51,
+          "TRANSITION_RANGE": 10.0
+        },
+        "FOG": {
+          "FOG_START_DISTANCE": 50.0,
+          "FOG_END_DISTANCE": 200.0
+        },
+        "LAYER_IDX": 0,
+        "NAME": "Minecraft",
+        "FOG_ENABLED": true,
+        "IS_ENABLED": true,
+        "LAYER_RENDERED": true,
+        "LAYER_HEIGHT": 128,
+        "MODE": "NORMAL"
+      },
+      {
+        "BEVEL": {
+          "BEVEL_SIZE": 0.1,
+          "BEVEL_EDGE_SEGMENTS": 8,
+          "BEVEL_CORNER_SEGMENTS": 8
+        },
+        "PERFORMANCE": {
+          "MESH_REBUILD_BUDGET_MS": 2
+        },
+        "APPEARANCE": {
+          "SHADING_ENABLED": false,
+          "USES_CUSTOM_ALPHA": true,
+          "CUSTOM_BRIGHTNESS": false,
+          "USES_CUSTOM_COLOR": false,
+          "BASE_ALPHA": 114,
+          "BRIGHTNESS": 1.0,
+          "LAYER_COLOR": 16777215,
+          "CLOUD_Y_SCALE": 1.5,
+          "LAYER_OFFSET_X": 6,
+          "LAYER_OFFSET_Z": 6,
+          "LAYER_SPEED_X": 0.4,
+          "LAYER_SPEED_Z": 0.4
+        },
+        "FADE": {
+          "FADE_ENABLED": false,
+          "FADE_ALPHA": 51,
+          "TRANSITION_RANGE": 10.0
+        },
+        "FOG": {
+          "FOG_START_DISTANCE": 50.0,
+          "FOG_END_DISTANCE": 200.0
+        },
+        "LAYER_IDX": 0,
+        "NAME": "Minecraft 2",
+        "FOG_ENABLED": true,
+        "IS_ENABLED": true,
+        "LAYER_RENDERED": true,
+        "LAYER_HEIGHT": 122,
+        "MODE": "NORMAL"
+      },
+      {
+        "BEVEL": {
+          "BEVEL_SIZE": 0.1,
+          "BEVEL_EDGE_SEGMENTS": 8,
+          "BEVEL_CORNER_SEGMENTS": 8
+        },
+        "PERFORMANCE": {
+          "MESH_REBUILD_BUDGET_MS": 2
+        },
+        "APPEARANCE": {
+          "SHADING_ENABLED": true,
+          "USES_CUSTOM_ALPHA": true,
+          "CUSTOM_BRIGHTNESS": false,
+          "USES_CUSTOM_COLOR": false,
+          "BASE_ALPHA": 64,
+          "BRIGHTNESS": 1.0,
+          "LAYER_COLOR": 16777215,
+          "CLOUD_Y_SCALE": 0.1,
+          "LAYER_OFFSET_X": 0,
+          "LAYER_OFFSET_Z": 0,
+          "LAYER_SPEED_X": 0.03,
+          "LAYER_SPEED_Z": 0.03
+        },
+        "FADE": {
+          "FADE_ENABLED": true,
+          "FADE_ALPHA": 51,
+          "TRANSITION_RANGE": 10.0
+        },
+        "FOG": {
+          "FOG_START_DISTANCE": 50.0,
+          "FOG_END_DISTANCE": 200.0
+        },
+        "LAYER_IDX": 0,
+        "NAME": "Minecraft 3",
+        "FOG_ENABLED": true,
+        "IS_ENABLED": true,
+        "LAYER_RENDERED": true,
+        "LAYER_HEIGHT": 160,
+        "MODE": "NORMAL"
+      }
+    ]
+  },
+  "template": {
+    "BEVEL": {
+      "BEVEL_SIZE": 0.1,
+      "BEVEL_EDGE_SEGMENTS": 8,
+      "BEVEL_CORNER_SEGMENTS": 8
+    },
+    "PERFORMANCE": {
+      "MESH_REBUILD_BUDGET_MS": 2
+    },
+    "APPEARANCE": {
+      "SHADING_ENABLED": false,
+      "USES_CUSTOM_ALPHA": true,
+      "CUSTOM_BRIGHTNESS": true,
+      "USES_CUSTOM_COLOR": false,
+      "BASE_ALPHA": 204,
+      "BRIGHTNESS": 1.0,
+      "LAYER_COLOR": 16777215,
+      "CLOUD_Y_SCALE": 1.5,
+      "LAYER_OFFSET_X": 0,
+      "LAYER_OFFSET_Z": 0,
+      "LAYER_SPEED_X": 0.03,
+      "LAYER_SPEED_Z": 0.03
+    },
+    "FADE": {
+      "FADE_ENABLED": true,
+      "FADE_ALPHA": 51,
+      "TRANSITION_RANGE": 10.0
+    },
+    "FOG": {
+      "FOG_START_DISTANCE": 50.0,
+      "FOG_END_DISTANCE": 200.0
+    },
+    "LAYER_IDX": 0,
+    "NAME": "Minecraft",
+    "FOG_ENABLED": true,
+    "IS_ENABLED": true,
+    "LAYER_RENDERED": true,
+    "LAYER_HEIGHT": 128,
+    "MODE": "NORMAL"
+  }
+}

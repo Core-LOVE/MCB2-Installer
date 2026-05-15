@@ -24,17 +24,17 @@ public class InstallModsAction extends Action {
     @Override
     public void execute(@Nullable String s) {
         try {
-            Path path = Paths.get(FMLPaths.GAMEDIR.get() + "install_data/pack.toml");
+            Path path = Paths.get(FMLPaths.GAMEDIR.get() + "/install_data/pack.toml");
             URI uri = path.toUri();
             String url = uri.toString();
 
             ProcessBuilder process = new ProcessBuilder(
-                    "java", "-jar", FMLPaths.GAMEDIR.get() + "install_data/packwiz-installer-bootstrap.jar",
-                    url
+                    "java", "-jar", FMLPaths.GAMEDIR.get() + "/install_data/packwiz-installer-bootstrap.jar",
+                    "-g", url
             );
 
             process.inheritIO();
-            Process real_process = process.start();
+            process.start();
         } catch (IOException e) {
             e.printStackTrace();
         }

@@ -1,0 +1,17 @@
+[knockback]
+	#Extra forward knockback added to the horizontal impulse.
+	# Default: 0.0
+	# Range: -10.0 ~ 10.0
+	forward = 0.0
+	#Extra upward knockback added to the vertical impulse.
+	# Default: 0.3
+	# Range: -10.0 ~ 10.0
+	upward = 0.3
+	#Enables beta-style vertical knockback simulation.
+	beta_simulate = true
+	#Used by beta simulation for the follow-up Y motion: sin(y * sin_multiplier).
+	# Default: 0.5
+	# Range: 0.0 ~ 100.0
+	sin_multiplier = 0.5
+	#Enables /retroknockback debug commands.
+	debug_commands = true

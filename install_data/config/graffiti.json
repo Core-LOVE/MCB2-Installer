@@ -1,0 +1,5 @@
+{
+  "enabled": true,
+  "useCulling": true,
+  "renderDistance": 32
+}

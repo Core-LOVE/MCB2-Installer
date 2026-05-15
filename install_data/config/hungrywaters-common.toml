@@ -1,0 +1,35 @@
+[stats]
+	#Minimum scale multiplier for a piranha at spawn (1.0 = normal size)
+	# Default: 0.8
+	# Range: 0.1 ~ 5.0
+	scaleMin = 0.8
+	#Maximum scale multiplier for a piranha at spawn (1.0 = normal size)
+	# Default: 1.3
+	# Range: 0.1 ~ 5.0
+	scaleMax = 1.3
+	#Base attack damage for piranhas
+	# Default: 2.0
+	# Range: 0.5 ~ 100.0
+	attackDamage = 2.0
+	#Base movement speed for piranhas
+	# Default: 0.3
+	# Range: 0.05 ~ 5.0
+	movementSpeed = 0.3
+	#Base max health for piranhas
+	# Default: 6.0
+	# Range: 1.0 ~ 1024.0
+	maxHealth = 6.0
+
+[hunger]
+	#When enabled, piranhas are always in frenzy mode and will attack any nearby entity, bypassing the hunger system entirely.
+	alwaysAggressive = false
+	#Maximum hunger value for a piranha (in ticks). When hunger reaches 0, piranhas enter attack mode.
+	# Default: 180
+	# Range: 1 ~ 72000
+	hungerMax = 180
+	#Amount of hunger drained per second
+	# Default: 1
+	# Range: 1 ~ 100
+	hungerDrainRate = 1
+	#When enabled, piranhas start with a random hunger value instead of the maximum.
+	randomStartHunger = true

@@ -1,0 +1,50 @@
+{
+  "rain": {
+    "enabled": false,
+    "gravity": 0.1,
+    "windStrength": 0.01,
+    "opacity": 0.47,
+    "size": 0.5
+  },
+  "heavy_dust": {
+    "opacity": 0.53,
+    "rotationType": "LOOKAT_PLAYER"
+  },
+  "mist_after_rain": {
+    "enabled": false
+  },
+  "ripple": {
+    "density": 0.31800002
+  },
+  "snow": {
+    "density": 0.15200001,
+    "weather": "ONLY_DURING_STORMY_WEATHER",
+    "windStrength": 0.21,
+    "opacity": 0.75,
+    "size": 0.5,
+    "rotationType": "LOOKAT_PLAYER"
+  },
+  "splatter": {},
+  "smoke": {
+    "enabled": false
+  },
+  "streak": {
+    "density": 0.09900001,
+    "blockList": {
+      "entries": [],
+      "isWhitelist": false
+    }
+  },
+  "dust": {
+    "density": 0.273,
+    "opacity": 0.76,
+    "size": 1.0,
+    "rotationType": "LOOKAT_PLAYER"
+  },
+  "mist": {
+    "enabled": false
+  },
+  "shrub": {
+    "enabled": true
+  }
+}

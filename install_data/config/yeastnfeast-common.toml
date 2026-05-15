@@ -1,0 +1,9 @@
+#Functional Blocks Settings
+[functional_blocks]
+
+	#Tree Tap Settings
+	[functional_blocks.functional_blocks]
+		#Ticks required before the Tree Tap begins dripping (default: 7200 ticks = 6 minutes)
+		# Default: 7200
+		# Range: 20 ~ 24000
+		dripDelayTicks = 7200

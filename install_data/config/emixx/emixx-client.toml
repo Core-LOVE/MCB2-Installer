@@ -1,0 +1,9 @@
+[creativeModeTabs]
+	enableCreativeModeTabs = true
+	syncSelectedCreativeModeTab = false
+	disabledCreativeModeTabs = ["blockus:blockus_natural", "blockus:blockus_legacy", "abyssal_decor:abyssal_decor", "blockus:blockus_colored_tiles", "blockus:blockus_colored", "abundant_atmosphere:abundant_atmosphere", "sub_expansion:sub_expansion_ct", "blockus:blockus_functional", "blockus:blockus_building_blocks", "incision:twisted"]
+	showCreativeTabNameInSearchbar = true
+
+[stackGroups]
+	enableStackGroups = true
+	enableCreateStackGroupButton = true

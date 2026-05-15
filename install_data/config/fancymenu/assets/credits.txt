@@ -1,0 +1,97 @@
+
+# Minecraft: β2
+&7Author:
+- [KateBulka](https://katebulka.neocities.org/)
+
+&7Development Team:
+- brzoza
+- Frogbirdd
+
+&7Contributors:
+- [skroy](https://skroy.moe/)
+
+&7Resource &7Pack &7Authors:
+- [RedPierrePacks](https://modrinth.com/user/RedPierrePacks) &8(Vintage)
+- [VitaMoonshadow](https://www.planetminecraft.com/member/vitamoonshadow/) &8(Jappa &8Style &8Hotbar)
+- [fishstiz](https://modrinth.com/user/fishstiz) &8(Bedrock-Style &8Cursors)
+- [godhusk](https://modrinth.com/user/godhusk) &8(Fresh &8Font)
+- [Kormoran](https://modrinth.com/user/Kormoran) &8(Flat &8Man's &8Pebbles)
+- [Quadrillage](https://www.planetminecraft.com/member/quadrillage/) &8(Fresh &8Sounds)
+- [SquARzY](https://modrinth.com/user/SquARzY) &8(Gentle &8Touches)
+- [crabbarition](https://modrinth.com/user/crabbarition) &8(Jagged &8Obsidian)
+- [SoyTutta](https://modrinth.com/user/SoyTutta) &8(Tuttas &8Retextures: &8Exposure &8Edition)
+- [Spydnel](https://modrinth.com/user/Spydnel) &8(Supplementaries &8Touch-Ups)
+- [Bobisnotaperson](https://modrinth.com/user/Bobisnotaperson) &8(Vertical &8Fences)
+- [Farcr](https://modrinth.com/user/Farcr) &8(Farcr's &8Re-Crafted)
+- [thetruly](https://modrinth.com/user/thetruly) &8(Fresh &8Gui)
+- [tosutosu](https://www.planetminecraft.com/member/tosutosu/) &8(Compromise)
+- [Hleb](https://modrinth.com/user/Hleb) &8(Flint &8instead &8of &8wood)
+- [careeoki](https://modrinth.com/user/careeoki) &8(Adjacent)
+- [krzysztofpikes](https://modrinth.com/user/krzysztofpikes) &8(Minecraft: &8Askew &8| &8Just &8The &8Sounds!)
+- [pencilvoid](https://modrinth.com/user/pencilvoid) &8(PencilVoid's &8Distinctive &8Ores)
+- [coderman932](https://www.planetminecraft.com/member/coderman932/) &8(Copper's &8Enhanced &8Jungle &8Logs)
+- [MCS](https://modrinth.com/user/MCS) &8(More &8Cave &8Sounds)
+- [Liahim85](https://modrinth.com/user/Liahim85) &8(Authentic &8Shadows)
+- [Zvezdov](https://modrinth.com/user/Zvezdov) &8(Choppy &8Wood)
+- [Alex\_12k\_Maker](https://modrinth.com/user/Alex_12k_Maker) &8(Unique &8Gear)
+- [hatsondogs](https://modrinth.com/user/hatsondogs) &8(Peeves)
+- [cucuber\_321](https://modrinth.com/user/cucuber_321) &8(Dye &8Bound)
+- [RuotaCheGira](https://modrinth.com/user/RuotaCheGira) &8(RetroRevive)
+- [SixFootBlue](https://www.curseforge.com/members/sixfootblue/projects) &8(Player &8Villager &8Models)
+- [klutz](https://modrinth.com/user/klutz) &8(Better &8Than &8Programmer &8Art)
+- [creepermax123](https://www.curseforge.com/members/creepermax123/projects) &8(Max's &8Better &8Mobs)
+- [StormDragon77](https://www.planetminecraft.com/member/stormdragon77/) &8(Binoculars)
+- [BarrowWight\_Scarecrowman](https://www.planetminecraft.com/texture-pack/classic-default-dx-1-18/) &8(Classic &8Default &8DX)
+- [souralien](https://modrinth.com/user/souralien) &8(Fonts &8Collection)
+- [zanderest](https://modrinth.com/user/zanderest) &8(ORNGstone &8Torches)
+- [dopadream](https://modrinth.com/user/dopadream) &8(Gramophone)
+
+&7Data &7Pack &7Authors:
+- [Crystalis7](https://modrinth.com/user/Crystalis7) &8(Cascades)
+- [millennIumAMbiguity](https://modrinth.com/user/millennIumAMbiguity) &8(No &8More &8<Structures> &8Collection)
+- [EMD123](https://modrinth.com/user/EMD123) &8(Better &8Trees)
+- [Walls](https://modrinth.com/user/Walls) &8(Nightosphere)
+- [NovaWostra](https://modrinth.com/user/NovaWostra) &8(Dungeons &8and &8Taverns)
+- [RainlessSky](https://modrinth.com/user/RainlessSky) &8(Biomes &8Rebalanced, &8Structures &8Rebalanced)
+- [TangoOrango](https://www.planetminecraft.com/member/tangoorango/) &8(Waste &8disposal)
+- [Klinbee](https://modrinth.com/user/Klinbee) &8(Retro &8Caves)
+- [ZackTech522](https://www.planetminecraft.com/member/zacktech522/) &8(Custom &8Large &8Dungeons)
+- [lullaby](https://modrinth.com/user/lullaby)
+
+&7Used &7CurseForge &7Mods:
+- [Framework](https://www.curseforge.com/minecraft/mc-mods/framework) &8(MrCrayfish)
+- [Configured](https://www.curseforge.com/minecraft/mc-mods/configured) &8(MrCrayfish)
+- [Catalogue](https://www.curseforge.com/minecraft/mc-mods/catalogue) &8(MrCrayfish)
+- [Golden Hopper](https://www.curseforge.com/minecraft/mc-mods/golden-hopper) &8(MrCrayfish)
+- [FastSuite](https://www.curseforge.com/minecraft/mc-mods/fastsuite) &8(Shadows\_of\_Fire)
+- [FastWorkbench](https://www.curseforge.com/minecraft/mc-mods/fastworkbench) &8(Shadows\_of\_Fire)
+- [Placebo](https://www.curseforge.com/minecraft/mc-mods/placebo) &8(Shadows\_of\_Fire)
+- [Advancement Enhancement](https://www.curseforge.com/minecraft/mc-mods/advancement-enhancement) &8(evanbones)
+- [Multi Mine](https://www.curseforge.com/minecraft/mc-mods/multi-mine) &8(atomicstrykergrumpy)
+- [Multi Mine](https://www.curseforge.com/minecraft/mc-mods/multi-mine) &8(atomicstrykergrumpy)
+- [Property Modifier](https://www.curseforge.com/minecraft/mc-mods/property-modifier) &8(IchHabeHunger54)
+- [Incision](https://www.curseforge.com/minecraft/mc-mods/incision) &8(gutlash)
+
+&7Music &7Authors:
+- C418
+- Oh Eight
+- bouncytorch
+- Soul\_
+- Sheet Ghost
+- Freja Nelson
+- Firch
+- Adam Haynes
+- RDisc
+
+&7Sounds:
+- JHazen
+- schademans
+
+&7Special &7Thanks:
+- [zharok\_01](https://www.curseforge.com/members/zharok_01/projects)
+- [NyctoTeam](https://modrinth.com/user/NyctoTeam)
+- [verncat](https://verncat.dev/)
+
+^^^
+**Minecraft (1.21.1) - NeoForge**
+^^^

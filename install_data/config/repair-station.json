@@ -1,0 +1,10 @@
+{
+  "fuels": [
+    {
+      "itemOrTag": "minecraft:flint",
+      "isTag": false,
+      "durationSeconds": 80,
+      "durabilityPerCycle": 5
+    }
+  ]
+}

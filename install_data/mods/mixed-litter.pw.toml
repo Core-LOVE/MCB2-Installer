@@ -1,0 +1,17 @@
+filename = 'mixed_litter-1.0.3.jar'
+name = 'Mixed Litter'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3'
+
+[download]
+hash = '379775c57af916ef38c7b5d8b5903a11367d810e0514d3f693ecfee60a64f1c3863e05a23932a8824c9cb97df9d48d90c8012583570a19dfc5e29705695fb32e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/cU1kDASI/versions/72d9GXAu/mixed_litter-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'cU1kDASI'
+version = '72d9GXAu'

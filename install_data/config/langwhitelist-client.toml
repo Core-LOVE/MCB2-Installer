@@ -1,0 +1,5 @@
+#List of language codes that should be visible in the Language menu.
+#Examples: en_us, ru_ru
+#Special values: "*" or "all" = show all languages.
+#Empty list = show all languages.
+allowed_languages = ["en_us", "ru_ru"]

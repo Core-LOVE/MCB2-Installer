@@ -1,0 +1,22 @@
+[
+    {
+        "inputs": ["darkerdepths:ash_block"],
+        "output": "minecraft:magma_block",
+        "biomes": ["darkerdepths:molten_cavern"]
+    },
+    {
+        "inputs": ["nomansland:cave_weeds"],
+        "output": "darkerdepths:scorched_remains",
+        "biomes": ["darkerdepths:molten_cavern"]
+    },
+    {
+        "inputs": [
+            "minecraft:stone",
+            "minecraft:deepslate",
+            "blockus:bluestone",
+            "minecraft:granite"
+        ],
+        "output": "blockus:marble",
+        "biomes": ["minecraft:sulfur_caves"]
+    }
+]

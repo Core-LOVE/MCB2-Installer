@@ -1,0 +1,13 @@
+name = "Smart Observer"
+filename = "smart-observer-1.0.3-hotfix.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/bXSQ17pJ/versions/fvouCd7R/smart-observer-1.0.3-hotfix.jar"
+hash-format = "sha512"
+hash = "79cf36e165b2800f9e69a6a54891ceb1e4fec89cea746ac9a7cb6d9f79431aed1f31afcc79ee185e0abec6c993454a52a066d5f00fa2c398a0dbfca6026b01c8"
+
+[update]
+[update.modrinth]
+mod-id = "bXSQ17pJ"
+version = "fvouCd7R"

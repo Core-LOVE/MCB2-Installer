@@ -1,0 +1,29 @@
+{
+  "recipe_modifications": [
+    {
+      "action": "remove",
+      "filter": {
+        "id": [
+          "minecraft:tnt",
+          "nomansland:explosive",
+          "crafting:dying/accents/hermes_boots",
+          "additionaladditions:glow_stick",
+          "supplementaries:slingshot",
+          "minecraft:scaffolding",
+          "minecraft:crossbow",
+          "quark:tools/crafting/pickarang_heart",
+          "minecraft:wooden_pickaxe",
+          "minecraft:wooden_axe",
+          "minecraft:wooden_hoe",
+          "minecraft:wooden_sword",
+          "minecraft:wooden_shovel",
+          "quark:tweaks/crafting/utility/better_stone_tools/sword",
+          "quark:tweaks/crafting/utility/better_stone_tools/shovel",
+          "quark:tweaks/crafting/utility/better_stone_tools/pickaxe",
+          "quark:tweaks/crafting/utility/better_stone_tools/axe",
+          "quark:tweaks/crafting/utility/better_stone_tools/hoe"
+        ]
+      }
+    }
+  ]
+}

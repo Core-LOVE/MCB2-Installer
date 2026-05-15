@@ -1,0 +1,42 @@
+{
+    // The version of the config file. Do not change this unless you know what you are doing.
+    "rconfig:version": 0,
+    // Changes the Creeper Overhaul creepers to destroy blocks or not.
+    "destroyBlocks": true,
+    "spawning": {
+        // Change the Creeper Overhaul creepers to spawn or not.
+        "allowSpawning": true,
+        // Change the Jungle Creeper to spawn or not.
+        "allowJungleCreeperSpawning": false,
+        // Change the Bamboo Creeper to spawn or not.
+        "allowBambooCreeperSpawning": false,
+        // Change the Desert Creeper to spawn or not.
+        "allowDesertCreeperSpawning": false,
+        // Change the Badlands Creeper to spawn or not.
+        "allowBadlandsCreeperSpawning": false,
+        // Change the Hills Creeper to spawn or not.
+        "allowHillsCreeperSpawning": false,
+        // Change the Savannah Creeper to spawn or not.
+        "allowSavannahCreeperSpawning": false,
+        // Change the Mushroom Creeper to spawn or not.
+        "allowMushroomCreeperSpawning": false,
+        // Change the Swamp Creeper to spawn or not.
+        "allowSwampCreeperSpawning": false,
+        // Change the Dripstone Creeper to spawn or not.
+        "allowDripstoneCreeperSpawning": false,
+        // Change the Cave Creeper to spawn or not.
+        "allowCaveCreeperSpawning": true,
+        // Change the Dark Oak Creeper to spawn or not.
+        "allowDarkOakCreeperSpawning": false,
+        // Change the Spruce Creeper to spawn or not.
+        "allowSpruceCreeperSpawning": false,
+        // Change the Beach Creeper to spawn or not.
+        "allowBeachCreeperSpawning": false,
+        // Change the Snowy Creeper to spawn or not.
+        "allowSnowyCreeperSpawning": false,
+        // Change the Ocean Creeper to spawn or not.
+        "allowOceanCreeperSpawning": true,
+        // Change the Birch Creeper to spawn or not.
+        "allowBirchCreeperSpawning": false
+    }
+}

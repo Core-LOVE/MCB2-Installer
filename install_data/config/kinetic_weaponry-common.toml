@@ -1,0 +1,24 @@
+#What should the Kinetic Shortbow's maximum stored Kinetic Charges be?
+# Default: 128
+# Range: > 0
+kineticShortbowMaxKineticCharge = 128
+#What should the Kinetic Shortbow's output velocity be?
+# Default: 5.0
+# Range: 0.0 ~ 1.7976931348623157E308
+kineticShortbowOutputVelocity = 5.0
+#What should the Kinetic Shortbow's range be?
+# Default: 20
+# Range: > 0
+kineticShortbowRange = 20
+#What should the Kinetic Detonator's damage > explosion power multiplier be?
+# Default: 0.65
+# Range: 0.0 ~ 1.0
+kineticDetonatorExplosionPowerMultiplier = 0.65
+#What should the Kinetic Charging Bus divide incoming damage by to get inbound charge?
+# Default: 10
+# Range: > 0
+kineticChargingBusImpactChargeDivisor = 10
+#What should the Kinetic Charging Bus divide incoming damage by to get inbound charge?
+# Default: 8
+# Range: > 0
+kineticRetentionModuleImpactChargeDivisor = 8

@@ -1,0 +1,13 @@
+name = "Better Trees"
+filename = "Better Trees 1.9.2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cfXIpi12/versions/NVSsenf1/Better%20Trees%201.9.2.zip"
+hash-format = "sha512"
+hash = "4915478ddf6ecf67648530d7d9ed5384442f3fdd4dea1d67d761112cd789954a4363ff9824639ed9ea2444d343e066d66c47ee56cc46cd4ec210ff02e8e3deab"
+
+[update]
+[update.modrinth]
+mod-id = "cfXIpi12"
+version = "NVSsenf1"

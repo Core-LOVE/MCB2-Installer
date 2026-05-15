@@ -1,0 +1,37 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:quests/flint_age",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:raw_copper",
+      "required_amount": 1,
+      "name": "modpack.obj.copper_age_1"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:clay_ball",
+      "required_amount": 1,
+      "name": "modpack.obj.copper_age_2"
+    },
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:stone_pickaxe",
+      "required_amount": 1,
+      "name": "modpack.obj.copper_age_3"
+    }
+  ],
+  "rewards": [],
+  "title": "modpack.name.copper_age",
+  "description": "modpack.desc.copper_age",
+  "icon": {
+    "item": "minecraft:stone_pickaxe"
+  },
+  "triggered_sound": "subtle_effects:entity.cow.eat",
+  "completed_sound": "subtle_effects:entity.bee.eat"
+}

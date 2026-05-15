@@ -1,0 +1,17 @@
+filename = 'YeetusNarratus-1.21.1-21.1.217-1.5.8.jar'
+name = 'Yeetus Narratus'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.5.8'
+
+[download]
+hash = 'd886d2a3d3c856755bdc4ea11480d5edd0b32274aadf519b42f534a2567112891bb0653588ec85de51943c5562a218fc0be8b7e3130774e427f5ae0aa24f3e8b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/eMNOv9vF/versions/6rnMiIzl/YeetusNarratus-1.21.1-21.1.217-1.5.8.jar'
+
+[update.modrinth]
+mod-id = 'eMNOv9vF'
+version = '6rnMiIzl'

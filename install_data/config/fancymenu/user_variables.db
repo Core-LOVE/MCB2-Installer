@@ -1,0 +1,14 @@
+type = user_variables
+
+variable {
+  name = world_name
+  value = DEBUG
+  reset_on_launch = false
+}
+
+variable {
+  name = world_creation_mode
+  value = 
+  reset_on_launch = true
+}
+

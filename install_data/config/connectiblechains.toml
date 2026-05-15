@@ -1,0 +1,6 @@
+chainHangAmount = 16.0
+maxChainRange = 32
+quality = 4
+showToolTip = false
+collisionsEnabled = true
+debugDraw = false

@@ -1,0 +1,2 @@
+#Show an actionbar message when a mob is prevented from spawning
+showBlockedMessage = false

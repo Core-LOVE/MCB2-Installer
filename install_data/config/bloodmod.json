@@ -1,0 +1,543 @@
+{
+  "general": {
+    "modEnabled": true
+  },
+  "player": {
+    "playerBleed": true,
+    "clientPlayerBloodColor": 12920859,
+    "otherPlayersBloodColor": 12920859
+  },
+  "particles": {
+    "hitBurst": true,
+    "deathBurst": true,
+    "lowHealthDrip": false,
+    "particleSize": 150,
+    "particleLifetime": 100,
+    "particleGravity": 100,
+    "particleDrag": 100
+  },
+  "bloodStains": {
+    "enabled": false,
+    "stainSize": 80,
+    "stainDurationSeconds": 5
+  },
+  "hitBurst": {
+    "burstIntensity": 50,
+    "burstDuration": 100,
+    "burstSpread": 100,
+    "damageCooldown": 100
+  },
+  "deathBurst": {
+    "deathIntensity": 50,
+    "deathSpread": 100
+  },
+  "lowHealth": {
+    "threshold": 50,
+    "dripFrequency": 50,
+    "dripIntensity": 50
+  },
+  "audio": {
+    "soundEnabled": true,
+    "soundVolume": 100,
+    "soundPitch": 100
+  },
+  "underwater": {
+    "transformToFog": true,
+    "fogLifetime": 100,
+    "fogOpacity": 100,
+    "fogSize": 100
+  },
+  "vanillaEntities": {
+    "entities": {
+      "zombie_horse": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "panda": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "axolotl": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "bee": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12890403
+      },
+      "zoglin": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "cow": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "magma_cube": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 14241037
+      },
+      "pig": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "allay": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 10072793
+      },
+      "skeleton": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 12564637
+      },
+      "llama": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "mule": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "husk": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "bat": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "frog": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "hoglin": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "camel": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "armadillo": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 6685443
+      },
+      "rabbit": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "silverfish": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12890403
+      },
+      "drowned": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "dolphin": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "stray": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 12564637
+      },
+      "shulker": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 7543162
+      },
+      "turtle": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "wither_skeleton": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 1315860
+      },
+      "salmon": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "wandering_trader": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "vex": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 10072793
+      },
+      "piglin_brute": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "breeze": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 6730687
+      },
+      "goat": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "ocelot": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "horse": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "vindicator": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "phantom": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 12920859
+      },
+      "ender_dragon": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 7543162
+      },
+      "evoker": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "mooshroom": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "warden": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 3347578
+      },
+      "glow_squid": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 1651583
+      },
+      "squid": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "parrot": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "creeper": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 3196249
+      },
+      "enderman": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 7543162
+      },
+      "tadpole": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "chicken": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "sniffer": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "ravager": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "trader_llama": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "donkey": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "bogged": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 12564637
+      },
+      "fox": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "tropical_fish": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "slime": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 5027891
+      },
+      "pillager": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "iron_golem": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 6710886
+      },
+      "zombified_piglin": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "blaze": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 15105817
+      },
+      "piglin": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "endermite": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 7543162
+      },
+      "cat": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "zombie": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "guardian": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 1651583
+      },
+      "ghast": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 14241037
+      },
+      "sheep": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "pufferfish": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "illusioner": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "wolf": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "villager": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "skeleton_horse": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 12564637
+      },
+      "zombie_villager": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "elder_guardian": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 1651583
+      },
+      "strider": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "polar_bear": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "cave_spider": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12890403
+      },
+      "snow_golem": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 14280434
+      },
+      "cod": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "witch": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12920859
+      },
+      "wither": {
+        "enabled": false,
+        "canDripAtLowHealth": false,
+        "transformToStains": false,
+        "bloodColor": 1315860
+      },
+      "spider": {
+        "enabled": true,
+        "canDripAtLowHealth": true,
+        "transformToStains": true,
+        "bloodColor": 12890403
+      }
+    }
+  },
+  "moddedEntities": {
+    "customEntities": {}
+  }
+}

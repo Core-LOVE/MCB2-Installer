@@ -1,0 +1,25 @@
+{
+  "inputs": ["minecraft:dispenser", "minecraft:dropper"],
+  "item_replacements": [
+    {
+      "list_name": "Items",
+      "match_id": "minecraft:potion",
+      "replace_id": "minecraft:air"
+    },
+    {
+      "list_name": "Items",
+      "match_id": "minecraft:splash_potion",
+      "replace_id": "minecraft:arrow"
+    },
+    {
+      "list_name": "Items",
+      "match_id": "minecraft:lingering_potion",
+      "replace_id": "minecraft:arrow"
+    },
+    {
+      "list_name": "Items",
+      "match_id": "minecraft:tipped_arrow",
+      "replace_id": "minecraft:arrow"
+    }
+  ]
+}

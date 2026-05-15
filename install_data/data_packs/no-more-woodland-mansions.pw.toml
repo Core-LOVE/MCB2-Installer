@@ -1,0 +1,13 @@
+name = "No More Woodland Mansions"
+filename = "No More Woodland Mansions.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/RnNTDpNI/versions/C4Baez8p/No%20More%20Woodland%20Mansions.zip"
+hash-format = "sha512"
+hash = "d1a41c8b6d05622de007ceb1692ac0b87b47f1e1c403c52f23b363af5837eb111c0df9291466f2ab8d08a7f3107e545f484f34b3b39c7680523f04296fbcdd1b"
+
+[update]
+[update.modrinth]
+mod-id = "RnNTDpNI"
+version = "C4Baez8p"

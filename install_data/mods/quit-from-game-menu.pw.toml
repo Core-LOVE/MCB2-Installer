@@ -1,0 +1,58 @@
+filename = 'quit-from-game-menu-1.0.3.jar'
+name = 'Quit from Game Menu'
+side = 'client'
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [
+    '1.19.4',
+    '1.19.4',
+    '1.20',
+    '1.20',
+    '1.20.1',
+    '1.20.1',
+    '1.20.2',
+    '1.20.2',
+    '1.20.3',
+    '1.20.3',
+    '1.20.4',
+    '1.20.4',
+    '1.20.5',
+    '1.20.5',
+    '1.20.6',
+    '1.20.6',
+    '1.21',
+    '1.21',
+    '1.21.1',
+    '1.21.1',
+    '1.21.10',
+    '1.21.10',
+    '1.21.11',
+    '1.21.11',
+    '1.21.2',
+    '1.21.2',
+    '1.21.3',
+    '1.21.3',
+    '1.21.4',
+    '1.21.4',
+    '1.21.5',
+    '1.21.5',
+    '1.21.6',
+    '1.21.6',
+    '1.21.7',
+    '1.21.7',
+    '1.21.8',
+    '1.21.8',
+    '1.21.9',
+    '1.21.9'
+]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.3'
+
+[download]
+hash = '7f15add9c3cd3977922cd728c2260ca45e9c4d55ad401ab3cb973e2034000260c1ff75ed2c2cba5bb250a2c09b900d370fafa0bda945ed86471603e0ebdd141b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V9wSe8O4/versions/1WgX2AWa/quit-from-game-menu-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'V9wSe8O4'
+version = '1WgX2AWa'

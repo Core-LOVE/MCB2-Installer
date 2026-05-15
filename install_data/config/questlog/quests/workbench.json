@@ -1,0 +1,25 @@
+{
+  "requirements": [
+    {
+      "type": "questlog:quest_complete",
+      "quest": "questlog:quests/wood",
+      "required_amount": 1
+    }
+  ],
+  "objectives": [
+    {
+      "type": "questlog:item_obtain",
+      "item": "minecraft:crafting_table",
+      "required_amount": 1,
+      "name": "modpack.obj.workbench"
+    }
+  ],
+  "rewards": [],
+  "title": "modpack.name.workbench",
+  "description": "modpack.desc.workbench",
+  "icon": {
+    "item": "minecraft:crafting_table"
+  },
+  "triggered_sound": "subtle_effects:entity.cow.eat",
+  "completed_sound": "subtle_effects:entity.bee.eat"
+}
