@@ -1,0 +1,13 @@
+{
+  "itemGroup.installer": "Example Mod Tab",
+  "block.installer.example_block": "Example Block",
+  "item.installer.example_item": "Example Item",
+
+  "installer.configuration.title": "installer Configs",
+  "installer.configuration.section.installer.common.toml": "installer Configs",
+  "installer.configuration.section.installer.common.toml.title": "installer Configs",
+  "installer.configuration.items": "Item List",
+  "installer.configuration.logDirtBlock": "Log Dirt Block",
+  "installer.configuration.magicNumberIntroduction": "Magic Number Text",
+  "installer.configuration.magicNumber": "Magic Number"
+}

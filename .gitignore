@@ -6,6 +6,14 @@
 !.gitattributes
 !.packwizignore
 
+!install_data/
+!install_src/
+/install_src/.github
+/install_src/.gradle
+/install_src/.idea
+/install_src/build
+/install_src/run
+
 !config/
 /config/blink/**
 /config/fabric/**
