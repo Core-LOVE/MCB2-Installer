@@ -1,6 +1,6 @@
 filename = 'immersive_optimization-neoforge-1.21-0.1.4.jar'
 name = 'Immersive Optimization'
-side = "both"
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]

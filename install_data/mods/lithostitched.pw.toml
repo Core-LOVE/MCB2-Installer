@@ -1,17 +1,13 @@
-filename = 'lithostitched-1.6.5-neoforge-21.1.jar'
-name = 'Lithostitched'
-side = ''
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.6.5-neoforge-21.1'
+name = "Lithostitched"
+filename = "lithostitched-1.7.5-neoforge-21.1.jar"
+side = "server"
 
 [download]
-hash = '9af9db5f585abe098168e820edfa69c852c2c028fee2e3a577830d07f5dbf00329ce24e12a3d7480009266f8bfb9e850b1dde20787103525717a9df17b3403b9'
-hash-format = 'sha512'
-mode = 'url'
-url = 'https://cdn.modrinth.com/data/XaDC71GB/versions/keVceya0/lithostitched-1.6.5-neoforge-21.1.jar'
+url = "https://cdn.modrinth.com/data/XaDC71GB/versions/2L1EEQuD/lithostitched-1.7.5-neoforge-21.1.jar"
+hash-format = "sha512"
+hash = "867f35834e12cb7460a43ddf221706e504d7ea08f33cbbfdd0329867a3d20e9679687eb3aac2857d28c9566ec45f9946f4945c35eca6e7f902a24299f72d1a06"
 
+[update]
 [update.modrinth]
-mod-id = 'XaDC71GB'
-version = 'keVceya0'
+mod-id = "XaDC71GB"
+version = "2L1EEQuD"

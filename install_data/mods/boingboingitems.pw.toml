@@ -1,6 +1,6 @@
 filename = 'boingboingitem-neoforge-0.2.jar'
 name = 'BoingBoingItems'
-side = "both"
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2' ]

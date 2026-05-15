@@ -1,21 +1,13 @@
-filename = 'advancement_enhancement-neoforge-1.21.1-1.0.1.jar'
-name = 'Advancement Enhancement'
-side = ''
-x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1' ]
-x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = 'Advancement Enhancement Neoforge 1.21.1 - 1.0.1'
+name = "Advancement Enhancement"
+filename = "advancement_enhancement-neoforge-1.21.1-1.0.1.jar"
+side = "both"
 
 [download]
-hash = 'd892bcc8d46d016fcd6062768d4b4cd4d7268c44'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash-format = "sha1"
+hash = "d892bcc8d46d016fcd6062768d4b4cd4d7268c44"
+mode = "metadata:curseforge"
 
+[update]
 [update.curseforge]
 file-id = 8004710
 project-id = 1527472
-
-[[x-prismlauncher-dependencies]]
-addonId = '348521'
-type = 'REQUIRED'

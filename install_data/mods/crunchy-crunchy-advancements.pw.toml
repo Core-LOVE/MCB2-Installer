@@ -1,6 +1,6 @@
 filename = 'crunchy-crunchy-advancements-1.7.2+1.21.jar'
 name = 'Crunchy Crunchy Advancements'
-side = "both"
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge', 'quilt', 'fabric' ]
 x-prismlauncher-mc-versions = [

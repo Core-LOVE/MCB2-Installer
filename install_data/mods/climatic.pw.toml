@@ -1,6 +1,6 @@
 filename = 'climatic-1.0.0.jar'
 name = 'Climatic'
-side = "both"
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'fabric' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
