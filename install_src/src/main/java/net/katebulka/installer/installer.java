@@ -1,6 +1,7 @@
 package net.katebulka.installer;
 
 import net.katebulka.installer.integration.InstallerActions;
+import net.katebulka.installer.integration.InstallerPlaceholders;
 import org.slf4j.Logger;
 
 import com.mojang.logging.LogUtils;
@@ -71,6 +72,7 @@ public class installer {
         modEventBus.addListener(this::commonSetup);
 
         InstallerActions.init();
+        InstallerPlaceholders.init();
 
         // Register the Deferred Register to the mod event bus so blocks get registered
         BLOCKS.register(modEventBus);
