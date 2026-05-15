@@ -1,6 +1,6 @@
 filename = 'servercore-neoforge-1.5.10+1.21.1.jar'
 name = 'ServerCore'
-side = "both"
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

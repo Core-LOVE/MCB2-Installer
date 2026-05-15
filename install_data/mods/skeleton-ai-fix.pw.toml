@@ -1,8 +1,8 @@
 filename = 'SkeletonAIFix-v21.1.1-1.21.1-NeoForge.jar'
 name = 'Skeleton AI Fix'
-side = 'both'
+side = 'server'
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = 'v21.1.1-1.21.1-NeoForge'
 
@@ -15,3 +15,11 @@ url = 'https://cdn.modrinth.com/data/jn24bUJo/versions/WXSwXmEX/SkeletonAIFix-v2
 [update.modrinth]
 mod-id = 'jn24bUJo'
 version = 'WXSwXmEX'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'QAGBst4M'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '5WeWGLoJ'
+type = 'OPTIONAL'

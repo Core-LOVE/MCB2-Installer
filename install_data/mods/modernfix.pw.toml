@@ -1,18 +1,18 @@
-filename = 'modernfix-neoforge-5.27.2+mc1.21.1.jar'
+filename = 'modernfix-neoforge-5.27.7+mc1.21.1.jar'
 name = 'ModernFix'
-side = ''
+side = 'both'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '5.27.2+mc1.21.1'
+x-prismlauncher-version-number = '5.27.7+mc1.21.1'
 
 [download]
-hash = '5c3430cea1b7e0662b10eb2238c53212a32587f4181270d90e40ad81b5672a4c8d4922e664c19a55888c6779bad7804d7fa7ce35c692baffbd26396598a8c532'
+hash = '7647fc59b57455796086022d7103df7bff3746a2297da52ca97f5c188b5749c49a04fbe5ee84df22a13233d53812d0d6c3dc5e1d586ccb1562109dfa116f6678'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/nmDcB62a/versions/iYwIkyV5/modernfix-neoforge-5.27.2%2Bmc1.21.1.jar'
+url = 'https://cdn.modrinth.com/data/nmDcB62a/versions/Ml6xWbje/modernfix-neoforge-5.27.7%2Bmc1.21.1.jar'
 
 [update.modrinth]
 mod-id = 'nmDcB62a'
-version = 'iYwIkyV5'
+version = 'Ml6xWbje'

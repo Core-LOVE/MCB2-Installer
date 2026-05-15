@@ -2,7 +2,7 @@ filename = 'milky_way-1.21.1-3.0.0.jar'
 name = 'Milky Way'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '3.0.0'
 
@@ -15,3 +15,11 @@ url = 'https://cdn.modrinth.com/data/Bp2dMRrt/versions/X6K8vIqw/milky_way-1.21.1
 [update.modrinth]
 mod-id = 'Bp2dMRrt'
 version = 'X6K8vIqw'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'VsM5EDoI'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'MdwFAVRL'
+type = 'OPTIONAL'

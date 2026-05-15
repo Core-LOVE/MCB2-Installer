@@ -1,8 +1,9 @@
 filename = 'tidybinds-1.2.0.jar'
 name = 'Tidy Binds'
 side = 'client'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '1.2.0'
 

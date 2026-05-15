@@ -2,26 +2,7 @@ filename = 'attributesetter-1.11-neoforge.jar'
 name = 'AttributeSetter'
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [
-    '1.21',
-    '1.21',
-    '1.21.1',
-    '1.21.1',
-    '1.21.2',
-    '1.21.2',
-    '1.21.3',
-    '1.21.3',
-    '1.21.4',
-    '1.21.4',
-    '1.21.5',
-    '1.21.5',
-    '1.21.6',
-    '1.21.6',
-    '1.21.7',
-    '1.21.7',
-    '1.21.8',
-    '1.21.8'
-]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1', '1.21.2', '1.21.3', '1.21.4', '1.21.5', '1.21.6', '1.21.7', '1.21.8' ]
 x-prismlauncher-release-type = 'beta'
 x-prismlauncher-version-number = '1.11-neoforge'
 
@@ -34,3 +15,7 @@ url = 'https://cdn.modrinth.com/data/tbDE3NLR/versions/Unq1N0z5/attributesetter-
 [update.modrinth]
 mod-id = 'tbDE3NLR'
 version = 'Unq1N0z5'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'vvuO3ImH'
+type = 'OPTIONAL'

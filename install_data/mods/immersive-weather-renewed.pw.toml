@@ -1,0 +1,18 @@
+filename = 'Immersive-weathering-V1.0.4-neoforge-beta.jar'
+name = 'Immersive Weathering: Renewed'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'V1.0.4-NeoForge'
+
+[download]
+hash = 'a2a7ebd8a0d101ec6c470ad6451b6fd86f526cd88f188cd6afe9673580be7264567be76f2d2ab19194c5332cbbe56eec2e67b359c34b610d65c9d4733aff9ad8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/AtjxBimt/versions/n3NgrJOg/Immersive-weathering-V1.0.4-neoforge-beta.jar'
+
+[update.modrinth]
+mod-id = 'AtjxBimt'
+version = 'n3NgrJOg'

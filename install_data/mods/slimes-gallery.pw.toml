@@ -2,8 +2,8 @@ filename = 'slimes-gallery-1.0.6-1.21.1-multiloader.jar'
 name = "Slime's Gallery"
 side = 'both'
 x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
-x-prismlauncher-release-type = 'beta'
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '1.0.6'
 
 [download]
@@ -15,3 +15,7 @@ url = 'https://cdn.modrinth.com/data/4GW85ZH7/versions/NsEYq1qM/slimes-gallery-1
 [update.modrinth]
 mod-id = '4GW85ZH7'
 version = 'NsEYq1qM'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'EOA6vv83'
+type = 'OPTIONAL'

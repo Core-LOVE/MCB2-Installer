@@ -1,17 +1,18 @@
-filename = 'polytone-1.21-3.6.6-neoforge.jar'
+filename = 'polytone-1.21-3.6.7-neoforge.jar'
 name = 'Polytone'
 side = ''
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21', '1.21', '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
 x-prismlauncher-release-type = 'release'
-x-prismlauncher-version-number = '1.21-3.6.6-neoforge'
+x-prismlauncher-version-number = '1.21-3.6.7-neoforge'
 
 [download]
-hash = 'd036d705b8d42f286e13a180be88c4d85c74ab9b6e02d1907a4a56773f369de563e057c49efef10fcc3b83a12e4642c319f543a734445006365d1b5683302eb1'
+hash = 'b6a5567c983ff825a8d0fd4c49e473ee53f9ffeaa4e5bab7663aded6544b3be8be630b655af09a1510f79a41edb54fb739ff13fcc11f17fbc93c2b995511ea33'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/3qAYkBMB/versions/KxrIyizz/polytone-1.21-3.6.6-neoforge.jar'
+url = 'https://cdn.modrinth.com/data/3qAYkBMB/versions/g907ZKM2/polytone-1.21-3.6.7-neoforge.jar'
 
 [update.modrinth]
 mod-id = '3qAYkBMB'
-version = 'KxrIyizz'
+version = 'g907ZKM2'

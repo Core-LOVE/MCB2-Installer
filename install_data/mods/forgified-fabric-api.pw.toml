@@ -1,8 +1,9 @@
 filename = 'forgified-fabric-api-0.116.7+2.2.4+1.21.1.jar'
 name = 'Forgified Fabric API'
-side = ''
+side = 'both'
+x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '0.116.7+2.2.4+1.21.1'
 

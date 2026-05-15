@@ -1,8 +1,8 @@
 filename = 'better_damage_indicator-neoforge-1.1.0 1.21.1.jar'
-name = 'Better Damage INdicator'
-side = ''
+name = 'Holo Damage Indicator'
+side = 'client'
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '1.1.0'
 
@@ -15,3 +15,11 @@ url = 'https://cdn.modrinth.com/data/JiQtTn6l/versions/4kquOH5l/better_damage_in
 [update.modrinth]
 mod-id = 'JiQtTn6l'
 version = '4kquOH5l'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gM6gWVgx'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = '9s6osm5g'
+type = 'REQUIRED'

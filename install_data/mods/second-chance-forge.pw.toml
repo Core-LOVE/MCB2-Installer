@@ -1,6 +1,6 @@
 filename = 'secondchanceforge-1.21.1-1.5.1.jar'
 name = 'Second Chance (Forge)'
-side = "both"
+side = 'server'
 x-prismlauncher-dependencies = []
 x-prismlauncher-loaders = [ 'neoforge' ]
 x-prismlauncher-mc-versions = [ '1.21.1' ]

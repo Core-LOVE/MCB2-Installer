@@ -2,7 +2,7 @@ filename = 'spiffyhud_neoforge_3.1.0_MC_1.21.1.jar'
 name = 'SpiffyHUD'
 side = 'client'
 x-prismlauncher-loaders = [ 'neoforge' ]
-x-prismlauncher-mc-versions = [ '1.21.1', '1.21.1' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
 x-prismlauncher-release-type = 'release'
 x-prismlauncher-version-number = '3.1.0-1.21.1-neoforge'
 
@@ -15,3 +15,11 @@ url = 'https://cdn.modrinth.com/data/wtOPHICQ/versions/qiidAXCa/spiffyhud_neofor
 [update.modrinth]
 mod-id = 'wtOPHICQ'
 version = 'qiidAXCa'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Wq5SjeWM'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'J81TRJWm'
+type = 'REQUIRED'
