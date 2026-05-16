@@ -5,6 +5,7 @@
 !.gitignore
 !.gitattributes
 !.packwizignore
+!.DEV
 
 !install_data/
 !install_src/

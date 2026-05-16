@@ -13,6 +13,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URI;
+import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
@@ -50,6 +51,20 @@ public class InstallModsAction extends Action {
                     while ((line = reader.readLine()) != null) {
                         installer.LOGGER.info(line);
                         DownloadLogPlaceholder.LOG = line;
+
+                        if (line.contains("Finished successfully!")) {
+                            Files.deleteIfExists(Paths.get(FMLPaths.GAMEDIR.get() + "/install_output/data_packs"));
+                            Files.deleteIfExists(Paths.get(FMLPaths.GAMEDIR.get() + "/install_output/resourcepacks"));
+
+                            if (!Files.notExists(Paths.get(FMLPaths.GAMEDIR.get() + ".DEV"))) {
+                                installer.LOGGER.info("Moving downloaded resources, no .DEV...");
+                            }
+//                            Files.deleteIfExists(Paths.get(FMLPaths.GAMEDIR.get() + "/install_output/resourcepacks"));
+
+                            DownloadLogPlaceholder.LOG = "Please restart the game";
+
+                            return;
+                        }
                     }
                 } catch (IOException e) {
                     e.printStackTrace();
