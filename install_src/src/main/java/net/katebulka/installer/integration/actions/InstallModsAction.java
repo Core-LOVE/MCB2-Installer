@@ -9,6 +9,7 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.URI;
@@ -36,6 +37,8 @@ public class InstallModsAction extends Action {
                     "java", "-jar", FMLPaths.GAMEDIR.get() + "/install_data/packwiz-installer-bootstrap.jar",
                     "-g", url
             );
+
+            process.directory(new File(FMLPaths.GAMEDIR.get() + "/install_output"));
 
 //            process.inheritIO();
             Process real_process = process.start();
