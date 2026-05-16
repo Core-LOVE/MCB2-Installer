@@ -44,7 +44,7 @@ public class InstallModsAction extends Action {
 
             ProcessBuilder process = new ProcessBuilder(
                     "java", "-jar", FMLPaths.GAMEDIR.get() + "/finish_installation.jar",
-                    FMLPaths.GAMEDIR.toString()
+                    FMLPaths.GAMEDIR.get().toString()
             );
 
             process.inheritIO();
