@@ -14,7 +14,7 @@ B:advanced_customization_mode = 'false';
 
 ##[loading]
 
-B:game_intro_fade_out = 'true';
+B:game_intro_fade_out = 'false';
 S:game_intro_sound_channel = 'master';
 S:preload_resources = '';
 B:allow_game_intro_skip = 'true';
@@ -25,11 +25,11 @@ S:custom_game_intro_skip_text = '';
 
 ##[window]
 
-B:show_custom_window_icon = 'false';
-S:custom_window_icon_macos = '';
-S:custom_window_icon_32 = '';
+B:show_custom_window_icon = 'true';
+S:custom_window_icon_macos = '/config/fancymenu/assets/icon.icns';
+S:custom_window_icon_32 = '/config/fancymenu/assets/icon_32.png';
 S:custom_window_title = 'Minecraft: β2 Setup';
-S:custom_window_icon_16 = '';
+S:custom_window_icon_16 = '/config/fancymenu/assets/icon_16.png';
 
 
 ##[global_customizations]
@@ -74,7 +74,7 @@ S:global_slider_handle_normal = '';
 I:global_slider_background_nine_slice_border_right = '5';
 S:global_background_panorama = '';
 I:global_slider_handle_nine_slice_border_left = '5';
-S:global_menu_background_texture = '';
+S:global_menu_background_texture = '[source:local]/config/fancymenu/assets/bg.png';
 
 
 ##[multiplayer_screen]
