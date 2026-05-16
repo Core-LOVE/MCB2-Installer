@@ -6,6 +6,7 @@
 !.gitattributes
 !.packwizignore
 !.DEV
+!fix_metafiles.py
 
 !install_data/
 !install_src/
