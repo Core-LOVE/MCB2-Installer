@@ -38,6 +38,8 @@ public class InstallModsAction extends Action {
 
         if (Files.notExists(Paths.get(FMLPaths.GAMEDIR.get() + ".DEV"))) {
             installer.LOGGER.info("Moving downloaded resources, no .DEV...");
+            DownloadLogPlaceholder.LOG = "Moving downloaded resources...";
+
 
             FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/mods"));
             FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/config"));
@@ -114,7 +116,6 @@ public class InstallModsAction extends Action {
 
                         if (line.contains("Finished successfully!")) {
                             afterDownload();
-
                             return;
                         }
                     }

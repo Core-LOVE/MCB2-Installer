@@ -52,6 +52,8 @@
 !mods/installer-1.0.0.jar
 !install_data/packwiz-installer-bootstrap.jar
 
+!finish_installation.jar
+
 *.input
 **/*.input
 *.disabled
