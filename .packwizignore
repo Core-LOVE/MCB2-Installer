@@ -54,6 +54,11 @@
 !/mods/installer-1.0.0.jar
 !/install_data/packwiz-installer-bootstrap.jar
 
+!/install_data/mods/omphalos-1.0.0.jar
+!/install_data/mods/emigeared-1.0.0.jar
+!/install_data/mods/digamma-1.0.0.jar
+!/install_data/mods/caverns_and_chasms-1.21.1-3.0.0-beta1.jar
+
 .qmenu_opened.marker
 cherishedworlds-favorites.dat
 command_history.txt

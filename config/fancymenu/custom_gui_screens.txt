@@ -4,9 +4,9 @@ overridden_screens {
 }
 
 custom_gui {
-  identifier = installing
+  identifier = next
   title = 
-  allow_esc = true
+  allow_esc = false
   transparent_world_background = true
   transparent_world_background_overlay = true
   pause_game = true
