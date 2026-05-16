@@ -1,0 +1,17 @@
+name = "Minecraft: β2 Setup"
+author = "KateBulka"
+version = "1.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "27a1b02fdf369a65801aa7ea020735a23210ef1a083b67ce4710a4b37b7bf321"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.230"
+
+[options]
+acceptable-versions = ["1.20.5", "1.20.6", "1.21", "1.21.1"]
+datapack-folder = "data_packs"
