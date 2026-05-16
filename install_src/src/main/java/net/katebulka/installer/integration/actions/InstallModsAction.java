@@ -63,7 +63,7 @@ public class InstallModsAction extends Action {
 
     @Override
     public void execute(@Nullable String s) {
-        Path startPath = Paths.get("your/folder/path");
+        Path startPath = Paths.get(FMLPaths.GAMEDIR.get() + "/install_data");
 
         DownloadLogPlaceholder.LOG = "Loading Assets...";
 
