@@ -5,6 +5,7 @@ import net.katebulka.installer.installer;
 import net.katebulka.installer.integration.placeholders.DownloadLogPlaceholder;
 import net.minecraft.network.chat.Component;
 import net.neoforged.fml.loading.FMLPaths;
+import org.apache.commons.io.FileUtils;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
@@ -53,15 +54,15 @@ public class InstallModsAction extends Action {
                         DownloadLogPlaceholder.LOG = line;
 
                         if (line.contains("Finished successfully!")) {
-                            Files.deleteIfExists(Paths.get(FMLPaths.GAMEDIR.get() + "/install_output/data_packs"));
-                            Files.deleteIfExists(Paths.get(FMLPaths.GAMEDIR.get() + "/install_output/resourcepacks"));
+                            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output/data_packs"));
+                            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output/resourcepacks"));
 
                             if (!Files.notExists(Paths.get(FMLPaths.GAMEDIR.get() + ".DEV"))) {
                                 installer.LOGGER.info("Moving downloaded resources, no .DEV...");
-                            }
-//                            Files.deleteIfExists(Paths.get(FMLPaths.GAMEDIR.get() + "/install_output/resourcepacks"));
+                                DownloadLogPlaceholder.LOG = "Please restart the game";
+                            } else {
 
-                            DownloadLogPlaceholder.LOG = "Please restart the game";
+                            }
 
                             return;
                         }
