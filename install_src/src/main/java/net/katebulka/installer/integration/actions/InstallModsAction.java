@@ -63,31 +63,31 @@ public class InstallModsAction extends Action {
 
     @Override
     public void execute(@Nullable String s) {
-        Path startPath = Paths.get(FMLPaths.GAMEDIR.get() + "/install_data");
-
-        DownloadLogPlaceholder.LOG = "Loading Assets...";
-
-        try (Stream<Path> paths = Files.walk(startPath)) {
-            paths.filter(Files::isRegularFile)
-                .forEach(path -> {
-                    String fileName = path.getFileName().toString();
-
-                    if(fileName.contains(".asset")) {
-                        String newName = fileName.replace(fileName, fileName.replace(".asset", ".pw.toml"));
-
-                        DownloadLogPlaceholder.LOG = fileName + " > " + newName;
-
-                        try {
-                            Files.move(path, path.resolveSibling(newName));
-                            installer.LOGGER.info(fileName, newName);
-                        } catch (IOException e) {
-                            installer.LOGGER.info(e.getMessage());
-                        }
-                    }
-                });
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        Path startPath = Paths.get(FMLPaths.GAMEDIR.get() + "/install_data");
+//
+//        DownloadLogPlaceholder.LOG = "Loading Assets...";
+//
+//        try (Stream<Path> paths = Files.walk(startPath)) {
+//            paths.filter(Files::isRegularFile)
+//                .forEach(path -> {
+//                    String fileName = path.getFileName().toString();
+//
+//                    if(fileName.contains(".asset")) {
+//                        String newName = fileName.replace(fileName, fileName.replace(".asset", ".pw.toml"));
+//
+//                        DownloadLogPlaceholder.LOG = fileName + " > " + newName;
+//
+//                        try {
+//                            Files.move(path, path.resolveSibling(newName));
+//                            installer.LOGGER.info(fileName, newName);
+//                        } catch (IOException e) {
+//                            installer.LOGGER.info(e.getMessage());
+//                        }
+//                    }
+//                });
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
 
         try {
             Path path = Paths.get(FMLPaths.GAMEDIR.get() + "/install_data/pack.toml");
