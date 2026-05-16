@@ -3,6 +3,7 @@ package net.katebulka.installer.integration.actions;
 import de.keksuccino.fancymenu.customization.action.Action;
 import net.katebulka.installer.installer;
 import net.katebulka.installer.integration.placeholders.DownloadLogPlaceholder;
+import net.minecraft.client.Minecraft;
 import net.minecraft.network.chat.Component;
 import net.neoforged.fml.loading.FMLPaths;
 import org.apache.commons.io.FileUtils;
@@ -29,7 +30,7 @@ public class InstallModsAction extends Action {
 
     @Override
     public boolean hasValue() {
-        return false;
+        return true;
     }
 
     private static void afterDownload() throws IOException {
@@ -41,30 +42,20 @@ public class InstallModsAction extends Action {
             DownloadLogPlaceholder.LOG = "Moving downloaded resources...";
 
 
-            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/mods"));
-            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/config"));
-            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_data"));
-            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/fancymenu_data"));
+            ProcessBuilder process = new ProcessBuilder(
+                    "java", "-jar", FMLPaths.GAMEDIR.get() + "/finish_installation.jar",
+                    FMLPaths.GAMEDIR.toString()
+            );
 
-            Path from = Paths.get(FMLPaths.GAMEDIR.get() + "/install_output");
-            Path destination = FMLPaths.GAMEDIR.get();
+            process.inheritIO();
+            Process real_process = process.start();
 
-            try (DirectoryStream<Path> stream = Files.newDirectoryStream(from)) {
-                for (Path entry : stream) {
-                    if (Files.isDirectory(entry)) {
-                        Files.move(entry, destination, StandardCopyOption.REPLACE_EXISTING);
-                    }
-                }
-            }
-
-            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output"));
-
-            DownloadLogPlaceholder.LOG = "Please restart the game.";
+            Minecraft.getInstance().stop();
         }
     }
 
     @Override
-    public void execute(@Nullable String s) {
+    public void execute(@Nullable String value) {
 //        Path startPath = Paths.get(FMLPaths.GAMEDIR.get() + "/install_data");
 //
 //        DownloadLogPlaceholder.LOG = "Loading Assets...";
@@ -96,10 +87,19 @@ public class InstallModsAction extends Action {
             URI uri = path.toUri();
             String url = uri.toString();
 
-            ProcessBuilder process = new ProcessBuilder(
-                    "java", "-jar", FMLPaths.GAMEDIR.get() + "/install_data/packwiz-installer-bootstrap.jar",
-                    "-g", url
-            );
+            ProcessBuilder process;
+
+            if (!value.contains("server")) {
+                process = new ProcessBuilder(
+                        "java", "-jar", FMLPaths.GAMEDIR.get() + "/install_data/packwiz-installer-bootstrap.jar",
+                        "-g", url
+                );
+            } else {
+                process = new ProcessBuilder(
+                        "java", "-jar", FMLPaths.GAMEDIR.get() + "/install_data/packwiz-installer-bootstrap.jar",
+                        "-g", "-s", "server", url
+                );
+            }
 
             process.directory(new File(FMLPaths.GAMEDIR.get() + "/install_output"));
 
