@@ -1,0 +1,13 @@
+name = "No More Trail Chambers"
+filename = "No More Trail Chambers.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/UfoadEj1/versions/EFdkHBKz/No%20More%20Trail%20Chambers.zip"
+hash-format = "sha512"
+hash = "5b70ebcbb1e828cb71af1c006627e4f6b79f738f6833f4b6e45a5f9325949876df5cd8928f6567e6898ed59ad636d122b90788026c993c068c023814d8f4d66a"
+
+[update]
+[update.modrinth]
+mod-id = "UfoadEj1"
+version = "EFdkHBKz"

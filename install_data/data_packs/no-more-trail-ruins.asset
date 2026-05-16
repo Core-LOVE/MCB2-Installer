@@ -1,0 +1,13 @@
+name = "No More Trail Ruins"
+filename = "No More Trail Ruins.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tQxE2RZL/versions/G7g5FMwW/No%20More%20Trail%20Ruins.zip"
+hash-format = "sha512"
+hash = "671931d8f07c18a068532329235eb341e703ae2563b4e53294446f89130c383c847d62e23b185ddf7f356269c671751b56f680e15c72f3a1dbc5c3851ce2a55c"
+
+[update]
+[update.modrinth]
+mod-id = "tQxE2RZL"
+version = "G7g5FMwW"

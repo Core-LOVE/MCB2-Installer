@@ -1,0 +1,21 @@
+filename = 'skeletonhorsespawn-1.21.1-4.1.jar'
+name = 'Skeleton Horse Spawn'
+side = 'server'
+x-prismlauncher-loaders = [ 'neoforge', 'forge', 'quilt', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-4.1-fabric+forge+neo'
+
+[download]
+hash = '7aaca26ad7ee9f7987f92c7ec41892b3d4c48dd67e2d9756420f1f9413406e3d790cb982d59c8d19ba68bfe455de1711e9e50ce42c9d37391452aaf57629a853'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZcqNoW8j/versions/TRZS86ub/skeletonhorsespawn-1.21.1-4.1.jar'
+
+[update.modrinth]
+mod-id = 'ZcqNoW8j'
+version = 'TRZS86ub'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'e0M1UDsY'
+type = 'REQUIRED'

@@ -1,0 +1,13 @@
+name = "Sleek DR"
+filename = "Sleek DR v1.1.1-1.84  1.7.2-26.1.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/2EQFCh4X/versions/LIvDjGZY/Sleek%20DR%20v1.1.1-1.84%20%201.7.2-26.1.zip"
+hash-format = "sha512"
+hash = "fb2c8d11e06dd93f9244e804ef8ab68ae3170a86d2417d65006a4dda787936c0c92cc6032d0bfc7f6847ce62655bcbbdc53246714b1f7eeeaee8e5ec05e2c031"
+
+[update]
+[update.modrinth]
+mod-id = "2EQFCh4X"
+version = "LIvDjGZY"

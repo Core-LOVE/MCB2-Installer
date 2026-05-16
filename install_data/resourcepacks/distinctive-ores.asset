@@ -1,0 +1,13 @@
+name = "PencilVoid's Distinctive Ores"
+filename = "distinctive_ores-v1.2.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/tcqwfz65/versions/X41kszoi/distinctive_ores-v1.2.zip"
+hash-format = "sha512"
+hash = "60b4c98bad104938090518413efeecd45c0c41e341871477160233d583d9d2386537976e14b27f4259cc467ffd5140b204403b8b20a745fb2f556e752372adb8"
+
+[update]
+[update.modrinth]
+mod-id = "tcqwfz65"
+version = "X41kszoi"

@@ -1,0 +1,13 @@
+name = "Yori3o's Grappling Hooks"
+filename = "yo_hooks-4.7.0beta.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/t1p8V2nl/versions/zql83350/yo_hooks-4.7.0beta.jar"
+hash-format = "sha512"
+hash = "cbf99a49f7fcfe0ba7113be7cff818d15a3a4f322aaa3c9e04fc770a2764903e900a35ca7f2ee8c171605d4d7c83a5fc03de2dfeab730a8b9bf39a2cd9dcf4d4"
+
+[update]
+[update.modrinth]
+mod-id = "t1p8V2nl"
+version = "zql83350"

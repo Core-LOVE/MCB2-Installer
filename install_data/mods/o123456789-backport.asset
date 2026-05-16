@@ -1,0 +1,13 @@
+name = "Reliable Recount"
+filename = "reliable_recount-neoforge-1.21.1-2.0.3.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KZ2nVYZL/versions/ZRrnmwsV/reliable_recount-neoforge-1.21.1-2.0.3.jar"
+hash-format = "sha512"
+hash = "d3bcb3508da6735d4ea073c5178a85407e1f98398a3f139f149e2c32999be2a6b9a13396dc1cdba70de700e4e41e8e5b9d810956aecc047e9517b95b386b8c8c"
+
+[update]
+[update.modrinth]
+mod-id = "KZ2nVYZL"
+version = "ZRrnmwsV"

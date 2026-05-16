@@ -1,0 +1,13 @@
+name = "Fiber-Optic Cables"
+filename = "fiberopticcables-1.0.1-neoforge-1.21.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Zdzv88Um/versions/YgfWjsxP/fiberopticcables-1.0.1-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "c27c62682b9ad1c519286d8230890373252b47de11cd1f2df895bc499f38d467c9ebf11b234a53f0c60c9d6e4a58a5d8f37e0199805b2aafca8dc356037b790c"
+
+[update]
+[update.modrinth]
+mod-id = "Zdzv88Um"
+version = "YgfWjsxP"

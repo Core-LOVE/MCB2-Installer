@@ -1,0 +1,13 @@
+name = "Unique Gear"
+filename = "Unique Gear.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/8Qe41sfm/versions/ekgJbNNF/Unique%20Gear.zip"
+hash-format = "sha512"
+hash = "15b451100bddcff493879d9777fb18355831ef4caa43f7994cf6118787793be441e47d125a451338170ef7f80b239942dec8bda6ebdcb5112bec213cf213ca02"
+
+[update]
+[update.modrinth]
+mod-id = "8Qe41sfm"
+version = "ekgJbNNF"

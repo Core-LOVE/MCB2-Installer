@@ -1,0 +1,18 @@
+filename = 'buildbetter-0.7.4+1.21.1-neoforge.jar'
+name = 'Build Better'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = 'v0.7.4-neoforge-1.21.1'
+
+[download]
+hash = '61e042c03bc18cbc8dd697bba8cc0436efdbc2371d67e93a38d5057e06b0926188f9685d57db416620bb4696652ee4dbd9c98e73fa9d12725da304902cc9edef'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/36XzEYfa/versions/KkUGuh8v/buildbetter-0.7.4%2B1.21.1-neoforge.jar'
+
+[update.modrinth]
+mod-id = '36XzEYfa'
+version = 'KkUGuh8v'

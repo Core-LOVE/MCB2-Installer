@@ -1,0 +1,27 @@
+filename = 'kubejsdelight-1.1.4.jar'
+name = 'KubeJS Delight'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.1.4'
+
+[download]
+hash = '9978ef1e10a56f3c96d2f1ae46a14565f0cbc7aa89f83eb2f9eb4e955bed9dcece84be0cef1c2b2cab51f59a3aad5f1022339437385e625f66f9e846503310be'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/apt5xJoR/versions/oDapYBnk/kubejsdelight-1.1.4.jar'
+
+[update.modrinth]
+mod-id = 'apt5xJoR'
+version = 'oDapYBnk'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'umyGl7zF'
+type = 'REQUIRED'
+version = 'GlulfcNB'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'R2OftAxM'
+type = 'REQUIRED'
+version = 'opCbq7uB'

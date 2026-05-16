@@ -1,0 +1,18 @@
+filename = 'directional_melons-1.0.2+1.21.1.jar'
+name = 'Directional Melons'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.20.3', '1.20.4', '1.20.5', '1.20.6', '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.2+1.21.1'
+
+[download]
+hash = '5233eb7f5acba84b0fa83e1882099066aed75b3eeeab20e090fe1c391a453504e005ac373982226a9de4d82c99cfb9933400cd5393499df794b410d924835de4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/O7UEarZn/versions/MTmzhSmi/directional_melons-1.0.2%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'O7UEarZn'
+version = 'MTmzhSmi'

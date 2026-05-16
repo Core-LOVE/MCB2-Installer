@@ -1,0 +1,13 @@
+name = "No More Villages"
+filename = "No More Villages.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/1Iz8blYk/versions/rKNv6iut/No%20More%20Villages.zip"
+hash-format = "sha512"
+hash = "29277c18634de10c8103f64b5e703f49102ed16dc395a6f3dab0387e98438ae8d4238a4e9df26c57da0f1f2f6fb5690a4b4b76d3e86bc39e8c86ca9cd732aba2"
+
+[update]
+[update.modrinth]
+mod-id = "1Iz8blYk"
+version = "rKNv6iut"

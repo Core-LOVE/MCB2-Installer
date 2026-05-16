@@ -1,0 +1,13 @@
+name = "Total Yield"
+filename = "totalyield-1.21_1.21.5-1.1.0.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/xn0MpTgt/versions/ZncWOLDL/totalyield-1.21_1.21.5-1.1.0.jar"
+hash-format = "sha512"
+hash = "76c3c1a6948b45e554a8015cc4b7d378547b282367859ae421d442a6a59f30b3d854e416981a5edce2a5b38f57337c639a8341d5aed3c34eda9897164e4e59e6"
+
+[update]
+[update.modrinth]
+mod-id = "xn0MpTgt"
+version = "ZncWOLDL"

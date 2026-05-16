@@ -1,0 +1,21 @@
+filename = 'fluidlogged-neoforge-1.21.1-2.0.1-beta.8.jar'
+name = 'Fluidloggable'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '2.0.1-beta.8'
+
+[download]
+hash = '4151276fad675ca2984a1a79790cd8fa028d15be4861f32f9cdbde4748a69fc53b6bc9b4af9cf3fc3dc5ffa477babfc43e58a14d66b3aba16ff8b5beedbb37b9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/wjI0erks/versions/HaQgtFLq/fluidlogged-neoforge-1.21.1-2.0.1-beta.8.jar'
+
+[update.modrinth]
+mod-id = 'wjI0erks'
+version = 'HaQgtFLq'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'REQUIRED'

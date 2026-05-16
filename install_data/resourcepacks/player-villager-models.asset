@@ -1,0 +1,13 @@
+name = "Player Villager Models"
+filename = "Player Villagers v2.1.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "b527f579290b38a6ce67bcbf33ffe785a3f29b0e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 3549120
+project-id = 252578

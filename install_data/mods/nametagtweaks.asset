@@ -1,0 +1,21 @@
+filename = 'nametagtweaks-1.3.5+1.21-neoforge.jar'
+name = 'Nametag Tweaks'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21', '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.3.5'
+
+[download]
+hash = '1bea42e9bda27eab2990694d5b55a59bbc03f5294edd462ac5763540ed93c990f2fcfa17a3acc4a0861332dfa3aa244f6ed22d3b2aeabb4c00c6e2c040becefc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/HORzKF5l/versions/5lkRzBN0/nametagtweaks-1.3.5%2B1.21-neoforge.jar'
+
+[update.modrinth]
+mod-id = 'HORzKF5l'
+version = '5lkRzBN0'
+
+[[x-prismlauncher-dependencies]]
+addonId = '1eAoo2KR'
+type = 'REQUIRED'

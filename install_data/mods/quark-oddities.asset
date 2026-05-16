@@ -1,0 +1,18 @@
+filename = 'QuarkOddities-1.21.1.jar'
+name = 'Quark Oddities'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1'
+
+[download]
+hash = '6bf1db5c078acf259be047c441b02c5185d126f68b2008da8fc3e801066c8e81c00f15ceeff99cb88b7249dbeb4010a1eda05ac4f2f6548b19e9534278e5998b'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/qeEEslrN/versions/GKlsdzEg/QuarkOddities-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'qeEEslrN'
+version = 'GKlsdzEg'

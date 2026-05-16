@@ -1,0 +1,13 @@
+name = "Structures Rebalanced"
+filename = "structures-rebalanced-v0.10.2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/OUUpCD5M/versions/rGK9Cm3C/structures-rebalanced-v0.10.2.zip"
+hash-format = "sha512"
+hash = "80d671c1737776c09c23d3e3fa22579cfb65171191c10c776332c71e334afab43e574965f39066c5055f154cd70a088e9f0d56c8abef73977ad54ba41a2ee100"
+
+[update]
+[update.modrinth]
+mod-id = "OUUpCD5M"
+version = "rGK9Cm3C"

@@ -1,0 +1,13 @@
+name = "Adjacent"
+filename = "Adjacent.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/H0W9YECG/versions/mOF0LGkN/Adjacent.zip"
+hash-format = "sha512"
+hash = "2d5d5bf4a4dee1d8433e42273de6dec90ae8f2a3929380fdd6090d506da23e975e83874625b5a715ed4990d75af80c88c33fcdad69e24c23bd5a238a063bdc67"
+
+[update]
+[update.modrinth]
+mod-id = "H0W9YECG"
+version = "mOF0LGkN"

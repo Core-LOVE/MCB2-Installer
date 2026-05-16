@@ -1,0 +1,13 @@
+name = "Nightosphere"
+filename = "Nightosphere 3.2.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/tdv7lfX5/versions/bD7CdMW7/Nightosphere%203.2.zip"
+hash-format = "sha512"
+hash = "aff3696bcd71d7783141deb783f70a8e54caee578a770f70bd8d1810848dfabe10b11f202c9413c47ef8b40785052689f5e649f0890b9a5b245ee26bba51d2d6"
+
+[update]
+[update.modrinth]
+mod-id = "tdv7lfX5"
+version = "bD7CdMW7"

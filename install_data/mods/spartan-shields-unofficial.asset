@@ -1,0 +1,18 @@
+filename = 'spartanshieldsunofficial-1.0.0-1.21.1.jar'
+name = 'Spartan Shields Unofficial'
+side = 'both'
+x-prismlauncher-dependencies = []
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '0b88b858e4611c1a2f78368d37b673dbcd207b5dc740aa41b9a7667a4589a132fa9537d2168964e2725550d2af3474a53ccc44626d12fe26ddfa500556d60e6c'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/EvjGFdKp/versions/xzXbZ0oN/spartanshieldsunofficial-1.0.0-1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'EvjGFdKp'
+version = 'xzXbZ0oN'
