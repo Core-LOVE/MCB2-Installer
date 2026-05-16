@@ -1,5 +1,7 @@
 package net.katebulka.installer.integration.actions;
 
+import com.juanmuscaria.relauncher.RelaunchResult;
+import com.juanmuscaria.relauncher.Relauncher;
 import de.keksuccino.fancymenu.customization.action.Action;
 import net.katebulka.installer.installer;
 import net.katebulka.installer.integration.placeholders.DownloadLogPlaceholder;
@@ -13,10 +15,13 @@ import java.io.BufferedReader;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.lang.management.ManagementFactory;
+import java.lang.management.RuntimeMXBean;
 import java.net.URI;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
+import java.nio.file.*;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class InstallModsAction extends Action {
     public InstallModsAction() {
@@ -26,6 +31,35 @@ public class InstallModsAction extends Action {
     @Override
     public boolean hasValue() {
         return false;
+    }
+
+    private static void afterDownload() throws IOException {
+        FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output/data_packs"));
+        FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output/resourcepacks"));
+
+        if (!Files.notExists(Paths.get(FMLPaths.GAMEDIR.get() + ".DEV"))) {
+            installer.LOGGER.info("Moving downloaded resources, no .DEV...");
+
+            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/mods"));
+            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/config"));
+            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_data"));
+            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/fancymenu_data"));
+
+            Path from = Paths.get(FMLPaths.GAMEDIR.get() + "/install_output");
+            Path destination = FMLPaths.GAMEDIR.get();
+
+            try (DirectoryStream<Path> stream = Files.newDirectoryStream(from)) {
+                for (Path entry : stream) {
+                    if (Files.isDirectory(entry)) {
+                        Files.move(entry, destination, StandardCopyOption.REPLACE_EXISTING);
+                    }
+                }
+            }
+
+            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output"));
+
+            DownloadLogPlaceholder.LOG = "Please restart the game.";
+        }
     }
 
     @Override
@@ -54,15 +88,7 @@ public class InstallModsAction extends Action {
                         DownloadLogPlaceholder.LOG = line;
 
                         if (line.contains("Finished successfully!")) {
-                            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output/data_packs"));
-                            FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output/resourcepacks"));
-
-                            if (!Files.notExists(Paths.get(FMLPaths.GAMEDIR.get() + ".DEV"))) {
-                                installer.LOGGER.info("Moving downloaded resources, no .DEV...");
-                                DownloadLogPlaceholder.LOG = "Please restart the game";
-                            } else {
-
-                            }
+                            afterDownload();
 
                             return;
                         }

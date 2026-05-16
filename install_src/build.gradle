@@ -32,6 +32,8 @@ repositories {
         name = "Modrinth"
         url = "https://api.modrinth.com/maven"
     }
+
+    mavenCentral()
 }
 
 base {
@@ -151,6 +153,8 @@ dependencies {
 
     compileOnly("maven.modrinth:konkrete:1.9.9-1.21-neoforge")
     runtimeOnly("maven.modrinth:konkrete:1.9.9-1.21-neoforge")
+
+//    compileOnly 'com.juanmuscaria:relauncher-core:1.1.0'
 //
 //    jarJar(implementation 'org.python:jython-standalone:2.7.4')
 }
