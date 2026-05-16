@@ -1,4 +1,4 @@
-name = "Minecraft: β2 Setup"
+name = "MinecraftB2Setup"
 author = "KateBulka"
 version = "1.0"
 pack-format = "packwiz:1.1.0"
@@ -6,7 +6,7 @@ pack-format = "packwiz:1.1.0"
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "1135fe61ef52210c8612140d333ff0582de5b9fcfa0ba4bf89b6b389a76d923e"
+hash = "0e13bba7a261de9363ced70b270db7dc8680b9c90b1042851bb5563b385e218d"
 
 [versions]
 minecraft = "1.21.1"
