@@ -36,7 +36,7 @@ public class InstallModsAction extends Action {
         FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output/data_packs"));
         FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/install_output/resourcepacks"));
 
-        if (!Files.notExists(Paths.get(FMLPaths.GAMEDIR.get() + ".DEV"))) {
+        if (Files.notExists(Paths.get(FMLPaths.GAMEDIR.get() + ".DEV"))) {
             installer.LOGGER.info("Moving downloaded resources, no .DEV...");
 
             FileUtils.deleteDirectory(new File(FMLPaths.GAMEDIR.get() + "/mods"));
