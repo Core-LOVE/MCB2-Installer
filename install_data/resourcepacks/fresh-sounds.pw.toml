@@ -1,8 +1,0 @@
-name = "Fresh Sounds"
-filename = "fresh-sounds.zip"
-side = "client"
-
-[download]
-url = "https://example.com/flamingo.jar"
-hash-format = "sha256"
-hash = "b22d1d8fe5752533954028172c9bf3ac01b57f40c82946a3e7b1eaff389e2b87"
